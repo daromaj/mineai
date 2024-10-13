@@ -1,3 +1,5 @@
+let loginTimeout = null;
+
 const socket = io();
 
 const loginBtn = document.getElementById('loginBtn');
@@ -6,12 +8,23 @@ const messageInput = document.getElementById('messageInput');
 const sendBtn = document.getElementById('sendBtn');
 const logs = document.getElementById('logs');
 const loginLinkContainer = document.getElementById('loginLinkContainer');
+const viewerContainer = document.getElementById('viewerContainer');
+const iframe = document.createElement('iframe');
+iframe.src = "http://localhost:3001";
+iframe.title = "Mineflayer Viewer";
+iframe.classList = ["viewer-frame"]
 
 loginBtn.addEventListener('click', () => {
     socket.emit('login');
     loginBtn.disabled = true;
     addLog('Logging in...');
+    loginTimeout = setTimeout(instantiateViewer, 5000);
 });
+
+function instantiateViewer() {
+    viewerContainer.appendChild(iframe);
+    addLog('Viewer instantiated.');
+}
 
 sendBtn.addEventListener('click', sendMessage);
 messageInput.addEventListener('keypress', (e) => {

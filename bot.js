@@ -1,4 +1,5 @@
 const mineflayer = require('mineflayer');
+const mineflayerViewer = require('prismarine-viewer').mineflayer
 
 const bot = mineflayer.createBot({
   host: process.env.HOST,
@@ -15,10 +16,21 @@ bot.on('spawn', () => {
     try {
       bot.chat("Cześć, jestem aibot");
       process.send({ type: 'LOG', data: 'Introduction message sent' });
+      mineflayerViewer(bot, { port: 3001, firstPerson: true })      
     } catch (err) {
       process.send({ type: 'LOG', data: `Error sending introduction: ${err.message}` });
     }
-  }, 5000);
+  }, 2000);
+
+
+
+  // const path = [bot.entity.position.clone()]
+  // bot.on('move', () => {
+  //   if (path[path.length - 1].distanceTo(bot.entity.position) > 1) {
+  //     path.push(bot.entity.position.clone())
+  //     bot.viewer.drawLine('path', path)
+  //   }
+  // })  
 });
 
 bot.on('error', (err) => {
@@ -28,6 +40,11 @@ bot.on('error', (err) => {
 
 bot.on('end', () => {
   console.log('Bot disconnected');
+  if(bot.viewer){
+    console.log('closing viewer');
+    bot.viewer.close();
+    console.log('viewer closed');
+  }
   process.send('BOT_DISCONNECTED');
 });
 

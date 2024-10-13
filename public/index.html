@@ -4,25 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minecraft Bot Controller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png" />
 </head>
 <body>
-    <div class="container">
-        <h1>Minecraft Bot Controller</h1>
-        <button id="loginBtn">Login to Server</button>
-        <div id="loginLinkContainer"></div>
-        <div id="chatContainer">
-            <div id="chatMessages"></div>
-            <div id="inputContainer">
-                <input type="text" id="messageInput" placeholder="Type a message...">
-                <button id="sendBtn">Send</button>
+    <header>
+        <nav>
+            <h1>Minecraft Bot Controller</h1>
+            <button id="loginBtn" class="btn btn-primary">Login to Server</button>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="login-link-container" id="loginLinkContainer"></div>
+        <div class="flex-container">
+            <div class="chat-container flex-item" id="chatContainer">
+                <h2>Chat</h2>
+                <div id="chatMessages" class="messages-box"></div>
+                <div class="input-container" id="inputContainer">
+                    <input type="text" id="messageInput" placeholder="Type a message...">
+                    <button id="sendBtn" class="btn btn-secondary">Send</button>
+                </div>
+            </div>
+            
+            <div class="viewer-container flex-item" id="viewerContainer">
+                <h2>Viewer</h2>
             </div>
         </div>
-        <div id="logContainer">
+
+        <div class="log-container" id="logContainer">
             <h2>Logs</h2>
-            <div id="logs"></div>
+            <div id="logs" class="messages-box"></div>
         </div>
-    </div>
+    </main>
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
 </body>
