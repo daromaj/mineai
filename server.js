@@ -9,10 +9,60 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
+const { OpenAI } = require('openai');
+
+const aiclient = new OpenAI({
+  apiKey: process.env.GROQ_API_KEY,
+  baseURL: "https://api.groq.com/openai/v1"
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 let botProcess = null;
 let isBotConnected = false;
+
+function handleChatMessage(username, message, socket) {
+  // Log the username and message
+  console.log(`Received message from ${username}: ${message}`);
+
+  // Split the message into parts to check if it starts with the username followed by "aibot"
+  const messageParts = message.toLowerCase().split(' ');
+  if (messageParts[1] === "aibot") {
+    // Perform an action or call a function specific to aibot
+    // console.log(`Routing message from ${username} to AIBot: ${message}`);
+    handleAIBot(username, message, socket); // Skip the username and "aibot"
+  } else {
+    // Handle the message as normal chat message
+    // console.log(`Routing message from ${username} to normal chat: ${message}`);
+    handleNormalMessage(username, message);
+  }
+}
+// New function to handle AIBot specific messages
+function handleAIBot(username, message, socket) {
+  aiclient.chat.completions.create({
+    messages: [
+      { role: "system", content: "Rozmawiasz wyłącznie po polsku i jesteś pomocnym botem w świecie minecraft. Pisze do Ciebie gracz "+username },
+      {role: "user", content: message}      
+    ],
+    model: "llama-3.1-70b-versatile",
+  })
+  .then(response => {
+    aimessage = response.choices[0].message.content;
+    // console.log(`Response from AI ${aimessage}`);
+    socket.emit('message', { type: 'chat', content: aimessage });
+    botProcess.send({ type: 'SEND_CHAT', message: aimessage });
+  })
+  .catch(error => {
+    console.error('Error generating response:', error);
+    socket.emit('message', { type: 'log', content: 'Error generating response' });
+  });
+}
+
+// New function to handle normal chat messages
+function handleNormalMessage(username, message) {
+  // TO DO: Implement the normal chat message logic here
+  // console.log(`Normal message received from ${username}: ${message}`);
+}
 
 io.on('connection', (socket) => {
   console.log('A user connected');
@@ -41,6 +91,7 @@ io.on('connection', (socket) => {
         isBotConnected = false;
         socket.emit('message', { type: 'log', content: 'Bot has disconnected' });
       } else if (message.type === 'CHAT_MESSAGE') {
+        handleChatMessage(message.data.username, message.data.message, socket);
         socket.emit('message', { type: 'chat', content: message.data.message });
       } else if (message.type === 'LOG') {
         socket.emit('message', { type: 'log', content: message.data });
