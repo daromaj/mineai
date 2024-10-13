@@ -1,16 +1,19 @@
 {
   "name": "mineai",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
+  "dependencies": {
     "dotenv": "^16.4.5",
-    "mineflayer": "^4.21.0"
+    "express": "^4.17.1",
+    "mineflayer": "^4.21.0",
+    "socket.io": "^4.3.1"
   }
 }
