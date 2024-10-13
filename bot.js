@@ -43,7 +43,6 @@ function exploreTheWorld(bot){
   }, 100);
 }
 
-
 function cleanup(bot){
   stopExploration = true;
   bot.setControlState('forward', false);
@@ -68,22 +67,10 @@ bot.on('spawn', () => {
       if(explore){
         exploreTheWorld(bot);
       }
-      // createRainbow(bot);
-      // createSettlerHouse(bot);
     } catch (err) {
       process.send({ type: 'LOG', data: `Error sending introduction: ${err.message}` });
     }
   }, 2000);
-
-
-
-  // const path = [bot.entity.position.clone()]
-  // bot.on('move', () => {
-  //   if (path[path.length - 1].distanceTo(bot.entity.position) > 1) {
-  //     path.push(bot.entity.position.clone())
-  //     bot.viewer.drawLine('path', path)
-  //   }
-  // })  
 });
 
 bot.on('error', (err) => {
@@ -118,6 +105,15 @@ process.on('message', (msg) => {
       process.send({ type: 'LOG', data: `Error performing action ${msg.message} message: ${err.message}` });
     }    
   }
+  if (msg.type === 'CREATE_STRUCTURE') {
+    try {
+      const structureFunction = new Function('bot', msg.functionBody);
+      structureFunction(bot);
+      process.send({ type: 'LOG', data: 'Structure creation function executed' });
+    } catch (err) {
+      process.send({ type: 'LOG', data: `Error creating structure: ${err.message}` });
+    }
+  }
 });
 
 process.on('SIGTERM', () => {
@@ -126,12 +122,7 @@ process.on('SIGTERM', () => {
   bot.end();
 });
 
-
-/**
- * Creates a rainbow at the bot's location.
- * 
- * @param {MineflayerBot} bot The bot to create the rainbow for.
- */function createRainbow(bot) {
+function createRainbow(bot) {
   const colors = ['red_wool', 'orange_wool', 'yellow_wool', 'lime_wool', 'light_blue_wool', 'blue_wool', 'purple_wool'];
   const centerX = Math.floor(bot.entity.position.x);
   const centerY = Math.floor(bot.entity.position.y);
@@ -151,7 +142,6 @@ process.on('SIGTERM', () => {
 
   bot.chat('Rainbow arc created!');
 }
-
 
 function createSettlerHouse(bot) {
   const startX = Math.floor(bot.entity.position.x) + 1;

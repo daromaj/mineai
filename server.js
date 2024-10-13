@@ -22,22 +22,61 @@ let botProcess = null;
 let isBotConnected = false;
 
 function handleChatMessage(username, message, socket) {
-  // Log the username and message
   console.log(`Received message from ${username}: ${message}`);
 
-  // Split the message into parts to check if it starts with the username followed by "aibot"
   const messageParts = message.toLowerCase().split(' ');
-  if (messageParts[1] === "aibot") {
-    // Perform an action or call a function specific to aibot
-    // console.log(`Routing message from ${username} to AIBot: ${message}`);
-    handleAIBot(username, message, socket); // Skip the username and "aibot"
+  if (messageParts[1] === "aibot" && messageParts[2] === "buduj") {
+    handleAIBotDawaj(username, message, socket);
+  } else if (messageParts[1] === "aibot") {
+    handleAIBot(username, message, socket);
   } else {
-    // Handle the message as normal chat message
-    // console.log(`Routing message from ${username} to normal chat: ${message}`);
     handleNormalMessage(username, message);
   }
 }
-// New function to handle AIBot specific messages
+
+function extractFunctionBody(text) {
+  const functionRegex = /function\s+createStructure\s*\([\s\S]*?\{([\s\S]*)\}/;
+  const match = text.match(functionRegex);
+  if (match && match[1]) {
+    return match[1].trim();
+  }
+  return null;
+}
+
+function handleAIBotDawaj(username, message, socket) {
+  const prompt = message.split(' ').slice(3).join(' ');
+  const systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
+
+  aiclient.chat.completions.create({
+    messages: [
+      { role: "system", content: systemPrompt },
+      { role: "user", content: prompt }
+    ],
+    model: "llama-3.1-70b-versatile",
+  })
+  .then(response => {
+    const generatedFunction = response.choices[0].message.content;
+    const functionBody = extractFunctionBody(generatedFunction);
+    console.log(functionBody)
+    
+    if (functionBody) {
+      socket.emit('message', { type: 'log', content: 'Structure creation function generated' });
+      
+      if (botProcess) {
+        botProcess.send({ type: 'CREATE_STRUCTURE', functionBody: functionBody });
+      } else {
+        socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot create structure.' });
+      }
+    } else {
+      socket.emit('message', { type: 'log', content: 'Failed to extract valid function body from AI response.' });
+    }
+  })
+  .catch(error => {
+    console.error('Error generating structure function:', error);
+    socket.emit('message', { type: 'log', content: 'Error generating structure function' });
+  });
+}
+
 function handleAIBot(username, message, socket) {
   aiclient.chat.completions.create({
     messages: [
@@ -48,7 +87,6 @@ function handleAIBot(username, message, socket) {
   })
   .then(response => {
     aimessage = response.choices[0].message.content;
-    // console.log(`Response from AI ${aimessage}`);
     socket.emit('message', { type: 'chat', content: aimessage });
     botProcess.send({ type: 'SEND_CHAT', message: aimessage });
   })
@@ -58,10 +96,8 @@ function handleAIBot(username, message, socket) {
   });
 }
 
-// New function to handle normal chat messages
 function handleNormalMessage(username, message) {
-  // TO DO: Implement the normal chat message logic here
-  // console.log(`Normal message received from ${username}: ${message}`);
+  console.log(`Normal message received from ${username}: ${message}`);
 }
 
 io.on('connection', (socket) => {
