@@ -2,8 +2,7 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path');
-const mineflayer = require('mineflayer');
-const { spawn } = require('child_process');
+const { fork } = require('child_process');
 require('dotenv').config();
 
 const app = express();
@@ -12,68 +11,80 @@ const io = socketIo(server);
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-let bot = null;
+let botProcess = null;
+let isBotConnected = false;
 
 io.on('connection', (socket) => {
   console.log('A user connected');
 
   socket.on('login', () => {
-    if (bot) {
-      socket.emit('log', 'Bot is already connected');
+    if (botProcess) {
+      socket.emit('message', { type: 'log', content: 'Bot is already connected' });
       return;
     }
 
-    const botProcess = spawn('node', ['-e', `
-      const mineflayer = require('mineflayer');
-      const bot = mineflayer.createBot({
-        host: '${process.env.HOST}',
-        port: ${parseInt(process.env.PORT, 10)},
-        username: '${process.env.USERNAME}',
-        version: false,
-        auth: 'microsoft'
-      });
-      bot.on('spawn', () => console.log('BOT_SPAWNED'));
-      bot.on('error', (err) => console.error('BOT_ERROR:', err.message));
-      bot.on('end', () => console.log('BOT_DISCONNECTED'));
-    `]);
-
-    botProcess.stdout.on('data', (data) => {
-      const message = data.toString().trim();
-      console.log('Bot process output:', message);
-      if (message.includes('To sign in, use a web browser to open the page')) {
-        socket.emit('loginMessage', message);
-      } else if (message === 'BOT_SPAWNED') {
-        socket.emit('log', 'Bot has spawned');
-        bot = botProcess;
+    botProcess = fork(path.join(__dirname, 'bot.js'), [], {
+      env: {
+        ...process.env,
+        HOST: process.env.HOST,
+        PORT: process.env.PORT,
+        USERNAME: process.env.USERNAME
       }
     });
 
-    botProcess.stderr.on('data', (data) => {
-      console.error('Bot process error:', data.toString());
-      socket.emit('log', `Bot error: ${data.toString()}`);
+    botProcess.on('message', (message) => {
+      console.log('Bot process message:', message);
+      if (message === 'BOT_SPAWNED') {
+        isBotConnected = true;
+        socket.emit('message', { type: 'log', content: 'Bot has spawned and is connected' });
+      } else if (message === 'BOT_DISCONNECTED') {
+        isBotConnected = false;
+        socket.emit('message', { type: 'log', content: 'Bot has disconnected' });
+      } else if (message.type === 'CHAT_MESSAGE') {
+        socket.emit('message', { type: 'chat', content: message.data.message });
+      } else if (message.type === 'LOG') {
+        socket.emit('message', { type: 'log', content: message.data });
+      }
+    });
+
+    botProcess.on('error', (error) => {
+      console.error('Bot process error:', error);
+      socket.emit('message', { type: 'log', content: `Bot error: ${error.message}` });
     });
 
     botProcess.on('close', (code) => {
       console.log(`Bot process exited with code ${code}`);
-      socket.emit('log', `Bot disconnected (exit code: ${code})`);
-      bot = null;
+      socket.emit('message', { type: 'log', content: `Bot disconnected (exit code: ${code})` });
+      isBotConnected = false;
+      botProcess = null;
     });
   });
 
   socket.on('sendMessage', (message) => {
-    if (bot) {
-      bot.stdin.write(`bot.chat("${message}")\n`);
+    console.log('Attempt to send message:', message);
+    console.log('Bot connection status:', isBotConnected);
+    if (isBotConnected && botProcess) {
+      try {
+        botProcess.send({ type: 'SEND_CHAT', message: message });
+        console.log('Sending message to bot:', message);
+        socket.emit('message', { type: 'log', content: `Sending message: ${message}` });
+      } catch (error) {
+        console.error('Error sending message to bot:', error);
+        socket.emit('message', { type: 'log', content: `Error sending message: ${error.message}` });
+      }
     } else {
-      socket.emit('log', 'Bot is not connected');
+      console.error('Bot is not connected');
+      socket.emit('message', { type: 'log', content: 'Bot is not connected' });
     }
   });
 
   socket.on('disconnect', () => {
     console.log('User disconnected');
-    if (bot) {
-      bot.kill();
-      bot = null;
+    if (botProcess) {
+      botProcess.kill();
+      botProcess = null;
     }
+    isBotConnected = false;
   });
 });
 

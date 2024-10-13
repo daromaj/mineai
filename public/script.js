@@ -28,15 +28,13 @@ function sendMessage() {
     }
 }
 
-socket.on('chat', (message) => {
-    const messageElement = document.createElement('div');
-    messageElement.textContent = message;
-    chatMessages.appendChild(messageElement);
-    chatMessages.scrollTop = chatMessages.scrollHeight;
-});
-
-socket.on('log', (message) => {
-    addLog(message);
+socket.on('message', (message) => {
+    console.log('Received message:', message);
+    if (message.type === 'chat') {
+        addChatMessage(message.content);
+    } else if (message.type === 'log') {
+        addLog(message.content);
+    }
 });
 
 socket.on('loginMessage', (message) => {
@@ -65,6 +63,13 @@ socket.on('loginMessage', (message) => {
     });
     addLog('Microsoft login link generated. Follow the instructions to authenticate.');
 });
+
+function addChatMessage(message) {
+    const messageElement = document.createElement('div');
+    messageElement.textContent = message;
+    chatMessages.appendChild(messageElement);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
 
 function addLog(message) {
     console.log('Adding log:', message);
