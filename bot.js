@@ -1,13 +1,17 @@
+// import { Bot } from "mineflayer";
+
 const mineflayer = require('mineflayer');
 const mineflayerViewer = require('prismarine-viewer').mineflayer
 const { Vec3 } = require('vec3');
+
+console.log('Starting bot... and connecting to the server ' + process.env.HOST + ':' + process.env.PORT);
 
 const bot = mineflayer.createBot({
   host: process.env.HOST,
   port: parseInt(process.env.PORT, 10),
   username: process.env.USERNAME,
   version: false,
-  auth: 'microsoft'
+  auth: 'offline'
 });
 
 explore = false;
@@ -24,6 +28,46 @@ function turnTheBot(bot){
     bot.look(newYaw, 0); // Pitch of 0 means looking straight forward
   }
 }
+
+/**
+ * 
+ * @param {Bot} bot 
+ * @returns 
+ */
+function scoutSurroundings(bot) {
+
+  maxDistance = 5;
+
+  const nearbyBlockPositions = bot.findBlocks({
+      matching: block => block.name !== 'air',  // Exclude air blocks
+      maxDistance: maxDistance,
+      count: 1000
+  });
+
+  const nearbyBlocks = nearbyBlockPositions.map(pos => {
+      const block = bot.blockAt(pos);
+      return {
+          type: block.name,  // Get the block type
+          position: pos
+      };
+  });
+
+  const visibleEntities = Object.values(bot.entities).filter(entity => {
+      const distance = bot.entity.position.distanceTo(entity.position);
+      return distance <= maxDistance;
+  });
+
+  const surroundings = {
+      blocks: nearbyBlocks,
+      entities: visibleEntities.map(entity => ({
+          name: entity.name,
+          position: entity.position
+      }))
+  };
+  
+  return surroundings;
+}
+
 
 function exploreTheWorld(bot){
   bot.setControlState('forward', true);
@@ -63,7 +107,9 @@ bot.on('spawn', () => {
       cleanup(bot);
       stopExploration = false;
       process.send({ type: 'LOG', data: 'Introduction message sent' });
-      mineflayerViewer(bot, { port: 3001, firstPerson: false })      
+      mineflayerViewer(bot, { port: 3001, firstPerson: false });
+      // console.log("Surroundings: ");
+      // console.log(scoutSurroundings(bot));
       if(explore){
         exploreTheWorld(bot);
       }

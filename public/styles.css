@@ -35,6 +35,11 @@ h1 {
     color: #fff;
 }
 
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
 button {
     background-color: #2ecc71;
     border: none;
@@ -52,6 +57,14 @@ button {
 
 button:hover {
     background-color: #27ae60;
+}
+
+.btn-danger {
+    background-color: #ff6b6b;
+}
+
+.btn-danger:hover {
+    background-color: #ff5252;
 }
 
 .container {

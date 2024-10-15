@@ -1,9 +1,11 @@
 #!/bin/bash
 # start the minecraft server
 
-NAME=minecraft-paper
-#VOLUME=$HOME/Containers/data/minecraft
-VOLUME=$HOME/Containers/minecraft_paper/data/minecraft
+#get the current directory of the script
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+NAME=minecraft-paper-test
+VOLUME=$DIR/minecraft_paper/data
 
 #do nothing if the container is already running
 docker ps | grep $NAME && exit
@@ -15,6 +17,7 @@ TAG=java21
 docker run -d -it -p 26565:25565 -p 26575:25575\
     -e EULA=TRUE \
     -e MEMORY=2G \
+    -e ONLINE_MODE=FALSE \
     -e TYPE=PAPER \
     -e SPAWN_PROTECTION=0 \
     -e PLUGINS=https://github.com/ViaVersion/ViaVersion/releases/download/5.0.3/ViaVersion-5.0.3.jar,https://github.com/ViaVersion/ViaBackwards/releases/download/5.0.3/ViaBackwards-5.0.3.jar \

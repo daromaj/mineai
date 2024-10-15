@@ -100,6 +100,17 @@ function handleNormalMessage(username, message) {
   console.log(`Normal message received from ${username}: ${message}`);
 }
 
+function stopBot(socket) {
+  if (botProcess) {
+    botProcess.kill();
+    botProcess = null;
+    isBotConnected = false;
+    socket.emit('message', { type: 'log', content: 'Bot process stopped' });
+  } else {
+    socket.emit('message', { type: 'log', content: 'No bot process to stop' });
+  }
+}
+
 io.on('connection', (socket) => {
   console.log('A user connected');
 
@@ -163,6 +174,10 @@ io.on('connection', (socket) => {
       console.error('Bot is not connected');
       socket.emit('message', { type: 'log', content: 'Bot is not connected' });
     }
+  });
+
+  socket.on('stopBot', () => {
+    stopBot(socket);
   });
 
   socket.on('disconnect', () => {

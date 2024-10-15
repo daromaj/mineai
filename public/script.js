@@ -3,16 +3,13 @@ let loginTimeout = null;
 const socket = io();
 
 const loginBtn = document.getElementById('loginBtn');
+const stopBtn = document.getElementById('stopBtn');
 const chatMessages = document.getElementById('chatMessages');
 const messageInput = document.getElementById('messageInput');
 const sendBtn = document.getElementById('sendBtn');
 const logs = document.getElementById('logs');
 const loginLinkContainer = document.getElementById('loginLinkContainer');
 const viewerContainer = document.getElementById('viewerContainer');
-const iframe = document.createElement('iframe');
-iframe.src = "http://localhost:3001";
-iframe.title = "Mineflayer Viewer";
-iframe.classList = ["viewer-frame"]
 
 loginBtn.addEventListener('click', () => {
     socket.emit('login');
@@ -21,9 +18,38 @@ loginBtn.addEventListener('click', () => {
     loginTimeout = setTimeout(instantiateViewer, 5000);
 });
 
+stopBtn.addEventListener('click', () => {
+    socket.emit('stopBot');
+    stopBot();
+});
+
 function instantiateViewer() {
+    const iframe = document.createElement('iframe');
+    iframe.src = "http://localhost:3001";
+    iframe.title = "Mineflayer Viewer";
+    iframe.classList = ["viewer-frame"];
+        
     viewerContainer.appendChild(iframe);
     addLog('Viewer instantiated.');
+}
+
+function stopBot() {
+    // Remove viewer frame
+    const viewerFrame = viewerContainer.querySelector('.viewer-frame');
+    if (viewerFrame) {
+        viewerFrame.remove();
+    }
+
+    // Clear chat messages
+    chatMessages.innerHTML = '';
+
+    // Clear logs
+    logs.innerHTML = '';
+
+    // Reset login button
+    loginBtn.disabled = false;
+
+    addLog('Bot stopped and viewer removed.');
 }
 
 sendBtn.addEventListener('click', sendMessage);
