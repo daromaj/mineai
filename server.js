@@ -26,7 +26,7 @@ function handleChatMessage(username, message, socket) {
 
   const messageParts = message.toLowerCase().split(' ');
   if (messageParts[1] === "aibot" && messageParts[2] === "buduj") {
-    handleAIBotDawaj(username, message, socket);
+    handleAIBotBuild(username, message, socket);
   } else if (messageParts[1] === "aibot") {
     handleAIBot(username, message, socket);
   } else {
@@ -43,7 +43,7 @@ function extractFunctionBody(text) {
   return null;
 }
 
-function handleAIBotDawaj(username, message, socket) {
+function handleAIBotBuild(username, message, socket) {
   const prompt = message.split(' ').slice(3).join(' ');
   const systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
 
@@ -52,7 +52,7 @@ function handleAIBotDawaj(username, message, socket) {
       { role: "system", content: systemPrompt },
       { role: "user", content: prompt }
     ],
-    model: "llama-3.1-70b-versatile",
+    model: process.env.GROQ_MODEL,
   })
   .then(response => {
     const generatedFunction = response.choices[0].message.content;
