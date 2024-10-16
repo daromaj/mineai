@@ -70,6 +70,83 @@ async function extractAndSaveData(filePath, pageNumber) {
     console.log(`Data saved for page ${pageNumber}`);
 }
 
+// Function to clean up data
+async function cleanData(filePath) {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    data.forEach((entry) => {
+        // Add root URL to href
+        entry.href = `https://www.grabcraft.com${entry.href}`;
+
+        // Extract block count from string
+        const blockCount = entry.blockCount.match(/\d+/g);
+        if (blockCount) {
+            entry.blockCount = blockCount[0];
+        }
+    });
+
+    const jsonData = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, jsonData);
+    console.log('Data cleaned up!');
+}
+
+// Function to process data
+async function processData(filePath) {
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    const directory = path.join('blueprints', 'blueprints');
+    if (!fs.existsSync(directory)) {
+        fs.mkdirSync(directory, { recursive: true });
+        console.log(`Created directory: ${directory}`);
+    }
+
+    const bar = new ProgressBar('Processing data [:bar] :percent :etas', {
+        complete: '█',
+        incomplete: '░',
+        width: 40,
+        total: data.length
+    });
+
+    for (const entry of data) {
+        try {
+            const urlParts = entry.href.split('/');
+            const filename = `${urlParts[urlParts.length - 2]}__${urlParts[urlParts.length - 1]}.html`;
+            const htmlFilePath = path.join(directory, filename);
+
+            if (!fs.existsSync(htmlFilePath)) {
+                const response = await axios.get(entry.href);
+                fs.writeFileSync(htmlFilePath, response.data);
+                console.log(`Saved ${filename} to ${directory}`);
+            }
+
+            const $ = cheerio.load(fs.readFileSync(htmlFilePath, 'utf8'));
+            const scriptTag = $('script[src*="myRenderObject"]');
+            if (scriptTag.length > 0) {
+                const src = scriptTag.attr('src');
+                entry.blueprint = src;
+
+                const filename = path.basename(src);
+                const filepath = path.join(directory, filename);
+                const response = await axios.get(src);
+                fs.writeFileSync(filepath, response.data);
+                console.log(`Saved ${filename} to ${directory}`);
+            } else {
+                console.log(`No script tag found for ${entry.title}`);
+            }
+        } catch (error) {
+            console.error(`Failed to process ${entry.title}: ${error.message}`);
+        }
+
+        bar.tick(1);
+    }
+
+    const jsonData = JSON.stringify(data, null, 2);
+    fs.writeFileSync(filePath, jsonData);
+    console.log('Data processed!');
+}
+
+
+
 // Download all pages
 async function downloadPages() {
     const total = 236;
@@ -86,4 +163,9 @@ async function downloadPages() {
     }
 }
 
-downloadPages();
+// downloadPages();
+
+const filePath = path.join(directory, `data.json`);
+// cleanData(filePath);
+
+processData(filePath);
