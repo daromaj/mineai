@@ -44,8 +44,27 @@ function extractFunctionBody(text) {
 }
 
 function handleAIBotBuild(username, message, socket) {
-  const prompt = message.split(' ').slice(3).join(' ');
-  const systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
+
+  const messageParts = message.split(' ');
+  const thirdPartIsNumber = !isNaN(messageParts[2]);
+  let prompt;
+  let systemPrompt;
+
+  if (thirdPartIsNumber) {
+    building_id = messageParts.slice(2).join(' ');
+    socket.emit('message', { type: 'log', content: 'Bot request for building ' + building_id });
+
+    if (botProcess) {
+      botProcess.send({ type: 'CREATE_BUILDING', building_id: building_id });
+    } else {
+      socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot create building.' });
+    }
+    return;
+
+  } else {
+    prompt = messageParts.slice(3).join(' ');
+    systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
+  }
 
   aiclient.chat.completions.create({
     messages: [
@@ -54,46 +73,46 @@ function handleAIBotBuild(username, message, socket) {
     ],
     model: process.env.GROQ_MODEL,
   })
-  .then(response => {
-    const generatedFunction = response.choices[0].message.content;
-    const functionBody = extractFunctionBody(generatedFunction);
-    console.log(functionBody)
-    
-    if (functionBody) {
-      socket.emit('message', { type: 'log', content: 'Structure creation function generated' });
-      
-      if (botProcess) {
-        botProcess.send({ type: 'CREATE_STRUCTURE', functionBody: functionBody });
+    .then(response => {
+      const generatedFunction = response.choices[0].message.content;
+      const functionBody = extractFunctionBody(generatedFunction);
+      console.log(functionBody)
+
+      if (functionBody) {
+        socket.emit('message', { type: 'log', content: 'Structure creation function generated' });
+
+        if (botProcess) {
+          botProcess.send({ type: 'CREATE_STRUCTURE', functionBody: functionBody });
+        } else {
+          socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot create structure.' });
+        }
       } else {
-        socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot create structure.' });
+        socket.emit('message', { type: 'log', content: 'Failed to extract valid function body from AI response.' });
       }
-    } else {
-      socket.emit('message', { type: 'log', content: 'Failed to extract valid function body from AI response.' });
-    }
-  })
-  .catch(error => {
-    console.error('Error generating structure function:', error);
-    socket.emit('message', { type: 'log', content: 'Error generating structure function' });
-  });
+    })
+    .catch(error => {
+      console.error('Error generating structure function:', error);
+      socket.emit('message', { type: 'log', content: 'Error generating structure function' });
+    });
 }
 
 function handleAIBot(username, message, socket) {
   aiclient.chat.completions.create({
     messages: [
-      { role: "system", content: "Rozmawiasz wyłącznie po polsku i jesteś pomocnym botem w świecie minecraft. Pisze do Ciebie gracz "+username },
-      {role: "user", content: message}      
+      { role: "system", content: "Rozmawiasz wyłącznie po polsku i jesteś pomocnym botem w świecie minecraft. Pisze do Ciebie gracz " + username },
+      { role: "user", content: message }
     ],
     model: "llama-3.1-70b-versatile",
   })
-  .then(response => {
-    aimessage = response.choices[0].message.content;
-    socket.emit('message', { type: 'chat', content: aimessage });
-    botProcess.send({ type: 'SEND_CHAT', message: aimessage });
-  })
-  .catch(error => {
-    console.error('Error generating response:', error);
-    socket.emit('message', { type: 'log', content: 'Error generating response' });
-  });
+    .then(response => {
+      aimessage = response.choices[0].message.content;
+      socket.emit('message', { type: 'chat', content: aimessage });
+      botProcess.send({ type: 'SEND_CHAT', message: aimessage });
+    })
+    .catch(error => {
+      console.error('Error generating response:', error);
+      socket.emit('message', { type: 'log', content: 'Error generating response' });
+    });
 }
 
 function handleNormalMessage(username, message) {

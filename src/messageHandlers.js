@@ -25,6 +25,9 @@ function setupMessageHandlers(bot) {
         process.send({ type: 'LOG', data: `Error creating structure: ${err.message}` });
       }
     }
+    if(msg.type === 'CREATE_BUILDING'){
+      createBuilding(bot, msg.building_id);
+    }
   });
 
   process.on('SIGTERM', () => {

@@ -90,6 +90,30 @@ async function cleanData(filePath) {
     console.log('Data cleaned up!');
 }
 
+function extractAndPrettyFormat(filePath) {
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+
+    if (fileContent.indexOf("{") <= 0) {
+        console.log('No data found in file: ' + filePath);
+        return "{}";
+    }
+
+    // Use regex to extract the object part from the file
+    const objectMatch = fileContent.substring(fileContent.indexOf("{"));
+
+    if (objectMatch) {
+        const structure = eval(`(${objectMatch})`); // safely evaluates the object
+        return JSON.stringify(structure, null, 2); // pretty format
+    } else {
+        throw new Error('Failed to extract the object from the file.');
+    }
+}
+
+function savePrettyFormattedStructure(inputFilePath, outputFilePath) {
+    const formattedStructure = extractAndPrettyFormat(inputFilePath);
+    fs.writeFileSync(outputFilePath, formattedStructure, 'utf8');
+}
+
 // Function to process data
 async function processData(filePath) {
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -123,16 +147,31 @@ async function processData(filePath) {
             const scriptTag = $('script[src*="myRenderObject"]');
             if (scriptTag.length > 0) {
                 const src = scriptTag.attr('src');
-                entry.blueprint = src;
+                entry.blueprint_href = src;
 
                 const filename = path.basename(src);
                 const filepath = path.join(directory, filename);
-                const response = await axios.get(src);
-                fs.writeFileSync(filepath, response.data);
-                console.log(`Saved ${filename} to ${directory}`);
+
+                if (!fs.existsSync(filepath)) {
+                    const response = await axios.get(src);
+                    fs.writeFileSync(filepath, response.data);
+                    console.log(`Saved ${filename} to ${directory}`);
+                }
+
+
+                const jsonfilename = filename.replace('.js', '.json');
+                const jsonpath = path.join(directory, jsonfilename);
+                if (!fs.existsSync(jsonpath)) {
+                    savePrettyFormattedStructure(filepath, jsonpath);
+                }
+                entry.blueprint = jsonfilename;
             } else {
                 console.log(`No script tag found for ${entry.title}`);
             }
+
+            const description = $('div[class="description"]').text().trim();
+            entry.description = description;
+
         } catch (error) {
             console.error(`Failed to process ${entry.title}: ${error.message}`);
         }
@@ -168,4 +207,6 @@ async function downloadPages() {
 const filePath = path.join(directory, `data.json`);
 // cleanData(filePath);
 
-processData(filePath);
+// processData(filePath);
+
+
