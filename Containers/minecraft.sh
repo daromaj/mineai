@@ -14,14 +14,17 @@ docker ps | grep $NAME && exit
 TAG=java21
 
 #removed: --rm for autoremove
+#    -e VERSION=1.20.1 \
+
+
 docker run -d -it -p 26565:25565 -p 26575:25575\
     -e EULA=TRUE \
     -e MEMORY=2G \
     -e ONLINE_MODE=FALSE \
-    -e TYPE=PAPER \
     -e SPAWN_PROTECTION=0 \
     -e MODE=creative \
-    -e OPS=aibot \
+    -e OPS=aibot,dzikapantera \
+    -e TYPE=PAPER \
     -e PLUGINS=https://github.com/ViaVersion/ViaVersion/releases/download/5.0.5/ViaVersion-5.0.5.jar,https://github.com/ViaVersion/ViaBackwards/releases/download/5.0.4/ViaBackwards-5.0.4.jar \
     --name $NAME \
     --restart=always \

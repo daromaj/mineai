@@ -1,79 +1,49 @@
-const BUILDING_DIR = 'blueprints/blueprints';
+const BUILDING_DIR = '../blueprints/blueprints/';
 const fs = require('fs');
 const path = require('path');
 
-/**
- * Creates a building with the given ID.
- * 
- * @param {import('mineflayer').Bot} bot - The bot instance.
- * @param {string} building_id - The ID of the building to create.
- * 
- * @returns {Promise<object>} A promise resolving to the created building.
- */
-function createBuilding(bot, building_id) {
-    // Construct the path to the building file
-    const buildingFilePath = path.join(BUILDING_DIR, `myRenderObject_${building_id}.js`);
 
-    // Check if the building file exists
-    if (!fs.existsSync(buildingFilePath)) {
-        throw new Error(`Building file not found: ${buildingFilePath}`);
+const enrichedUniqueMaterials = require('../blueprints/enriched_unique_materials.json');
 
-    }
-
-    myRenderObject = require(buildingFilePath);
-
-    var z = Object.keys(myRenderObject)// x y
-
-    for (var z of Object.keys(myRenderObject)) {
-        for (var x of Object.keys(myRenderObject[z])) {
-            for (var block of Object.keys(z[x])) {
-                
-
-/**
- * 
-                "x": 16,
-                "y": "1",
-                "z": "3",
-                "hex": "#000000",
-                "rgb": [
-                    0,
-                    0,
-                    0
-                ],
-                "name": "Stone Slab (Upper)",
- */
-            }
-        }
-    }
-
+function find_block_by_id(id) {
+    return enrichedUniqueMaterials.find((material) => material.mat_id == id).args;
 }
 
-module.exports(createBuilding);
+async function sleep(ms) {
+    await new Promise(resolve => setTimeout(resolve, ms));
+}
 
-async function buildStructure(bot, structure) {
-    const materialMap = {
-        "169": "stone_bricks",
-        "90": "stone_brick_slab",
-        "223": "cobblestone_wall",
-        "172": "chiseled_stone_bricks",
-        "485": "stone_brick_stairs",
-        "486": "stone_brick_stairs",
-        "487": "stone_brick_stairs",
-        "484": "stone_brick_stairs"
-    };
+/**
+ * 
+ * @param {import('mineflayer').Bot} bot 
+ * @param {*} structure 
+ */
+async function createBuilding(bot, building_id) {
+    bot.chat("/fill ~-10 ~ ~10 ~18 ~18 ~18 air");
+    await sleep(1000)
+    const structure = require(BUILDING_DIR + 'myRenderObject_' + building_id + '.json');
 
-    const pos = bot.entity.position.floored();
+    const startX = Math.floor(bot.entity.position.x) + 1;
+    const startY = Math.floor(bot.entity.position.y) - 1 ;
+    const startZ = Math.floor(bot.entity.position.z);
+
+    console.log('bot position: ', startX, startY, startZ);
 
     for (let y of Object.keys(structure)) {
         for (let z of Object.keys(structure[y])) {
             for (let x of Object.keys(structure[y][z])) {
                 const block = structure[y][z][x];
-                const material = materialMap[block.mat_id];
+                // console.log(block);
+                const material = find_block_by_id(block.mat_id);
 
                 if (material) {
-                    const targetPos = pos.offset(block.x, block.y, block.z);
                     try {
-                        await bot.placeBlock(bot.blockAt(targetPos.offset(0, -1, 0)), bot.entity.position.direction);
+                        // cmd = `\/setblock ${startX + Number(block.x)} ${startY + Number(block.y)} ${startZ + Number(block.z)} ${material}`;
+                        //sleep for 100ms to avoid spamming the server
+                        await sleep(10);
+                        cmd = "/setblock " + `${startX + Number(block.x)} ${startY + Number(block.y)} ${startZ + Number(block.z)} ${material}`;
+                        console.log(cmd)
+                        bot.chat(cmd);
                     } catch (err) {
                         console.error(`Error placing block at x:${block.x}, y:${block.y}, z:${block.z}:`, err);
                     }
@@ -82,3 +52,6 @@ async function buildStructure(bot, structure) {
         }
     }
 }
+
+module.exports = createBuilding;
+

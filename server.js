@@ -3,7 +3,7 @@ const http = require('http');
 const socketIo = require('socket.io');
 const path = require('path');
 const { fork } = require('child_process');
-require('dotenv').config();
+require('dotenv').config({ path: `.env.local`, override: true });
 
 const app = express();
 const server = http.createServer(app);
@@ -46,12 +46,17 @@ function extractFunctionBody(text) {
 function handleAIBotBuild(username, message, socket) {
 
   const messageParts = message.split(' ');
-  const thirdPartIsNumber = !isNaN(messageParts[2]);
+  console.log(`messageParts ${messageParts}`);
+  const thirdPartIsNumber = !isNaN(messageParts[3]);
+  console.log(`thirdPartIsNumber ${thirdPartIsNumber}`);
+  console.log(`messageParts[3] ${messageParts[3]}`);
   let prompt;
   let systemPrompt;
 
   if (thirdPartIsNumber) {
-    building_id = messageParts.slice(2).join(' ');
+    console.log(`Received build request from ${username} with id: ${messageParts[3]}`);
+
+    building_id = messageParts[3];
     socket.emit('message', { type: 'log', content: 'Bot request for building ' + building_id });
 
     if (botProcess) {
@@ -62,6 +67,7 @@ function handleAIBotBuild(username, message, socket) {
     return;
 
   } else {
+    console.log(`Received build request from ${username}`);
     prompt = messageParts.slice(3).join(' ');
     systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
   }

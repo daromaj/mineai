@@ -1,3 +1,5 @@
+const createBuilding = require('./buildings');
+
 function setupMessageHandlers(bot) {
   process.on('message', (msg) => {
     if (msg.type === 'SEND_CHAT') {
@@ -25,7 +27,7 @@ function setupMessageHandlers(bot) {
         process.send({ type: 'LOG', data: `Error creating structure: ${err.message}` });
       }
     }
-    if(msg.type === 'CREATE_BUILDING'){
+    if (msg.type === 'CREATE_BUILDING') {
       createBuilding(bot, msg.building_id);
     }
   });
