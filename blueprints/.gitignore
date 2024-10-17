@@ -1,0 +1,6 @@
+*
+
+!get_materials.sh
+!unique_materials.json
+!enriched_unique_materials.json
+!materials_llm_translator.js

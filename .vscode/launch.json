@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/grabcraft.js"
+            "program": "${workspaceFolder}/get_buildings.js"
         }
     ]
 }
