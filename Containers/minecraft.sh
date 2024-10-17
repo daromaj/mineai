@@ -20,7 +20,9 @@ docker run -d -it -p 26565:25565 -p 26575:25575\
     -e ONLINE_MODE=FALSE \
     -e TYPE=PAPER \
     -e SPAWN_PROTECTION=0 \
-    -e PLUGINS=https://github.com/ViaVersion/ViaVersion/releases/download/5.0.3/ViaVersion-5.0.3.jar,https://github.com/ViaVersion/ViaBackwards/releases/download/5.0.3/ViaBackwards-5.0.3.jar \
+    -e MODE=creative \
+    -e OPS=aibot \
+    -e PLUGINS=https://github.com/ViaVersion/ViaVersion/releases/download/5.0.5/ViaVersion-5.0.5.jar,https://github.com/ViaVersion/ViaBackwards/releases/download/5.0.4/ViaBackwards-5.0.4.jar \
     --name $NAME \
     --restart=always \
     -v $VOLUME:/data docker.io/itzg/minecraft-server:$TAG
