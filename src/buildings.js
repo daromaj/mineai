@@ -33,7 +33,7 @@ async function createBuilding(bot, building_id) {
     }
 
     //find max z and x
-    let max_z = -1, max_x = -1;
+    let max_z = -1, max_x = -1, max_y = -1;
     for (let y of Object.keys(structure)) {
         for (let z of Object.keys(structure[y])) {
             for (let x of Object.keys(structure[y][z])) {
@@ -45,6 +45,10 @@ async function createBuilding(bot, building_id) {
                 if (max_z < z_value) {
                     max_z = z_value;
                 }
+                y_value = Number(y);
+                if (max_y < y_value){
+                    max_y = y_value;
+                }
             }
         }
     }
@@ -52,7 +56,7 @@ async function createBuilding(bot, building_id) {
     length = max_z + 1;
     x_param = Math.ceil(width / 2);
     z_param = Math.ceil(length / 2);
-    bot.chat("/fill ~-15 ~ ~1 ~20 ~20 ~20 air");
+    bot.chat(`/fill ~-${x_param} ~ ~1 ~${x_param} ~${max_y} ~${max_z} air`);
     await sleep(1000)
 
     console.log(`x_param: ${x_param} z_param: ${z_param}`);
