@@ -1,0 +1,5407 @@
+[
+  {
+    "name": "Acacia Door (Lower, Facing East, Closed)",
+    "mat_id": "996",
+    "args": "minecraft:acacia_door[facing=east,half=lower,open=false]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing East, Opened)",
+    "mat_id": "1000",
+    "args": "minecraft:acacia_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing North, Closed)",
+    "mat_id": "995",
+    "args": "minecraft:acacia_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing North, Opened)",
+    "mat_id": "999",
+    "args": "minecraft:acacia_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing South, Closed)",
+    "mat_id": "997",
+    "args": "minecraft:acacia_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing South, Opened)",
+    "mat_id": "1001",
+    "args": "minecraft:acacia_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing West, Closed)",
+    "mat_id": "994",
+    "args": "minecraft:acacia_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Acacia Door (Lower, Facing West, Opened)",
+    "mat_id": "998",
+    "args": "minecraft:acacia_door[facing=west,half=lower,open=true]"
+  },
+  {
+    "name": "Acacia Door (Upper, Hinge Left, Powered)",
+    "mat_id": "1004",
+    "args": "minecraft:acacia_door[facing=east,half=upper,hinge=left,powered=true]"
+  },
+  {
+    "name": "Acacia Door (Upper, Hinge Left, Unpowered)",
+    "mat_id": "1002",
+    "args": "minecraft:acacia_door[half=upper,facing=-z,hinge=left,open=false]"
+  },
+  {
+    "name": "Acacia Door (Upper, Hinge Right, Unpowered)",
+    "mat_id": "1003",
+    "args": "minecraft:acacia_door[facing=east,half=upper,hinge=right,powered=false]"
+  },
+  {
+    "name": "Acacia Fence Gate (Facing North, Closed)",
+    "mat_id": "1076",
+    "args": "minecraft:acacia_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Acacia Fence Gate (Facing West, Closed)",
+    "mat_id": "1075",
+    "args": "minecraft:acacia_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Acacia Fence",
+    "mat_id": "911",
+    "args": "minecraft:acacia_fence[facing=north]"
+  },
+  {
+    "name": "Acacia Leaves",
+    "mat_id": "286",
+    "args": "minecraft:acacia_leaves[persistent=true]"
+  },
+  {
+    "name": "Acacia Leaves (No Decay and Check Decay)",
+    "mat_id": "1194",
+    "args": "minecraft:acacia_leaves[decayable=false,persistent=true]"
+  },
+  {
+    "name": "Acacia Leaves (No Decay)",
+    "mat_id": "1190",
+    "args": "minecraft:acacia_leaves[decayable=false]"
+  },
+  {
+    "name": "Acacia sapling Flower Pot",
+    "mat_id": "344",
+    "args": "minecraft:flower_pot[plant_type=acacia_sapling]"
+  },
+  {
+    "name": " (Acacia Wood, Bottom)",
+    "mat_id": "209",
+    "args": "minecraft:acacia_wood[facing=north]"
+  },
+  {
+    "name": "Acacia Wood, Facing East/West",
+    "mat_id": "421",
+    "args": "minecraft:acacia_log[facing=east_west]"
+  },
+  {
+    "name": "Acacia Wood, Facing North/South",
+    "mat_id": "423",
+    "args": "minecraft:acacia_wood[facing=north]"
+  },
+  {
+    "name": "Acacia Wood",
+    "mat_id": "279",
+    "args": "minecraft:acacia_wood"
+  },
+  {
+    "name": "Acacia Wood (No axis)",
+    "mat_id": "1669",
+    "args": "minecraft:acacia_wood"
+  },
+  {
+    "name": "Acacia Wood Plank",
+    "mat_id": "24",
+    "args": "minecraft:acacia_planks"
+  },
+  {
+    "name": "Acacia Wood Stairs (East, Normal)",
+    "mat_id": "648",
+    "args": "minecraft:acacia_stairs[facing=east]"
+  },
+  {
+    "name": "Acacia Wood Stairs (East, Upside-down)",
+    "mat_id": "652",
+    "args": "minecraft:acacia_stairs[facing=east,half=top,inverted=true]"
+  },
+  {
+    "name": "Acacia Wood Stairs (North, Normal)",
+    "mat_id": "651",
+    "args": "minecraft:acacia_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Acacia Wood Stairs (North, Upside-down)",
+    "mat_id": "655",
+    "args": "minecraft:acacia_stairs[facing=north,half=top,shape=straight]"
+  },
+  {
+    "name": "Acacia Wood Stairs (South, Normal)",
+    "mat_id": "650",
+    "args": "minecraft:acacia_stairs[facing=south]"
+  },
+  {
+    "name": "Acacia Wood Stairs (South, Upside-down)",
+    "mat_id": "654",
+    "args": "minecraft:acacia_stairs[facing=south,half=top,shape=straight]"
+  },
+  {
+    "name": "Acacia Wood Stairs (West, Normal)",
+    "mat_id": "649",
+    "args": "minecraft:acacia_stairs[facing=west]"
+  },
+  {
+    "name": "Acacia Wood Stairs (West, Upside-down)",
+    "mat_id": "653",
+    "args": "minecraft:acacia_stairs[facing=west,half=bottom,waterlogged=false]"
+  },
+  {
+    "name": " (Acacia Wood, Upper)",
+    "mat_id": "1139",
+    "args": "minecraft:acacia_wood[variant=bark]"
+  },
+  {
+    "name": "Activator Rail (Flat North-South, Not Active)",
+    "mat_id": "1500",
+    "args": "minecraft:rail{activated:false,shape:north_south]"
+  },
+  {
+    "name": "Activator Rail (Flat West-East, Not Active)",
+    "mat_id": "1501",
+    "args": "minecraft:rail{direction=west_east,powered=false]"
+  },
+  {
+    "name": "Allium",
+    "mat_id": "1184",
+    "args": "minecraft:allium[growth=1]"
+  },
+  {
+    "name": "Andesite",
+    "mat_id": "13",
+    "args": "minecraft:andesite"
+  },
+  {
+    "name": "Anvil (East/West)",
+    "mat_id": "930",
+    "args": "minecraft:anvil[facing=east]"
+  },
+  {
+    "name": "Anvil (North/South)",
+    "mat_id": "232",
+    "args": "minecraft:anvil[facing=north_south]"
+  },
+  {
+    "name": "Anvil (South/North)",
+    "mat_id": "326",
+    "args": "minecraft:anvil[facing=south]"
+  },
+  {
+    "name": "Anvil (West/East)",
+    "mat_id": "931",
+    "args": "minecraft:anvil[facing=east]"
+  },
+  {
+    "name": "Azure Bluet",
+    "mat_id": "284",
+    "args": "minecraft:blue_orchid[facing=south]"
+  },
+  {
+    "name": "Barrier",
+    "mat_id": "1667",
+    "args": "minecraft:barrier{invisible_to_players=true]"
+  },
+  {
+    "name": "Beacon",
+    "mat_id": "222",
+    "args": "minecraft:beacon"
+  },
+  {
+    "name": "Bed (East, Empty, Foot of the bed)",
+    "mat_id": "509",
+    "args": "minecraft:bed[facing=east,part=foot,occupied=false]"
+  },
+  {
+    "name": "Bed (East, Empty, Head of the bed)",
+    "mat_id": "516",
+    "args": "minecraft:bed[facing=east,part=head,occupied=false]"
+  },
+  {
+    "name": "Bed (North, Empty, Foot of the bed)",
+    "mat_id": "508",
+    "args": "minecraft:bed[facing=north,part=foot]"
+  },
+  {
+    "name": "Bed (North, Empty, Head of the bed)",
+    "mat_id": "521",
+    "args": "minecraft:bed[facing=north,part=head]"
+  },
+  {
+    "name": "Bedrock",
+    "mat_id": "38",
+    "args": "minecraft:bedrock"
+  },
+  {
+    "name": "Bed (South, Empty, Foot of the bed)",
+    "mat_id": "57",
+    "args": "minecraft:bed[facing=south,part=foot]"
+  },
+  {
+    "name": "Bed (South, Empty, Head of the bed)",
+    "mat_id": "514",
+    "args": "minecraft:bed[facing=south,occupied=false,part=head]"
+  },
+  {
+    "name": "Bed (West, Empty, Foot of the bed)",
+    "mat_id": "507",
+    "args": "minecraft:red_bed[facing=west,part=foot]"
+  },
+  {
+    "name": "Bed (West, Empty, Head of the bed)",
+    "mat_id": "515",
+    "args": "minecraft:bed[facing=west,occupied=false,part=head]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing East, Closed)",
+    "mat_id": "972",
+    "args": "minecraft:birch_door[facing=east,half=lower,open=false]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing East, Opened)",
+    "mat_id": "976",
+    "args": "minecraft:birch_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing North, Closed)",
+    "mat_id": "971",
+    "args": "minecraft:birch_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing North, Opened)",
+    "mat_id": "975",
+    "args": "minecraft:birch_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing South, Closed)",
+    "mat_id": "973",
+    "args": "minecraft:birch_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing South, Opened)",
+    "mat_id": "977",
+    "args": "minecraft:birch_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Birch Door (Lower, Facing West, Closed)",
+    "mat_id": "970",
+    "args": "minecraft:birch_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Birch Door (Upper, Hinge Left, Powered)",
+    "mat_id": "980",
+    "args": "minecraft:birch_door[facing=north,half=upper,hinge=left,powered=true]"
+  },
+  {
+    "name": "Birch Door (Upper, Hinge Left, Unpowered)",
+    "mat_id": "978",
+    "args": "minecraft:birch_door[half=upper,hinge=left,powered=false]"
+  },
+  {
+    "name": "Birch Door (Upper, Hinge Right, Powered)",
+    "mat_id": "981",
+    "args": "minecraft:birch_door[facing=east,half=upper,hinge=right,powered=true]"
+  },
+  {
+    "name": "Birch Door (Upper, Hinge Right, Unpowered)",
+    "mat_id": "979",
+    "args": "minecraft:birch_door[half=upper,facing=east,hinge=right,power=0]"
+  },
+  {
+    "name": "Birch Fence Gate (Facing East, Closed)",
+    "mat_id": "1053",
+    "args": "minecraft:birch_fence_gate[facing=east,open=false]"
+  },
+  {
+    "name": "Birch Fence Gate (Facing North, Closed)",
+    "mat_id": "1052",
+    "args": "minecraft:birch_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Birch Fence Gate (Facing South, Closed)",
+    "mat_id": "1050",
+    "args": "minecraft:birch_fence_gate[facing=south,open=false]"
+  },
+  {
+    "name": "Birch Fence Gate (Facing West, Closed)",
+    "mat_id": "1051",
+    "args": "minecraft:birch_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Birch Fence",
+    "mat_id": "908",
+    "args": "minecraft:fence[type=birch]"
+  },
+  {
+    "name": "Birch Leaves",
+    "mat_id": "35",
+    "args": "minecraft:leaves[type=birch,persistent=false,stage=1]"
+  },
+  {
+    "name": "Birch Leaves (No Decay and Check Decay)",
+    "mat_id": "321",
+    "args": "minecraft:birch_leaves[decayable=false,check_decay=true]"
+  },
+  {
+    "name": "Birch Leaves (No Decay)",
+    "mat_id": "330",
+    "args": "minecraft:leaves[type=birch,decayable=false]"
+  },
+  {
+    "name": "Birch sapling Flower Pot",
+    "mat_id": "337",
+    "args": "minecraft:flower_pot[contained=birch_sapling]"
+  },
+  {
+    "name": " (Birch Wood, Bottom)",
+    "mat_id": "207",
+    "args": "minecraft:birch_slab[type=bottom]"
+  },
+  {
+    "name": "Birch Wood (facing east/west)",
+    "mat_id": "431",
+    "args": "minecraft:birch_wood[facing=east]"
+  },
+  {
+    "name": "Birch Wood (facing north/south)",
+    "mat_id": "302",
+    "args": "minecraft:birch_wood[facing=north]"
+  },
+  {
+    "name": "Birch Wood",
+    "mat_id": "31",
+    "args": "minecraft:birch_wood"
+  },
+  {
+    "name": "Birch Wood (only bark)",
+    "mat_id": "437",
+    "args": "minecraft:stripped_birch_logs[facing=north]"
+  },
+  {
+    "name": "Birch Wood Plank",
+    "mat_id": "21",
+    "args": "minecraft:birch_planks"
+  },
+  {
+    "name": "Birch Wood Stairs (East, Normal)",
+    "mat_id": "219",
+    "args": "minecraft:birch_stairs[facing=east]"
+  },
+  {
+    "name": "Birch Wood Stairs (East, Upside-down)",
+    "mat_id": "442",
+    "args": "minecraft:birch_stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Birch Wood Stairs (North, Normal)",
+    "mat_id": "441",
+    "args": "minecraft:birch_stairs[facing=north]"
+  },
+  {
+    "name": "Birch Wood Stairs (North, Upside-down)",
+    "mat_id": "445",
+    "args": "minecraft:birch_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Birch Wood Stairs (South, Normal)",
+    "mat_id": "440",
+    "args": "minecraft:birch_stairs[facing=south]"
+  },
+  {
+    "name": "Birch Wood Stairs (South, Upside-down)",
+    "mat_id": "444",
+    "args": "minecraft:birch_wood_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Birch Wood Stairs (West, Normal)",
+    "mat_id": "439",
+    "args": "minecraft:birch_stairs[facing=west]"
+  },
+  {
+    "name": "Birch Wood Stairs (West, Upside-down)",
+    "mat_id": "443",
+    "args": "minecraft:birch_stairs[facing=west,half=bottom,shape=straight]"
+  },
+  {
+    "name": " (Birch Wood, Upper)",
+    "mat_id": "1137",
+    "args": "minecraft:birch_wood[facing=north]"
+  },
+  {
+    "name": "Black Carpet",
+    "mat_id": "1111",
+    "args": "minecraft:black_carpet[facing=north]"
+  },
+  {
+    "name": "Black Stained Clay",
+    "mat_id": "259",
+    "args": "minecraft:black_stained_hardened_clay"
+  },
+  {
+    "name": "Black Stained Glass",
+    "mat_id": "161",
+    "args": "minecraft:stained_glass{color=black]"
+  },
+  {
+    "name": "Black Stained Glass Pane",
+    "mat_id": "275",
+    "args": "minecraft:black_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Black Wool",
+    "mat_id": "39",
+    "args": "minecraft:black_wool"
+  },
+  {
+    "name": "Block of Coal",
+    "mat_id": "426",
+    "args": "minecraft:coal_block"
+  },
+  {
+    "name": "Blue Carpet",
+    "mat_id": "1107",
+    "args": "minecraft:blue_carpet"
+  },
+  {
+    "name": "Blue Orchid",
+    "mat_id": "1183",
+    "args": "minecraft:light_blue_orchid[facing=north]"
+  },
+  {
+    "name": "Blue Stained Clay",
+    "mat_id": "255",
+    "args": "minecraft:blue_terracotta"
+  },
+  {
+    "name": "Blue Stained Glass",
+    "mat_id": "157",
+    "args": "minecraft:stained_glass{color:blue]"
+  },
+  {
+    "name": "Blue Stained Glass Pane",
+    "mat_id": "271",
+    "args": "minecraft:blue_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Blue Wool",
+    "mat_id": "69",
+    "args": "minecraft:wool[color=blue]"
+  },
+  {
+    "name": "Bone Block (Oriented east-west)",
+    "mat_id": "1726",
+    "args": "minecraft:bone_block[facing=east]"
+  },
+  {
+    "name": "Bone Block (Oriented north-south)",
+    "mat_id": "1728",
+    "args": "minecraft:bone_block[facing=north]"
+  },
+  {
+    "name": "Bone Block (Oriented vertically)",
+    "mat_id": "1727",
+    "args": "minecraft:bone_block[facing=up]"
+  },
+  {
+    "name": "Bookshelf",
+    "mat_id": "95",
+    "args": "minecraft:bookshelf"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Active, Slot 2 Active, Slot 3 Active)",
+    "mat_id": "1483",
+    "args": "minecraft:brewing_stand[slot_1=true,slot_2=true,slot_3=true]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Active, Slot 2 Active, Slot 3 Unactive",
+    "mat_id": "1479",
+    "args": "minecraft:brewing_stand[has_bottle_0=true, has_bottle_1=true, brewing_time_remaining=0, fuel_level=0]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Active, Slot 2 Unactive, Slot 3 Active",
+    "mat_id": "1481",
+    "args": "minecraft:brewing_stand[slot=<integer>, brewing_time=<integer>]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Active, Slot 2 Unactive, Slot 3 Unacti",
+    "mat_id": "1477",
+    "args": "minecraft:brewing_stand[standinge:true,has_bottle_0:true,has_bottle_1:false,has_bottle_2:false]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Unactive, Slot 2 Active, Slot 3 Active",
+    "mat_id": "1482",
+    "args": "minecraft:brewing_stand{Items:[{Item:{id:air,Count:0}}},{Item:{id:potion,Count:1}},{Item:{id:potion,Count:1}}]]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Unactive, Slot 2 Active, Slot 3 Unacti",
+    "mat_id": "1478",
+    "args": "minecraft:brewing_stand[slots={0:false,1:true,2:false}]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Unactive, Slot 2 Unactive, Slot 3 Acti",
+    "mat_id": "1480",
+    "args": "minecraft:brewing_stand[active=false,has_bottle_0=false,has_bottle_1=false,has_bottle_2=true]"
+  },
+  {
+    "name": "Brewing Stand (Slot 1 Unactive, Slot 2 Unactive, Slot 3 Unac",
+    "mat_id": "191",
+    "args": "minecraft:brewing_stand{inventory={slot1:{id:null},slot2:{id:null},slot3:{id:null}}]"
+  },
+  {
+    "name": "Brick Slab",
+    "mat_id": "89",
+    "args": "minecraft:brickslab[type=top]"
+  },
+  {
+    "name": "Bricks",
+    "mat_id": "93",
+    "args": "minecraft:bricks"
+  },
+  {
+    "name": "Brick Stairs (East, Normal)",
+    "mat_id": "182",
+    "args": "minecraft:stairs[facing=east,shape=straight,half=bottom]"
+  },
+  {
+    "name": "Brick Stairs (East, Upside-down)",
+    "mat_id": "588",
+    "args": "minecraft:stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Brick Stairs (North, Normal)",
+    "mat_id": "587",
+    "args": "minecraft:stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Brick Stairs (North, Upside-down)",
+    "mat_id": "591",
+    "args": "minecraft:stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+  },
+  {
+    "name": "Brick Stairs (South, Normal)",
+    "mat_id": "586",
+    "args": "minecraft:brick_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Brick Stairs (South, Upside-down)",
+    "mat_id": "590",
+    "args": "minecraft:brick_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Brick Stairs (West, Normal)",
+    "mat_id": "585",
+    "args": "minecraft:brick_stairs[facing=west]"
+  },
+  {
+    "name": "Brick Stairs (West, Upside-down)",
+    "mat_id": "589",
+    "args": "minecraft:stairs[facing=west,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Bricks (Upper)",
+    "mat_id": "497",
+    "args": "minecraft:bricks_slab[type=top]"
+  },
+  {
+    "name": "Brown Carpet",
+    "mat_id": "1108",
+    "args": "minecraft:brown_carpet"
+  },
+  {
+    "name": "Brown Mushroom Block Cap Texture on all 6 Sides",
+    "mat_id": "1327",
+    "args": "minecraft:mushroom_block[variant=brown]"
+  },
+  {
+    "name": "Brown Mushroom Block",
+    "mat_id": "1296",
+    "args": "minecraft:brown_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Brown Mushroom (Cap texture on top, east and south)",
+    "mat_id": "1725",
+    "args": "minecraft:brown_mushroom_block[facing=east]"
+  },
+  {
+    "name": "Brown Mushroom (Cap texture on top, north and east)",
+    "mat_id": "1723",
+    "args": "minecraft:brown_mushroom[facing=north]"
+  },
+  {
+    "name": "Brown Mushroom (Cap texture on top, south and west)",
+    "mat_id": "1724",
+    "args": "minecraft:brown_mushroom[facing=south]"
+  },
+  {
+    "name": "Brown Mushroom (Cap texture on top, west and north)",
+    "mat_id": "1722",
+    "args": "minecraft:brown_mushroom[facing=north,stem=false]"
+  },
+  {
+    "name": "Brown mushroom Flower Pot",
+    "mat_id": "340",
+    "args": "minecraft:flower_pot[plant_contents=brown_mushroom]"
+  },
+  {
+    "name": "Brown Mushroom",
+    "mat_id": "1552",
+    "args": "minecraft:brown_mushroom"
+  },
+  {
+    "name": "Brown Mushroom  (stem  6 sides)",
+    "mat_id": "1699",
+    "args": "minecraft:brown_mushroom[facing=north]"
+  },
+  {
+    "name": "Brown Stained Clay",
+    "mat_id": "256",
+    "args": "minecraft:brown_stained_hardened_clay"
+  },
+  {
+    "name": "Brown Stained Glass",
+    "mat_id": "158",
+    "args": "minecraft:<stained_glass>{Color:brown]"
+  },
+  {
+    "name": "Brown Stained Glass Pane",
+    "mat_id": "272",
+    "args": "minecraft:brown_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Brown Wool",
+    "mat_id": "70",
+    "args": "minecraft:brown_wool"
+  },
+  {
+    "name": "Burning Furnace (Facing East)",
+    "mat_id": "906",
+    "args": "minecraft:furnace[facing=east,lit=true]"
+  },
+  {
+    "name": "Burning Furnace (Facing North)",
+    "mat_id": "903",
+    "args": "minecraft:furnace[facing=north,lit=true]"
+  },
+  {
+    "name": "Burning Furnace (Facing South)",
+    "mat_id": "904",
+    "args": "minecraft:furnace[facing=south,lit=true]"
+  },
+  {
+    "name": "Burning Furnace (Facing West)",
+    "mat_id": "905",
+    "args": "minecraft:furnace[facing=west,lit=true]"
+  },
+  {
+    "name": "Burning Furnace ()",
+    "mat_id": "110",
+    "args": "minecraft:furnace[facing=north,lit=true]"
+  },
+  {
+    "name": "Cactus (Age 10)",
+    "mat_id": "1686",
+    "args": "minecraft:cactus[age=10]"
+  },
+  {
+    "name": "Cactus (Age 11)",
+    "mat_id": "1687",
+    "args": "minecraft:cactus[age=11]"
+  },
+  {
+    "name": "Cactus (Age 12)",
+    "mat_id": "1688",
+    "args": "minecraft:cactus[age=12]"
+  },
+  {
+    "name": "Cactus (Age 13)",
+    "mat_id": "1689",
+    "args": "minecraft:cactus[age=13]"
+  },
+  {
+    "name": "Cactus (Age 15)",
+    "mat_id": "1691",
+    "args": "minecraft:cactus[age=15]"
+  },
+  {
+    "name": "Cactus (Age 1)",
+    "mat_id": "1677",
+    "args": "minecraft:cactus[age=1]"
+  },
+  {
+    "name": "Cactus (Age 2)",
+    "mat_id": "1678",
+    "args": "minecraft:cactus[age=2]"
+  },
+  {
+    "name": "Cactus (Age 5)",
+    "mat_id": "1681",
+    "args": "minecraft:cactus[age=5]"
+  },
+  {
+    "name": "Cactus (Age 7)",
+    "mat_id": "1683",
+    "args": "minecraft:cactus[age=7]"
+  },
+  {
+    "name": "Cactus (Age 8)",
+    "mat_id": "1684",
+    "args": "minecraft:cactus[age=8]"
+  },
+  {
+    "name": "Cactus (Age 9)",
+    "mat_id": "1685",
+    "args": "minecraft:cactus[age=9]"
+  },
+  {
+    "name": "Cactus Flower Pot",
+    "mat_id": "341",
+    "args": "minecraft:flower_pot[plant_contents=cactus]"
+  },
+  {
+    "name": "Cake  (1 piece eaten)",
+    "mat_id": "1701",
+    "args": "minecraft:cake[bite=1]"
+  },
+  {
+    "name": "Cake  (2 pieces eaten)",
+    "mat_id": "1700",
+    "args": "minecraft:cake[bites=6]"
+  },
+  {
+    "name": "Cake Block",
+    "mat_id": "141",
+    "args": "minecraft:cake"
+  },
+  {
+    "name": "Carrots (Growth level 4)",
+    "mat_id": "1658",
+    "args": "minecraft:carrot[stage=4]"
+  },
+  {
+    "name": "Carrots (Growth level 7)",
+    "mat_id": "1661",
+    "args": "minecraft:carrots[age=7]"
+  },
+  {
+    "name": "Cauldron (1/3 Filled)",
+    "mat_id": "913",
+    "args": "minecraft:cauldron[level=3]"
+  },
+  {
+    "name": "Cauldron (2/3 Filled)",
+    "mat_id": "914",
+    "args": "minecraft:cauldron[level=two_or_three]"
+  },
+  {
+    "name": "Cauldron (Empty)",
+    "mat_id": "192",
+    "args": "minecraft:cauldron[level=0]"
+  },
+  {
+    "name": "Cauldron (Fully Filled)",
+    "mat_id": "915",
+    "args": "minecraft:cauldron[level=3]"
+  },
+  {
+    "name": "Chest (East)",
+    "mat_id": "525",
+    "args": "minecraft:chest[facing=east]"
+  },
+  {
+    "name": "Chest",
+    "mat_id": "102",
+    "args": "minecraft:chest[facing=north]"
+  },
+  {
+    "name": "Chest (North)",
+    "mat_id": "522",
+    "args": "minecraft:chest[facing=north]"
+  },
+  {
+    "name": "Chest (South)",
+    "mat_id": "523",
+    "args": "minecraft:chest[facing=south]"
+  },
+  {
+    "name": "Chest (West)",
+    "mat_id": "524",
+    "args": "minecraft:chest[facing=west]"
+  },
+  {
+    "name": "Chiseled Quartz Block",
+    "mat_id": "242",
+    "args": "minecraft:chiseled_quartz_block"
+  },
+  {
+    "name": "Chiseled Red Sandstone",
+    "mat_id": "1248",
+    "args": "minecraft:red_sandstone_slab[type=bottom,waterlogged=false]"
+  },
+  {
+    "name": "Chiseled Sandstone",
+    "mat_id": "54",
+    "args": "minecraft:sandstone[axis=y]"
+  },
+  {
+    "name": "Chiseled Stone Brick Monster Egg",
+    "mat_id": "168",
+    "args": "minecraft:stone_bricks[name=chiseled,monster_egg=true]"
+  },
+  {
+    "name": "Chiseled Stone Bricks",
+    "mat_id": "172",
+    "args": "minecraft:chiseled_stone_bricks"
+  },
+  {
+    "name": "Clay",
+    "mat_id": "130",
+    "args": "minecraft:clay"
+  },
+  {
+    "name": "Coal Ore",
+    "mat_id": "46",
+    "args": "minecraft:coal_ore"
+  },
+  {
+    "name": "Coarse Dirt",
+    "mat_id": "16",
+    "args": "minecraft:dirt"
+  },
+  {
+    "name": "Cobblestone",
+    "mat_id": "18",
+    "args": "minecraft:cobblestone"
+  },
+  {
+    "name": "Cobblestone Monster Egg",
+    "mat_id": "164",
+    "args": "minecraft:monster_egg{BlockStateTag:{Variants:{stone:cobblestone}},Properties:{facing:<direction>}]"
+  },
+  {
+    "name": "Cobblestone Slab",
+    "mat_id": "88",
+    "args": "minecraft:cobblestone_slab[type=bottom]"
+  },
+  {
+    "name": "Cobblestone Stairs (East, Normal)",
+    "mat_id": "115",
+    "args": "minecraft:cobblestone_stairs[facing=east,half=bottom]"
+  },
+  {
+    "name": "Cobblestone Stairs (East, Upside-down)",
+    "mat_id": "316",
+    "args": "minecraft:cobblestone_stairs[facing=east,half=top,shape=straight]"
+  },
+  {
+    "name": "Cobblestone Stairs (North, Normal)",
+    "mat_id": "315",
+    "args": "minecraft:cobblestone_stairs[facing=north,half=bottom]"
+  },
+  {
+    "name": "Cobblestone Stairs (North, Upside-down)",
+    "mat_id": "319",
+    "args": "minecraft:cobblestone_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Cobblestone Stairs (South, Normal)",
+    "mat_id": "314",
+    "args": "minecraft:cobblestone_stairs[facing=south]"
+  },
+  {
+    "name": "Cobblestone Stairs (South, Upside-down)",
+    "mat_id": "318",
+    "args": "minecraft:cobblestone_stairs[facing=south,half=top]"
+  },
+  {
+    "name": "Cobblestone Stairs (West, Normal)",
+    "mat_id": "313",
+    "args": "minecraft:cobblestone_stairs[facing=west]"
+  },
+  {
+    "name": "Cobblestone Stairs (West, Upside-down)",
+    "mat_id": "317",
+    "args": "minecraft:cobblestone_stairs[facing=west,half=bottom]"
+  },
+  {
+    "name": "Cobblestone (Upper)",
+    "mat_id": "496",
+    "args": "minecraft:cobblestone_slab[type=double]"
+  },
+  {
+    "name": "Cobblestone Wall",
+    "mat_id": "223",
+    "args": "minecraft:cobblestone_wall[facing=north]"
+  },
+  {
+    "name": "Cobweb",
+    "mat_id": "1095",
+    "args": "minecraft:cobweb"
+  },
+  {
+    "name": "cocoa (Attached to the East, Third Stage)",
+    "mat_id": "1493",
+    "args": "minecraft:cocoapod[facing=east,age=2]"
+  },
+  {
+    "name": "cocoa (Attached to the North, Third Stage)",
+    "mat_id": "1492",
+    "args": "minecraft:cocoa[facing=north,stage=2]"
+  },
+  {
+    "name": "cocoa (Attached to the South, Third Stage)",
+    "mat_id": "1494",
+    "args": "minecraft:cocoa[facing=south,stage=2]"
+  },
+  {
+    "name": "cocoa (Attached to the West, Third Stage)",
+    "mat_id": "1495",
+    "args": "minecraft:cocoa[age=2,facing=west]"
+  },
+  {
+    "name": "Command block (facing east)",
+    "mat_id": "1706",
+    "args": "minecraft:command_block[facing=east]"
+  },
+  {
+    "name": "Command block (facing north)",
+    "mat_id": "1703",
+    "args": "minecraft:command_block[facing=north]"
+  },
+  {
+    "name": "Command block (facing south)",
+    "mat_id": "1704",
+    "args": "minecraft:command_block[facing=south]"
+  },
+  {
+    "name": "Command block (facing up)",
+    "mat_id": "1702",
+    "args": "minecraft:command_block[facing=up]"
+  },
+  {
+    "name": "Command block (facing west)",
+    "mat_id": "1705",
+    "args": "minecraft:command_block[facing=west]"
+  },
+  {
+    "name": "Cracked Stone Brick Monster Egg",
+    "mat_id": "167",
+    "args": "minecraft:monster_egg{facing=south]"
+  },
+  {
+    "name": "Cracked Stone Bricks",
+    "mat_id": "171",
+    "args": "minecraft:cracked_stone_bricks"
+  },
+  {
+    "name": "Crafting Table",
+    "mat_id": "106",
+    "args": "minecraft:crafting_table"
+  },
+  {
+    "name": "Cyan Carpet",
+    "mat_id": "1105",
+    "args": "minecraft:cyan_carpet[facing=north]"
+  },
+  {
+    "name": "Cyan Stained Clay",
+    "mat_id": "253",
+    "args": "minecraft:<cyan_stained_hardened_clay]"
+  },
+  {
+    "name": "Cyan Stained Glass",
+    "mat_id": "155",
+    "args": "minecraft:stained_glass{color:=cyan]"
+  },
+  {
+    "name": "Cyan Stained Glass Pane",
+    "mat_id": "269",
+    "args": "minecraft:cyan_stained_glass_pane[east=false,south=false,waterlogged=false]"
+  },
+  {
+    "name": "Cyan Wool",
+    "mat_id": "68",
+    "args": "minecraft:cyan_wool"
+  },
+  {
+    "name": "Dandelion Flower Pot",
+    "mat_id": "334",
+    "args": "minecraft:flower_pot[plant_type=dandelion]"
+  },
+  {
+    "name": "Dandelion",
+    "mat_id": "283",
+    "args": "minecraft:dandelion[facing=north]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing East, Closed)",
+    "mat_id": "1008",
+    "args": "minecraft:dark_oak_door[facing=east,half=lower,open=false]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing East, Opened)",
+    "mat_id": "1012",
+    "args": "minecraft:dark_oak_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing North, Closed)",
+    "mat_id": "1007",
+    "args": "minecraft:dark_oak_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing North, Opened)",
+    "mat_id": "1011",
+    "args": "minecraft:dark_oak_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing South, Closed)",
+    "mat_id": "1009",
+    "args": "minecraft:dark_oak_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing South, Opened)",
+    "mat_id": "1013",
+    "args": "minecraft:dark_oak_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing West, Closed)",
+    "mat_id": "1006",
+    "args": "minecraft:dark_oak_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Dark Oak Door (Lower, Facing West, Opened)",
+    "mat_id": "1010",
+    "args": "minecraft:dark_oak_door[facing=west,half=lower,open=true]"
+  },
+  {
+    "name": "Dark Oak Door (Upper, Hinge Left, Powered)",
+    "mat_id": "1016",
+    "args": "minecraft:dark_oak_door[half=upper,facing=north,hinge=left,powered=true]"
+  },
+  {
+    "name": "Dark Oak Door (Upper, Hinge Left, Unpowered)",
+    "mat_id": "1014",
+    "args": "minecraft:dark_oak_door[half=upper,hinge=left,facing=north,powered=false]"
+  },
+  {
+    "name": "Dark Oak Door (Upper, Hinge Right, Powered)",
+    "mat_id": "1017",
+    "args": "minecraft:dark_oak_door[half=upper,hinge=right,powered=true]"
+  },
+  {
+    "name": "Dark Oak Door (Upper, Hinge Right, Unpowered)",
+    "mat_id": "1015",
+    "args": "minecraft:dark_oak_door[facing=north,half=upper,hinge=right,open=false]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing East, Closed)",
+    "mat_id": "1069",
+    "args": "minecraft:dark_oak_fence_gate[facing=east,open=false]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing East, Opened)",
+    "mat_id": "1073",
+    "args": "minecraft:dark_oak_fence_gate[facing=east,open=true]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing North, Closed)",
+    "mat_id": "1068",
+    "args": "minecraft:dark_oak_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing North, Opened)",
+    "mat_id": "1072",
+    "args": "minecraft:dark_oak_fence_gate[facing=north,open=true]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing South, Closed)",
+    "mat_id": "1066",
+    "args": "minecraft:dark_oak_fence_gate[facing=south,open=false]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing West, Closed)",
+    "mat_id": "1067",
+    "args": "minecraft:dark_oak_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Dark Oak Fence Gate (Facing West, Opened)",
+    "mat_id": "1071",
+    "args": "minecraft:dark_oak_fence_gate[facing=west,open=true]"
+  },
+  {
+    "name": "Dark Oak Fence",
+    "mat_id": "910",
+    "args": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false]"
+  },
+  {
+    "name": "Dark Oak Leaves (Check Decay and No Decay)",
+    "mat_id": "1195",
+    "args": "minecraft:dark_oak_leaves[decayable=false,persistent=true]"
+  },
+  {
+    "name": "Dark Oak Leaves",
+    "mat_id": "1189",
+    "args": "minecraft:leaves[type=dark_oak]"
+  },
+  {
+    "name": "Dark Oak Leaves (No Decay)",
+    "mat_id": "1191",
+    "args": "minecraft:dark_oak_leaves[decayable=false]"
+  },
+  {
+    "name": "Dark Oak Wood, Facing East/West",
+    "mat_id": "422",
+    "args": "minecraft:dark_oak_wood[facing=east]"
+  },
+  {
+    "name": "Dark Oak Wood, Facing North/South",
+    "mat_id": "424",
+    "args": "minecraft:dark_oak_wood[facing=north_south]"
+  },
+  {
+    "name": "Dark Oak Wood",
+    "mat_id": "281",
+    "args": "minecraft:dark_oak_wood"
+  },
+  {
+    "name": "Dark Oak Wood (No Axis)",
+    "mat_id": "1670",
+    "args": "minecraft:dark_oak_wood"
+  },
+  {
+    "name": "Dark Oak Wood Plank",
+    "mat_id": "25",
+    "args": "minecraft:dark_oak_planks"
+  },
+  {
+    "name": " Dark Oak Wood Slab (Bottom)",
+    "mat_id": "210",
+    "args": "minecraft:dark_oak_slab[type=bottom]"
+  },
+  {
+    "name": " Dark Oak Wood Slab (Upper)",
+    "mat_id": "1140",
+    "args": "minecraft:dark_oak_slab[type=top]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (East, Normal)",
+    "mat_id": "278",
+    "args": "minecraft:dark_oak_stairs[facing=east]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (East, Upside-down)",
+    "mat_id": "532",
+    "args": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (North, Normal)",
+    "mat_id": "531",
+    "args": "minecraft:dark_oak_stairs[facing=north,half=bottom]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (North, Upside-down)",
+    "mat_id": "535",
+    "args": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (South, Normal)",
+    "mat_id": "530",
+    "args": "minecraft:dark_oak_stairs[facing=south]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (South, Upside-down)",
+    "mat_id": "534",
+    "args": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (West, Normal)",
+    "mat_id": "529",
+    "args": "minecraft:stairs"
+  },
+  {
+    "name": "Dark Oak Wood Stairs (West, Upside-down)",
+    "mat_id": "533",
+    "args": "minecraft:dark_oak_stairs[facing=west,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Dark Prismarine",
+    "mat_id": "355",
+    "args": "minecraft:prismarine:1"
+  },
+  {
+    "name": "Daylight Sensor (Power level 0)",
+    "mat_id": "238",
+    "args": "minecraft:daylight_sensor[power=0]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 10)",
+    "mat_id": "1346",
+    "args": "minecraft:daylight_sensor[power=10]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 11)",
+    "mat_id": "1347",
+    "args": "minecraft:daylight_sensor[power=11]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 13)",
+    "mat_id": "1349",
+    "args": "minecraft:daylight_sensor[power=13]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 14)",
+    "mat_id": "1350",
+    "args": "minecraft:redstone_lamp[lit=true, facing=north]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 15)",
+    "mat_id": "1351",
+    "args": "minecraft:daylight_sensor[power=15]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 1)",
+    "mat_id": "1337",
+    "args": "minecraft:daylight_sensor[power=1]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 2)",
+    "mat_id": "1338",
+    "args": "minecraft:daylight_sensor[power=2]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 3)",
+    "mat_id": "1339",
+    "args": "minecraft:daylight_sensor[power=3]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 4)",
+    "mat_id": "1340",
+    "args": "minecraft:daylight_sensor[power=4]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 5)",
+    "mat_id": "1341",
+    "args": "minecraft:daylight_sensor[power=5]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 6)",
+    "mat_id": "1342",
+    "args": "minecraft:daylight_sensor[power=6]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 7)",
+    "mat_id": "1343",
+    "args": "minecraft:daylight_sensor[power=7]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 8)",
+    "mat_id": "1344",
+    "args": "minecraft:daylight_sensor[power=8]"
+  },
+  {
+    "name": "Daylight Sensor (Power level 9)",
+    "mat_id": "1345",
+    "args": "minecraft:daylight_sensor[power=9]"
+  },
+  {
+    "name": "Dead bush Flower Pot",
+    "mat_id": "342",
+    "args": "minecraft:dead_bush[potted=true]"
+  },
+  {
+    "name": "Dead Bush",
+    "mat_id": "1352",
+    "args": "minecraft:deadbush"
+  },
+  {
+    "name": "Dead Shrub",
+    "mat_id": "59",
+    "args": "minecraft:dead_bush"
+  },
+  {
+    "name": "Detector Rail (Flat, North-South, Unactive)",
+    "mat_id": "1250",
+    "args": "minecraft:detector_rail[powered=false,shape=north_south,direction=north]"
+  },
+  {
+    "name": "Detector Rail (Flat, West-East, Unactive)",
+    "mat_id": "1251",
+    "args": "minecraft:rail[shape=flat,direction=west_east,powered=false]"
+  },
+  {
+    "name": "Diamond Block",
+    "mat_id": "105",
+    "args": "minecraft:diamond_block"
+  },
+  {
+    "name": "Diamond Ore",
+    "mat_id": "104",
+    "args": "minecraft:diamond_ore"
+  },
+  {
+    "name": "Diorite",
+    "mat_id": "277",
+    "args": "minecraft:diorite"
+  },
+  {
+    "name": "Dirt",
+    "mat_id": "15",
+    "args": "minecraft:dirt"
+  },
+  {
+    "name": "Dispenser (Facing Down, Activated)",
+    "mat_id": "1285",
+    "args": "minecraft:dispenser[facing=down,triggered=true]"
+  },
+  {
+    "name": "Dispenser (Facing Down, Unactive)",
+    "mat_id": "52",
+    "args": "minecraft:dispenser[facing=down]"
+  },
+  {
+    "name": "Dispenser (Facing East, Unactive)",
+    "mat_id": "1283",
+    "args": "minecraft:dispenser[facing=east, triggered=false]"
+  },
+  {
+    "name": "Dispenser (Facing North, Activated)",
+    "mat_id": "1287",
+    "args": "minecraft:dispenser[facing=north,triggered=true]"
+  },
+  {
+    "name": "Dispenser (Facing North, Unactive)",
+    "mat_id": "1280",
+    "args": "minecraft:dispenser[facing=north,triggered=false]"
+  },
+  {
+    "name": "Dispenser (Facing South, Activated)",
+    "mat_id": "1288",
+    "args": "minecraft:dispenser[facing=south,triggered=true]"
+  },
+  {
+    "name": "Dispenser (Facing South, Unactive)",
+    "mat_id": "1281",
+    "args": "minecraft:dispenser[facing=south,triggered=false]"
+  },
+  {
+    "name": "Dispenser (Facing Up, Unactive)",
+    "mat_id": "1279",
+    "args": "minecraft:dispenser[facing=up]"
+  },
+  {
+    "name": "Dispenser (Facing West, Activated)",
+    "mat_id": "1289",
+    "args": "minecraft:dispenser[facing=west,triggered=true]"
+  },
+  {
+    "name": "Dispenser (Facing West, Unactive)",
+    "mat_id": "1282",
+    "args": "minecraft:dispenser[facing=west,triggered=false]"
+  },
+  {
+    "name": "Double Acacia Wood Slab",
+    "mat_id": "203",
+    "args": "minecraft:acacia_slab[type=double]"
+  },
+  {
+    "name": "Double Birch Wood Slab",
+    "mat_id": "201",
+    "args": "minecraft:double_slab[type=birch]"
+  },
+  {
+    "name": "Double Brick Slab",
+    "mat_id": "81",
+    "args": "minecraft:double_stone_slab[type=double]"
+  },
+  {
+    "name": "Double Cobblestone Slab",
+    "mat_id": "80",
+    "args": "minecraft:double_stone_slab[type=cobblestone]"
+  },
+  {
+    "name": "Double Dark Oak Wood Slab",
+    "mat_id": "204",
+    "args": "minecraft:dark_oak_slab[type=double]"
+  },
+  {
+    "name": "Double Jungle Wood Slab",
+    "mat_id": "202",
+    "args": "minecraft:jungle_slab[type=double]"
+  },
+  {
+    "name": "Double Nether Brick Slab",
+    "mat_id": "83",
+    "args": "minecraft:double_stone_slab[type=nether_brick]"
+  },
+  {
+    "name": "Double Oak Wood Slab",
+    "mat_id": "199",
+    "args": "minecraft:oak_double_slab[type=top]"
+  },
+  {
+    "name": "Double Quartz Slab",
+    "mat_id": "84",
+    "args": "minecraft:quartz_slab[type=double]"
+  },
+  {
+    "name": "Double Red Sandstone Slab",
+    "mat_id": "1707",
+    "args": "minecraft:red_sandstone_slab[type=double]"
+  },
+  {
+    "name": "Double Sandstone Slab",
+    "mat_id": "77",
+    "args": "minecraft:double_stone_slab[variant=sandstone]"
+  },
+  {
+    "name": "Double Sandstone Slab Seamless",
+    "mat_id": "1668",
+    "args": "minecraft:double_stone_slab[variant=smooth_sandstone, seamless=true]"
+  },
+  {
+    "name": "Double Spruce Wood Slab",
+    "mat_id": "200",
+    "args": "minecraft:spruce_slab[type=double]"
+  },
+  {
+    "name": "Double Stone Brick Slab",
+    "mat_id": "82",
+    "args": "minecraft:double_stone_slab[type=stone]"
+  },
+  {
+    "name": "Double Stone Slab",
+    "mat_id": "78",
+    "args": "minecraft:double_stone_slab[type=double]"
+  },
+  {
+    "name": "Double Wooden Slab",
+    "mat_id": "79",
+    "args": "minecraft:double_wooden_slab[type=oak, waterlogged=false]"
+  },
+  {
+    "name": "Dragon Egg",
+    "mat_id": "196",
+    "args": "minecraft:dragon_egg"
+  },
+  {
+    "name": "Dropper (Facing Down, Unactive)",
+    "mat_id": "1264",
+    "args": "minecraft:dropper[facing=down,triggered=false]"
+  },
+  {
+    "name": "Dropper (Facing East, Activated)",
+    "mat_id": "1276",
+    "args": "minecraft:dropper[facing=east,triggered=true]"
+  },
+  {
+    "name": "Dropper (Facing East, Unactive)",
+    "mat_id": "1269",
+    "args": "minecraft:dropper[facing=east,triggered=false]"
+  },
+  {
+    "name": "Dropper (Facing North, Activated)",
+    "mat_id": "1273",
+    "args": "minecraft:dropper[facing=north,triggered=true]"
+  },
+  {
+    "name": "Dropper (Facing North, Unactive)",
+    "mat_id": "1266",
+    "args": "minecraft:dropper[facing=north,triggered=false]"
+  },
+  {
+    "name": "Dropper (Facing South, Unactive)",
+    "mat_id": "1267",
+    "args": "minecraft:dropper[facing=south,triggered=false]"
+  },
+  {
+    "name": "Dropper (Facing Up, Unactive)",
+    "mat_id": "1265",
+    "args": "minecraft:dropper[facing=up,triggered=false]"
+  },
+  {
+    "name": "Dropper (Facing West, Activated)",
+    "mat_id": "1275",
+    "args": "minecraft:dropper[facing=west,triggered=true]"
+  },
+  {
+    "name": "Dropper (Facing West, Unactive)",
+    "mat_id": "1268",
+    "args": "minecraft:dropper[facing=west]"
+  },
+  {
+    "name": "Emerald Block",
+    "mat_id": "217",
+    "args": "minecraft:emerald_block"
+  },
+  {
+    "name": "Emerald Ore",
+    "mat_id": "213",
+    "args": "minecraft:emerald_ore"
+  },
+  {
+    "name": "Enchantment Table",
+    "mat_id": "190",
+    "args": "minecraft:enchanting_table"
+  },
+  {
+    "name": "Ender Chest (Facing East)",
+    "mat_id": "949",
+    "args": "minecraft:ender_chest[facing=east]"
+  },
+  {
+    "name": "Ender Chest (Facing North)",
+    "mat_id": "946",
+    "args": "minecraft:ender_chest[facing=north]"
+  },
+  {
+    "name": "Ender Chest (Facing South)",
+    "mat_id": "947",
+    "args": "minecraft:ender_chest[facing=south]"
+  },
+  {
+    "name": "Ender Chest (Facing West)",
+    "mat_id": "948",
+    "args": "minecraft:ender_chest[facing=west]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the East, Empty)",
+    "mat_id": "953",
+    "args": "minecraft:end_portal_frame[facing=east]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the East, Eye of Ender)",
+    "mat_id": "957",
+    "args": "minecraft:end_portal_frame[facing=east]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the North, Empty)",
+    "mat_id": "952",
+    "args": "minecraft:end_portal_frame[facing=north,eye=empty]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the North, Eye of Ender)",
+    "mat_id": "956",
+    "args": "minecraft:end_portal_frame[facing=north]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the South, Empty)",
+    "mat_id": "194",
+    "args": "minecraft:end_portal_frame[facing=south]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the South, Eye of Ender)",
+    "mat_id": "954",
+    "args": "minecraft:end_portal_frame[facing=south,eye=true]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the West, Empty)",
+    "mat_id": "951",
+    "args": "minecraft:end_portal_frame[facing=west]"
+  },
+  {
+    "name": "End Portal Frame (Vectors to the West, Eye of Ender)",
+    "mat_id": "955",
+    "args": "minecraft:end_portal_frame[facing=west]"
+  },
+  {
+    "name": "End Portal",
+    "mat_id": "193",
+    "args": "minecraft:end_portal"
+  },
+  {
+    "name": "End Rod (Facing Down)",
+    "mat_id": "1693",
+    "args": "minecraft:end_rod[facing=down]"
+  },
+  {
+    "name": "End Rod (Facing East)",
+    "mat_id": "1698",
+    "args": "minecraft:end_rod[facing=east]"
+  },
+  {
+    "name": "End Rod (Facing North)",
+    "mat_id": "1695",
+    "args": "minecraft:end_rod[facing=north]"
+  },
+  {
+    "name": "End Rod (Facing South)",
+    "mat_id": "1696",
+    "args": "minecraft:end_rod[facing=south]"
+  },
+  {
+    "name": "End Rod (Facing Up)",
+    "mat_id": "1694",
+    "args": "minecraft:end_rod[facing=up]"
+  },
+  {
+    "name": "End Rod (Facing West)",
+    "mat_id": "1697",
+    "args": "minecraft:end_rod[facing=west]"
+  },
+  {
+    "name": "End Stone Bricks",
+    "mat_id": "1676",
+    "args": "minecraft:end_stone_bricks"
+  },
+  {
+    "name": "End Stone",
+    "mat_id": "195",
+    "args": "minecraft:end_stone"
+  },
+  {
+    "name": "Farmland (Dry Land)",
+    "mat_id": "108",
+    "args": "minecraft:farmland"
+  },
+  {
+    "name": "Farmland (Fully Hydrated)",
+    "mat_id": "1474",
+    "args": "minecraft:farmland[moisture=7]"
+  },
+  {
+    "name": "Farmland (Wet level 1)",
+    "mat_id": "1468",
+    "args": "minecraft:farmland[moisture=1]"
+  },
+  {
+    "name": "Farmland (Wet level 2)",
+    "mat_id": "1469",
+    "args": "minecraft:farmland[moisture=7]"
+  },
+  {
+    "name": "Farmland (Wet level 3)",
+    "mat_id": "1470",
+    "args": "minecraft:farmland[moisture=7]"
+  },
+  {
+    "name": "Farmland (Wet level 4)",
+    "mat_id": "1471",
+    "args": "minecraft:farmland[moist=4]"
+  },
+  {
+    "name": "Farmland (Wet level 5)",
+    "mat_id": "1472",
+    "args": "minecraft:farmland[moisture=3]"
+  },
+  {
+    "name": "Farmland (Wet level 6)",
+    "mat_id": "1473",
+    "args": "minecraft:farmland[moisture=6]"
+  },
+  {
+    "name": "Fern Flower Pot",
+    "mat_id": "343",
+    "args": "minecraft:flower_pot[plant=fern]"
+  },
+  {
+    "name": "Fern",
+    "mat_id": "61",
+    "args": "minecraft:fern"
+  },
+  {
+    "name": "Fire (Age 0)",
+    "mat_id": "99",
+    "args": "minecraft:fire[age=0]"
+  },
+  {
+    "name": "Fire (Age 14)",
+    "mat_id": "1126",
+    "args": "minecraft:fire[age=14]"
+  },
+  {
+    "name": "Fire (Age 15)",
+    "mat_id": "1127",
+    "args": "minecraft:fire[age=15]"
+  },
+  {
+    "name": "Fire (Age 2)",
+    "mat_id": "1114",
+    "args": "minecraft:fire[age=2]"
+  },
+  {
+    "name": "Fire (Age 6)",
+    "mat_id": "1118",
+    "args": "minecraft:fire[age=6]"
+  },
+  {
+    "name": "Flower (Double Tallgrass, Lower)",
+    "mat_id": "918",
+    "args": "minecraft:double_plant[variant=tall_grass|half=lower]"
+  },
+  {
+    "name": "Flower (Double Tallgrass, Upper)",
+    "mat_id": "925",
+    "args": "minecraft:tallgrass[half=upper]"
+  },
+  {
+    "name": "Flower (Large Fern, Lower)",
+    "mat_id": "919",
+    "args": "minecraft:large_fern[half=lower]"
+  },
+  {
+    "name": "Flower (Large Fern, Upper)",
+    "mat_id": "926",
+    "args": "minecraft:large_fern[half=upper] "
+  },
+  {
+    "name": "Flower (Lilac, Lower)",
+    "mat_id": "917",
+    "args": "minecraft:<lilac>[facing=north,variant=0]"
+  },
+  {
+    "name": "Flower (Lilac, Upper)",
+    "mat_id": "924",
+    "args": "minecraft:lilac[stage=1]"
+  },
+  {
+    "name": "Flower (Peony, Lower)",
+    "mat_id": "921",
+    "args": "minecraft:minecraftred_flower[flower=peony]"
+  },
+  {
+    "name": "Flower Pot",
+    "mat_id": "227",
+    "args": "minecraft:<flower_pot]"
+  },
+  {
+    "name": "Flower (Rose Bush, Lower)",
+    "mat_id": "920",
+    "args": "minecraft:flower_pot[plant_type=rose_bush,facing=north]"
+  },
+  {
+    "name": "Flower (Sunflower, Lower)",
+    "mat_id": "916",
+    "args": "minecraft:sunflower[facing=north]"
+  },
+  {
+    "name": "Flower (Sunflower, Upper)",
+    "mat_id": "923",
+    "args": "minecraft:sunflower[facing=north]"
+  },
+  {
+    "name": "Free-Standing Banner Facing East",
+    "mat_id": "1675",
+    "args": "minecraft:banner{facing=east]"
+  },
+  {
+    "name": "Freshly Planted Cactus",
+    "mat_id": "129",
+    "args": "minecraft:cactus[age=0]"
+  },
+  {
+    "name": "Furnace (Facing East)",
+    "mat_id": "901",
+    "args": "minecraft:furnace[facing=east]"
+  },
+  {
+    "name": "Furnace (Facing North)",
+    "mat_id": "898",
+    "args": "minecraft:furnace[facing=north]"
+  },
+  {
+    "name": "Furnace (Facing South)",
+    "mat_id": "899",
+    "args": "minecraft:furnace[facing=south]"
+  },
+  {
+    "name": "Furnace (Facing West)",
+    "mat_id": "900",
+    "args": "minecraft:furnace[facing=west]"
+  },
+  {
+    "name": "Glass",
+    "mat_id": "49",
+    "args": "minecraft:glass_pane"
+  },
+  {
+    "name": "Glass Pane",
+    "mat_id": "176",
+    "args": "minecraft:glass_pane[east=false,west=false,north=false,south=false]"
+  },
+  {
+    "name": "Glowstone",
+    "mat_id": "137",
+    "args": "minecraft:glowstone"
+  },
+  {
+    "name": "Gold Block",
+    "mat_id": "73",
+    "args": "minecraft:gold_block"
+  },
+  {
+    "name": "Gold Ore",
+    "mat_id": "44",
+    "args": "minecraft:gold_ore"
+  },
+  {
+    "name": "Granite",
+    "mat_id": "5",
+    "args": "minecraft:granite"
+  },
+  {
+    "name": "Grass 1",
+    "mat_id": "1292",
+    "args": "minecraft:grass_block"
+  },
+  {
+    "name": "Grass 2",
+    "mat_id": "1293",
+    "args": "minecraft:grass_block"
+  },
+  {
+    "name": "Grass 3",
+    "mat_id": "1294",
+    "args": "minecraft:grass_block"
+  },
+  {
+    "name": "grass 6",
+    "mat_id": "1647",
+    "args": "minecraft:grass_block"
+  },
+  {
+    "name": "Grass 7",
+    "mat_id": "1648",
+    "args": "minecraft:grass_block"
+  },
+  {
+    "name": "Grass",
+    "mat_id": "14",
+    "args": "minecraft:tall_grass"
+  },
+  {
+    "name": "Grass",
+    "mat_id": "60",
+    "args": "minecraft:grass"
+  },
+  {
+    "name": "Grass Path",
+    "mat_id": "1692",
+    "args": "minecraft:dirt_path"
+  },
+  {
+    "name": "Gravel",
+    "mat_id": "28",
+    "args": "minecraft:gravel"
+  },
+  {
+    "name": "Gray Carpet",
+    "mat_id": "1103",
+    "args": "minecraft:gray_carpet"
+  },
+  {
+    "name": "Gray Stained Clay",
+    "mat_id": "251",
+    "args": "minecraft:gray_stained_hardened_clay"
+  },
+  {
+    "name": "Gray Stained Glass",
+    "mat_id": "153",
+    "args": "minecraft:gray_stained_glass"
+  },
+  {
+    "name": "Gray Stained Glass Pane",
+    "mat_id": "267",
+    "args": "minecraft:gray_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Gray Wool",
+    "mat_id": "66",
+    "args": "minecraft:wool[color=7]"
+  },
+  {
+    "name": "Green Carpet",
+    "mat_id": "1109",
+    "args": "minecraft:green_carpet[facing=north]"
+  },
+  {
+    "name": "Green Stained Clay",
+    "mat_id": "257",
+    "args": "minecraft:green_terracotta"
+  },
+  {
+    "name": "Green Stained Glass",
+    "mat_id": "159",
+    "args": "minecraft:green_stained_glass"
+  },
+  {
+    "name": "Green Stained Glass Pane",
+    "mat_id": "273",
+    "args": "minecraft:green_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Green Wool",
+    "mat_id": "71",
+    "args": "minecraft:green_wool[facing=north]"
+  },
+  {
+    "name": "Hardened Clay",
+    "mat_id": "425",
+    "args": "minecraft:<hardened_clay]"
+  },
+  {
+    "name": "Hay Bale (Axis X)",
+    "mat_id": "721",
+    "args": "minecraft:hay_bale[facing=east]"
+  },
+  {
+    "name": "Hay Bale (Axis Y)",
+    "mat_id": "720",
+    "args": "minecraft:hay_bale[facing=up]"
+  },
+  {
+    "name": "Hay Bale (Axis Z)",
+    "mat_id": "722",
+    "args": "minecraft:hay_bale[facing=north]"
+  },
+  {
+    "name": "Hopper (Output Facing Down, Activated)",
+    "mat_id": "1392",
+    "args": "minecraft:hopper[facing=down,triggered=true]"
+  },
+  {
+    "name": "Hopper (Output Facing Down, Disabled)",
+    "mat_id": "241",
+    "args": "minecraft:hopper[facing=down,enabled=false]"
+  },
+  {
+    "name": "Hopper (Output Facing East, Activated)",
+    "mat_id": "1397",
+    "args": "minecraft:hopper[facing=east,powered=true]"
+  },
+  {
+    "name": "Hopper (Output Facing East, Disabled)",
+    "mat_id": "1391",
+    "args": "minecraft:hopper[facing=east,enabled=false]"
+  },
+  {
+    "name": "Hopper (Output Facing North, Activated)",
+    "mat_id": "1394",
+    "args": "minecraft:hopper[facing=north,enabled=true]"
+  },
+  {
+    "name": "Hopper (Output Facing North, Disabled)",
+    "mat_id": "1388",
+    "args": "minecraft:hopper[facing=north,enabled=false]"
+  },
+  {
+    "name": "Hopper (Output Facing South, Activated)",
+    "mat_id": "1395",
+    "args": "minecraft:hopper[facing=south,enabled=true]"
+  },
+  {
+    "name": "Hopper (Output Facing South, Disabled)",
+    "mat_id": "1389",
+    "args": "minecraft:hopper[facing=south,enabled=false]"
+  },
+  {
+    "name": "Hopper (Output Facing West, Activated)",
+    "mat_id": "1396",
+    "args": "minecraft:hopper[facing=west,enabled=true]"
+  },
+  {
+    "name": "Hopper (Output Facing West, Disabled)",
+    "mat_id": "1390",
+    "args": "minecraft:hopper[facing=west,enabled=false]"
+  },
+  {
+    "name": "Ice",
+    "mat_id": "127",
+    "args": "minecraft:ice"
+  },
+  {
+    "name": "Iron Bars 1",
+    "mat_id": "1644",
+    "args": "minecraft:iron_bars[north=false,east=true,south=true,west=false]"
+  },
+  {
+    "name": "Iron Bars",
+    "mat_id": "173",
+    "args": "minecraft:iron_bars[facing=north]"
+  },
+  {
+    "name": "Iron Block",
+    "mat_id": "74",
+    "args": "minecraft:iron_block"
+  },
+  {
+    "name": "Iron Door (Lower, Facing East, Closed)",
+    "mat_id": "458",
+    "args": "minecraft:iron_door[half=lower,facing=east,open=false]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing East, Opened)",
+    "mat_id": "462",
+    "args": "minecraft:iron_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing North, Closed)",
+    "mat_id": "457",
+    "args": "minecraft:iron_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing North, Opened)",
+    "mat_id": "461",
+    "args": "minecraft:iron_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing South, Closed)",
+    "mat_id": "459",
+    "args": "minecraft:iron_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing South, Opened)",
+    "mat_id": "463",
+    "args": "minecraft:iron_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing West, Closed)",
+    "mat_id": "119",
+    "args": "minecraft:iron_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Iron Door (Lower, Facing West, Opened)",
+    "mat_id": "460",
+    "args": "minecraft:iron_door[facing=west,half=lower,open=true]"
+  },
+  {
+    "name": "Iron Door (Upper, Hinge Left, Powered)",
+    "mat_id": "466",
+    "args": "minecraft:iron_door[facing=north,half=upper,hinge=left,powered=true]"
+  },
+  {
+    "name": "Iron Door (Upper, Hinge Left, Unpowered)",
+    "mat_id": "464",
+    "args": "minecraft:iron_door[facing=north,half=upper,hinge=left,open=false]"
+  },
+  {
+    "name": "Iron Door (Upper, Hinge Right, Powered)",
+    "mat_id": "467",
+    "args": "minecraft:iron_door[facing=north,half=upper,hinge=right,powered=true]"
+  },
+  {
+    "name": "Iron Door (Upper, Hinge Right, Unpowered)",
+    "mat_id": "465",
+    "args": "minecraft:iron_door[facing=north,half=upper, hinge=right,power=false]"
+  },
+  {
+    "name": "Iron Ore",
+    "mat_id": "45",
+    "args": "minecraft:iron_ore"
+  },
+  {
+    "name": "Iron Trapdoor (East from block, Closed, Bottom half)",
+    "mat_id": "883",
+    "args": "minecraft:iron_trapdoor[facing=east,open=false,half=bottom]"
+  },
+  {
+    "name": "Iron Trapdoor (East from block, Closed, Top Half)",
+    "mat_id": "891",
+    "args": "minecraft:iron_trapdoor[facing=east,half=top,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (East from block, Open, Bottom half)",
+    "mat_id": "887",
+    "args": "minecraft:iron_trapdoor[facing=east,half=bottom,open=true]"
+  },
+  {
+    "name": "Iron Trapdoor (East from block, Open, Top Half)",
+    "mat_id": "895",
+    "args": "minecraft:iron_trapdoor[facing=east,half=top,open=true]"
+  },
+  {
+    "name": "Iron Trapdoor (North from block, Closed, Bottom half)",
+    "mat_id": "884",
+    "args": "minecraft:iron_trapdoor[facing=north,half=bottom,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (North from block, Closed, Top Half)",
+    "mat_id": "892",
+    "args": "minecraft:iron_trapdoor[facing=north,half=top,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (North from block, Open, Bottom half)",
+    "mat_id": "888",
+    "args": "minecraft:iron_trapdoor[facing=north,half=bottom,open=true]"
+  },
+  {
+    "name": "Iron Trapdoor (North from block, Open, Top Half)",
+    "mat_id": "896",
+    "args": "minecraft:iron_trapdoor[facing=north,half=top,open=true]"
+  },
+  {
+    "name": "Iron Trapdoor (South from block, Closed, Bottom half)",
+    "mat_id": "882",
+    "args": "minecraft:iron_trapdoor[facing=south,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (South from block, Closed, Top Half)",
+    "mat_id": "890",
+    "args": "minecraft:iron_trapdoor[facing=south,half=top,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (South from block, Open, Bottom half)",
+    "mat_id": "886",
+    "args": "minecraft:iron_trapdoor[facing=south,open=true,half=bottom]"
+  },
+  {
+    "name": "Iron Trapdoor (South from block, Open, Top Half)",
+    "mat_id": "894",
+    "args": "minecraft:iron_trapdoor[facing=south,open=true,half=top]"
+  },
+  {
+    "name": "Iron Trapdoor (West from block, Closed, Bottom half)",
+    "mat_id": "881",
+    "args": "minecraft:iron_trapdoor[facing=west,half=bottom,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (West from block, Closed, Top Half)",
+    "mat_id": "889",
+    "args": "minecraft:iron_trapdoor[facing=west,half=top,open=false]"
+  },
+  {
+    "name": "Iron Trapdoor (West from block, Open, Bottom half)",
+    "mat_id": "885",
+    "args": "minecraft:iron_trapdoor[facing=west,half=bottom,open=true]"
+  },
+  {
+    "name": "Iron Trapdoor (West from block, Open, Top Half)",
+    "mat_id": "893",
+    "args": "minecraft:iron_trapdoor[facing=west,open=true,half=top]"
+  },
+  {
+    "name": "Jack-o-Lantern (Facing East)",
+    "mat_id": "1583",
+    "args": "minecraft:carved_pumpkin[facing=east]"
+  },
+  {
+    "name": "Jack-o-Lantern (Facing North)",
+    "mat_id": "1582",
+    "args": "minecraft:pumpkin[facing=north]"
+  },
+  {
+    "name": "Jack-o-Lantern (Facing South)",
+    "mat_id": "142",
+    "args": "minecraft:pumpkin[facing=south]"
+  },
+  {
+    "name": "Jack-o-Lantern (Facing West)",
+    "mat_id": "1581",
+    "args": "minecraft:pumpkin[facing=west]"
+  },
+  {
+    "name": "Jukebox (Disc inside)",
+    "mat_id": "1295",
+    "args": "minecraft:jukebox{has_record=true]"
+  },
+  {
+    "name": "Jukebox",
+    "mat_id": "132",
+    "args": "minecraft:jukebox"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing East, Closed)",
+    "mat_id": "984",
+    "args": "minecraft:jungle_door[facing=east,half=lower,open=false]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing East, Opened)",
+    "mat_id": "988",
+    "args": "minecraft:jungle_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing North, Closed)",
+    "mat_id": "983",
+    "args": "minecraft:jungle_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing North, Opened)",
+    "mat_id": "987",
+    "args": "minecraft:jungle_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing South, Closed)",
+    "mat_id": "985",
+    "args": "minecraft:jungle_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing South, Opened)",
+    "mat_id": "989",
+    "args": "minecraft:jungle_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing West, Closed)",
+    "mat_id": "982",
+    "args": "minecraft:jungle_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Jungle Door (Lower, Facing West, Opened)",
+    "mat_id": "986",
+    "args": "minecraft:jungle_door[facing=west,half=lower,open=true]"
+  },
+  {
+    "name": "Jungle Door (Upper, Hinge Left, Unpowered)",
+    "mat_id": "990",
+    "args": "minecraft:jungle_door[facing=north,half=upper,hinge=left,power=0]"
+  },
+  {
+    "name": "Jungle Door (Upper, Hinge Right, Unpowered)",
+    "mat_id": "991",
+    "args": "minecraft:jungle_door[half=upper,facing=west,hinge=right,powered=false]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing East, Closed)",
+    "mat_id": "1061",
+    "args": "minecraft:jungle_fence_gate[facing=east,open=false]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing East, Opened)",
+    "mat_id": "1065",
+    "args": "minecraft:jungle_fence_gate[facing=east,open=true]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing North, Closed)",
+    "mat_id": "1060",
+    "args": "minecraft:jungle_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing South, Closed)",
+    "mat_id": "1058",
+    "args": "minecraft:jungle_fence_gate[facing=south,open=false]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing West, Closed)",
+    "mat_id": "1059",
+    "args": "minecraft:jungle_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Jungle Fence Gate (Facing West, Opened)",
+    "mat_id": "1063",
+    "args": "minecraft:jungle_fence_gate[facing=west,open=true]"
+  },
+  {
+    "name": "Jungle Fence",
+    "mat_id": "909",
+    "args": "minecraft:jungle_fence[facing=north]"
+  },
+  {
+    "name": "Jungle Leaves (Check Decay)",
+    "mat_id": "324",
+    "args": "minecraft:jungle_leaves[decayable=true]"
+  },
+  {
+    "name": "Jungle Leaves",
+    "mat_id": "36",
+    "args": "minecraft:jungle_leaves[distance=1]"
+  },
+  {
+    "name": "Jungle Leaves (No Decay and Check Decay)",
+    "mat_id": "320",
+    "args": "minecraft:leaves[variant=jungle, decayable=false, check_decay=true]"
+  },
+  {
+    "name": "Jungle Leaves (No Decay)",
+    "mat_id": "290",
+    "args": "minecraft:jungle_leaves[decayable=false]"
+  },
+  {
+    "name": "Jungle sapling Flower Pot",
+    "mat_id": "338",
+    "args": "minecraft:potted_jungle_sapling"
+  },
+  {
+    "name": " (Jungle Wood, Bottom)",
+    "mat_id": "208",
+    "args": "minecraft:jungle_wood[variant=bottom]"
+  },
+  {
+    "name": "Jungle Wood (facing east/west)",
+    "mat_id": "432",
+    "args": "minecraft:jungle_wood[facing=east_west]"
+  },
+  {
+    "name": "Jungle Wood (facing north/south)",
+    "mat_id": "434",
+    "args": "minecraft:jungle_wood[facing=north]"
+  },
+  {
+    "name": "Jungle Wood",
+    "mat_id": "32",
+    "args": "minecraft:jungle_wood"
+  },
+  {
+    "name": "Jungle Wood (only bark)",
+    "mat_id": "438",
+    "args": "minecraft:jungle_wood[bark=true]"
+  },
+  {
+    "name": "Jungle Wood Plank",
+    "mat_id": "22",
+    "args": "minecraft:jungle_planks"
+  },
+  {
+    "name": "Jungle Wood Stairs (East, Normal)",
+    "mat_id": "220",
+    "args": "minecraft:jungle_stairs[facing=east]"
+  },
+  {
+    "name": "Jungle Wood Stairs (East, Upside-down)",
+    "mat_id": "636",
+    "args": "minecraft:jungle_stairs[facing=east,half=top]"
+  },
+  {
+    "name": "Jungle Wood Stairs (North, Normal)",
+    "mat_id": "635",
+    "args": "minecraft:jungle_stairs[facing=north,shape=straight]"
+  },
+  {
+    "name": "Jungle Wood Stairs (North, Upside-down)",
+    "mat_id": "639",
+    "args": "minecraft:jungle_stairs[facing=north,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Jungle Wood Stairs (South, Normal)",
+    "mat_id": "634",
+    "args": "minecraft:jungle_stairs[facing=south]"
+  },
+  {
+    "name": "Jungle Wood Stairs (South, Upside-down)",
+    "mat_id": "638",
+    "args": "minecraft:jungle_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Jungle Wood Stairs (West, Normal)",
+    "mat_id": "633",
+    "args": "minecraft:jungle_stairs[facing=west]"
+  },
+  {
+    "name": "Jungle Wood Stairs (West, Upside-down)",
+    "mat_id": "637",
+    "args": "minecraft:jungle_stairs[facing=west,half=top,inverted=true]"
+  },
+  {
+    "name": " (Jungle Wood, Upper)",
+    "mat_id": "301",
+    "args": "minecraft:jungle_wood[variant=upper]"
+  },
+  {
+    "name": "Ladder (facing east)",
+    "mat_id": "350",
+    "args": "minecraft:ladder[facing=east]"
+  },
+  {
+    "name": "Ladder (facing north)",
+    "mat_id": "347",
+    "args": "minecraft:ladder[facing=north]"
+  },
+  {
+    "name": "Ladder (facing south)",
+    "mat_id": "348",
+    "args": "minecraft:ladder[facing=south]"
+  },
+  {
+    "name": "Ladder (facing west)",
+    "mat_id": "349",
+    "args": "minecraft:ladder[facing=west]"
+  },
+  {
+    "name": "Lapis Lazuli Block",
+    "mat_id": "51",
+    "args": "minecraft:lapis_block"
+  },
+  {
+    "name": "Lapis Lazuli Ore",
+    "mat_id": "50",
+    "args": "minecraft:lapis_ore"
+  },
+  {
+    "name": "Lava (Height Level 2, Falling Lava)",
+    "mat_id": "1604",
+    "args": "minecraft:lava[level=2,falling=true]"
+  },
+  {
+    "name": "Lava (Height Level 2, Still Lava)",
+    "mat_id": "1545",
+    "args": "minecraft:lava[level=15]"
+  },
+  {
+    "name": "Lava (Height Level 4, Falling Lava)",
+    "mat_id": "1606",
+    "args": "minecraft:lava[level=4,falling=true]"
+  },
+  {
+    "name": "Lava (Height Level 4, Still Lava)",
+    "mat_id": "1547",
+    "args": "minecraft:lava[level=4]"
+  },
+  {
+    "name": "Lava (Height Level 6, Falling Lava)",
+    "mat_id": "1608",
+    "args": "minecraft:lava[level=6,falls=true]"
+  },
+  {
+    "name": "Lava (Height Level 6, Still Lava)",
+    "mat_id": "1549",
+    "args": "minecraft:lava[level=6]"
+  },
+  {
+    "name": "Lava (Lava Source Block, Falling Lava)",
+    "mat_id": "1551",
+    "args": "minecraft:lava[level=1,falling=true]"
+  },
+  {
+    "name": "Lava (Lava Source Block, Still Lava)",
+    "mat_id": "1173",
+    "args": "minecraft:lava[level=0]"
+  },
+  {
+    "name": "Lever (On Block Bottom Points East When Off, Active)",
+    "mat_id": "390",
+    "args": "minecraft:lever[facing=east,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Bottom Points East When Off, Not Active)",
+    "mat_id": "117",
+    "args": "minecraft:lever[facing=east,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Bottom Points South When Off, Active)",
+    "mat_id": "1326",
+    "args": "minecraft:lever[facing=south,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Bottom Points South When Off, Not Active)",
+    "mat_id": "389",
+    "args": "minecraft:lever[facing=south,powered=false]"
+  },
+  {
+    "name": "Lever (On Block Side Facing East, Active)",
+    "mat_id": "391",
+    "args": "minecraft:lever[facing=east,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Side Facing East, Not Active)",
+    "mat_id": "383",
+    "args": "minecraft:lever[powered=false,facing=east]"
+  },
+  {
+    "name": "Lever (On Block Side Facing North, Active)",
+    "mat_id": "393",
+    "args": "minecraft:lever[facing=north,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Side Facing North, Not Active)",
+    "mat_id": "386",
+    "args": "minecraft:lever[facing=north,powered=false]"
+  },
+  {
+    "name": "Lever (On Block Side Facing South, Active)",
+    "mat_id": "392",
+    "args": "minecraft:lever[facing=south, powered=true]"
+  },
+  {
+    "name": "Lever (On Block Side Facing South, Not Active)",
+    "mat_id": "385",
+    "args": "minecraft:lever[face=south,powered=false]"
+  },
+  {
+    "name": "Lever (On Block Side Facing West, Active)",
+    "mat_id": "346",
+    "args": "minecraft:lever{facing=west,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Side Facing West, Not Active)",
+    "mat_id": "384",
+    "args": "minecraft:lever[facing=west,powered=false]"
+  },
+  {
+    "name": "Lever (On Block Top Points East When Off, Active)",
+    "mat_id": "1325",
+    "args": "minecraft:tripwire_hook[facing=east,attached=true]"
+  },
+  {
+    "name": "Lever (On Block Top Points East When Off, Not Active)",
+    "mat_id": "388",
+    "args": "minecraft:lever[facing=east,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Top Points South When Off, Active)",
+    "mat_id": "1324",
+    "args": "minecraft:lever[facing=south,powered=true]"
+  },
+  {
+    "name": "Lever (On Block Top Points South When Off, Not Active)",
+    "mat_id": "387",
+    "args": "minecraft:lever{facing=south]"
+  },
+  {
+    "name": "Light Blue Carpet",
+    "mat_id": "1099",
+    "args": "minecraft:light_blue_carpet"
+  },
+  {
+    "name": "Light Blue Stained Clay",
+    "mat_id": "247",
+    "args": "minecraft:concrete_powder{color:light_blue]"
+  },
+  {
+    "name": "Light Blue Stained Glass",
+    "mat_id": "149",
+    "args": "minecraft:light_blue_stained_glass"
+  },
+  {
+    "name": "Light Blue Stained Glass Pane",
+    "mat_id": "263",
+    "args": "minecraft:light_blue_stained_glass_pane"
+  },
+  {
+    "name": "Light Blue Wool",
+    "mat_id": "63",
+    "args": "minecraft:light_blue_wool"
+  },
+  {
+    "name": "Light Gray Carpet",
+    "mat_id": "1104",
+    "args": "minecraft:light_gray_carpet"
+  },
+  {
+    "name": "Light Gray Stained Clay",
+    "mat_id": "252",
+    "args": "minecraft:light_gray_stained_hardened_clay"
+  },
+  {
+    "name": "Light Gray Stained Glass",
+    "mat_id": "154",
+    "args": "minecraft:light_grey_stained_glass_pane[facing=east]"
+  },
+  {
+    "name": "Light Gray Stained Glass Pane",
+    "mat_id": "268",
+    "args": "minecraft:light_gray_stained_glass_pane[east=false,north=false,south=false,west=false]"
+  },
+  {
+    "name": "Light Gray Wool",
+    "mat_id": "67",
+    "args": "minecraft:wool[color=silver]"
+  },
+  {
+    "name": "Lily Pad",
+    "mat_id": "185",
+    "args": "minecraft:<lily_pad>[waterlogged=false]"
+  },
+  {
+    "name": "Lime Carpet",
+    "mat_id": "1101",
+    "args": "minecraft:lime_carpet[facing=north]"
+  },
+  {
+    "name": "Lime Stained Clay",
+    "mat_id": "249",
+    "args": "minecraft:lime_terracotta"
+  },
+  {
+    "name": "Lime Stained Glass",
+    "mat_id": "151",
+    "args": "minecraft:stained_glass{color:lime]"
+  },
+  {
+    "name": "Lime Stained Glass Pane",
+    "mat_id": "265",
+    "args": "minecraft:lime_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Lime Wool",
+    "mat_id": "65",
+    "args": "minecraft:lime_wool"
+  },
+  {
+    "name": "Magenta Carpet",
+    "mat_id": "1098",
+    "args": "minecraft:magenta_carpet"
+  },
+  {
+    "name": "Magenta Stained Clay",
+    "mat_id": "246",
+    "args": "minecraft:magenta_stained_clay"
+  },
+  {
+    "name": "Magenta Stained Glass",
+    "mat_id": "147",
+    "args": "minecraft:magenta_stained_glass"
+  },
+  {
+    "name": "Magenta Stained Glass Pane",
+    "mat_id": "262",
+    "args": "minecraft:magenta_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Magenta Wool",
+    "mat_id": "42",
+    "args": "minecraft:magenta_wool"
+  },
+  {
+    "name": "Magma block",
+    "mat_id": "1715",
+    "args": "minecraft:magma_block"
+  },
+  {
+    "name": "Melon Block",
+    "mat_id": "177",
+    "args": "minecraft:melon_block"
+  },
+  {
+    "name": "Melon Stem (Fifth stage of growth)",
+    "mat_id": "1559",
+    "args": "minecraft:melon_stem[age=4]"
+  },
+  {
+    "name": "Melon Stem (First stage of growth)",
+    "mat_id": "1555",
+    "args": "minecraft:melon_stem[age=0]"
+  },
+  {
+    "name": "Melon Stem (Fourth stage of growth)",
+    "mat_id": "1558",
+    "args": "minecraft:melon_stem[age=7]"
+  },
+  {
+    "name": "Melon Stem (Second stage of growth)",
+    "mat_id": "1556",
+    "args": "minecraft:melon_stem[age=1]"
+  },
+  {
+    "name": "Melon Stem (Seventh stage of growth)",
+    "mat_id": "1561",
+    "args": "minecraft:melon_stem[age=7]"
+  },
+  {
+    "name": "Melon Stem (Sixth stage of growth)",
+    "mat_id": "1560",
+    "args": "minecraft:melon_stem[age=7]"
+  },
+  {
+    "name": "Melon Stem (Third stage of growth)",
+    "mat_id": "1557",
+    "args": "minecraft:melon_stem[age=2]"
+  },
+  {
+    "name": "Mob Head ()",
+    "mat_id": "231",
+    "args": "minecraft:<skull>[facing=north,type={}]"
+  },
+  {
+    "name": "Mob Head (On a Wall Facing East)",
+    "mat_id": "1425",
+    "args": "minecraft:skull[facing=east,rotation=0]"
+  },
+  {
+    "name": "Mob Head (On a Wall Facing North)",
+    "mat_id": "1423",
+    "args": "minecraft:skull[facing=north,rotation=0]"
+  },
+  {
+    "name": "Mob Head (On a Wall Facing South)",
+    "mat_id": "1424",
+    "args": "minecraft:skull[facing=south,rot=0]"
+  },
+  {
+    "name": "Mob Head (On a Wall Facing West)",
+    "mat_id": "1426",
+    "args": "minecraft:skull[facing=west]"
+  },
+  {
+    "name": "Mob Head (On The Floor)",
+    "mat_id": "1422",
+    "args": "minecraft:skull[facing=down]"
+  },
+  {
+    "name": "Monster Spawner",
+    "mat_id": "100",
+    "args": "minecraft:<spawner>{EntityId:Zombie]"
+  },
+  {
+    "name": "Moss Stone",
+    "mat_id": "96",
+    "args": "minecraft:mossy_stone_bricks"
+  },
+  {
+    "name": "Mossy Cobblestone Wall",
+    "mat_id": "224",
+    "args": "minecraft:mossy_cobblestone_wall[facing=north]"
+  },
+  {
+    "name": "Mossy Stone Brick Monster Egg",
+    "mat_id": "166",
+    "args": "minecraft:monster_egg{BlockStateNameOverride: mossy_stone_brick]"
+  },
+  {
+    "name": "Mossy Stone Bricks",
+    "mat_id": "170",
+    "args": "minecraft:mossy_stone_bricks"
+  },
+  {
+    "name": "Mycelium",
+    "mat_id": "184",
+    "args": "minecraft:mycelium"
+  },
+  {
+    "name": "Nether Brick Fence",
+    "mat_id": "187",
+    "args": "minecraft:nether_brick_fence[facing=north]"
+  },
+  {
+    "name": "Nether Brick",
+    "mat_id": "186",
+    "args": "minecraft:<nether_brick]"
+  },
+  {
+    "name": "Nether Brick Slab",
+    "mat_id": "91",
+    "args": "minecraft:nether_brick_slab[type=double]"
+  },
+  {
+    "name": "Nether Brick Slab (Upper)",
+    "mat_id": "499",
+    "args": "minecraft:nether_brick_slab[type=top]"
+  },
+  {
+    "name": "Nether Brick Stairs (East, Normal)",
+    "mat_id": "188",
+    "args": "minecraft:nether_brick_stairs[facing=east]"
+  },
+  {
+    "name": "Nether Brick Stairs (East, Upside-down)",
+    "mat_id": "604",
+    "args": "minecraft:nether_brick_stairs[facing=east,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Nether Brick Stairs (North, Normal)",
+    "mat_id": "603",
+    "args": "minecraft:nether_brick_stairs[facing=north]"
+  },
+  {
+    "name": "Nether Brick Stairs (North, Upside-down)",
+    "mat_id": "607",
+    "args": "minecraft:nether_brick_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Nether Brick Stairs (South, Normal)",
+    "mat_id": "602",
+    "args": "minecraft:nether_brick_stairs[facing=south]"
+  },
+  {
+    "name": "Nether Brick Stairs (South, Upside-down)",
+    "mat_id": "606",
+    "args": "minecraft:nether_brick_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Nether Brick Stairs (West, Normal)",
+    "mat_id": "601",
+    "args": "minecraft:nether_brick_stairs[facing=west,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Nether Brick Stairs (West, Upside-down)",
+    "mat_id": "605",
+    "args": "minecraft:nether_brick_stairs[facing=west,half=bottom]"
+  },
+  {
+    "name": "Nether Portal (Axis X - Oriented East-West)",
+    "mat_id": "1083",
+    "args": "minecraft:nether_portal{axis=x]"
+  },
+  {
+    "name": "Nether Portal (Axis Z - Oriented North-South)",
+    "mat_id": "1084",
+    "args": "minecraft:portal{axis=z]"
+  },
+  {
+    "name": "Nether Quartz Ore",
+    "mat_id": "240",
+    "args": "minecraft:nether_quartz_ore"
+  },
+  {
+    "name": "Netherrack",
+    "mat_id": "135",
+    "args": "minecraft:netherrack"
+  },
+  {
+    "name": "Nether Wart Block",
+    "mat_id": "1721",
+    "args": "minecraft:nether_wart_block"
+  },
+  {
+    "name": "Nether Wart ()",
+    "mat_id": "1088",
+    "args": "minecraft:nether_warts[age=0]"
+  },
+  {
+    "name": "Note Block",
+    "mat_id": "56",
+    "args": "minecraft:note_block{note=0]"
+  },
+  {
+    "name": "Oak Door (Facing East, Closed, Lower)",
+    "mat_id": "451",
+    "args": "minecraft:oak_door[facing=east,half=lower,open=false]"
+  },
+  {
+    "name": "Oak Door (Facing East, Opened, Lower)",
+    "mat_id": "453",
+    "args": "minecraft:oak_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Oak Door (Facing East, Opened)",
+    "mat_id": "1441",
+    "args": "minecraft:oak_door[facing=east,open=true]"
+  },
+  {
+    "name": "Oak Door (Facing North, Closed, Lower)",
+    "mat_id": "450",
+    "args": "minecraft:oak_door[facing=north,half=lower,open=false]"
+  },
+  {
+    "name": "Oak Door (Facing North, Opened, Lower)",
+    "mat_id": "312",
+    "args": "minecraft:oak_door[facing=north,open=true,half=lower]"
+  },
+  {
+    "name": "Oak Door (Facing North, Opened)",
+    "mat_id": "1440",
+    "args": "minecraft:oak_door[facing=north,open=true]"
+  },
+  {
+    "name": "Oak Door (Facing South, Closed, Lower)",
+    "mat_id": "452",
+    "args": "minecraft:oak_door[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Oak Door (Facing South, Opened, Lower)",
+    "mat_id": "454",
+    "args": "minecraft:oak_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Oak Door (Facing South, Opened)",
+    "mat_id": "1442",
+    "args": "minecraft:oak_door[facing=south,open=true]"
+  },
+  {
+    "name": "Oak Door (Facing West, Closed, Lower)",
+    "mat_id": "112",
+    "args": "minecraft:oak_door[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Oak Door (Facing West, Opened, Lower)",
+    "mat_id": "306",
+    "args": "minecraft:oak_door[facing=west,hinge=left,open=true,powered=false]"
+  },
+  {
+    "name": "Oak Door (Hinge Left, Powered, Upper)",
+    "mat_id": "455",
+    "args": "minecraft:oak_door[facing=north,half=upper,hinge=left,powerd=true]"
+  },
+  {
+    "name": "Oak Door (Hinge Left, Unpowered, Upper",
+    "mat_id": "309",
+    "args": "minecraft:oak_door[facing=north,half=upper,hinge=left,open=false]"
+  },
+  {
+    "name": "Oak Door (Hinge Right, Powered, Upper)",
+    "mat_id": "1439",
+    "args": "minecraft:door[facing=north,half=upper,hinge=right,power=true]"
+  },
+  {
+    "name": "Oak Door (Hinge Right, Powered, Upper )",
+    "mat_id": "456",
+    "args": "minecraft:oak_door[facing=north,half=upper,hinge=right,powered=true]"
+  },
+  {
+    "name": "Oak Door (Hinge Right, Unpowered, Upper)",
+    "mat_id": "310",
+    "args": "minecraft:oak_door[facing=east,half=upper,hinge=right,open=false]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing East, Closed)",
+    "mat_id": "1037",
+    "args": "minecraft:oak_fence_gate[facing=east,open=false]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing East, Opened)",
+    "mat_id": "1041",
+    "args": "minecraft:oak_fence_gate[facing=east,open=true]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing North, Closed)",
+    "mat_id": "1036",
+    "args": "minecraft:oak_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing North, Opened)",
+    "mat_id": "1040",
+    "args": "minecraft:oak_fence_gate[facing=north,open=true]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing South, Closed)",
+    "mat_id": "181",
+    "args": "minecraft:oak_fence_gate[facing=south,open=false]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing South, Opened)",
+    "mat_id": "1038",
+    "args": "minecraft:oak_fence_gate[facing=south,open=true]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing West, Closed)",
+    "mat_id": "1035",
+    "args": "minecraft:oak_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Oak Fence Gate (Facing West, Opened)",
+    "mat_id": "1039",
+    "args": "minecraft:oak_fence_gate[facing=west,open=true]"
+  },
+  {
+    "name": "Oak Fence",
+    "mat_id": "133",
+    "args": "minecraft:oak_fence[north=true]"
+  },
+  {
+    "name": "Oak Leaves (Check Decay)",
+    "mat_id": "1196",
+    "args": "minecraft:leaves[type=oak,decayable=true]"
+  },
+  {
+    "name": "Oak Leaves",
+    "mat_id": "33",
+    "args": "minecraft:leaves[foliage=oak,persistent=true]"
+  },
+  {
+    "name": "Oak Leaves (No Decay and Check Decay)",
+    "mat_id": "323",
+    "args": "minecraft:oak_leaves[decayable=false,check_decay=true]"
+  },
+  {
+    "name": "Oak Leaves (No Decay)",
+    "mat_id": "328",
+    "args": "minecraft:leaves[variant=oak,persistent=true]"
+  },
+  {
+    "name": "Oak sapling Flower Pot",
+    "mat_id": "335",
+    "args": "minecraft:flower_pot[plant_type=sapling,facing=north]"
+  },
+  {
+    "name": "Oak Wood (facing east/west)",
+    "mat_id": "295",
+    "args": "minecraft:oak_wood"
+  },
+  {
+    "name": "Oak Wood (facing north/south)",
+    "mat_id": "294",
+    "args": "minecraft:oak_wood"
+  },
+  {
+    "name": "Oak Wood",
+    "mat_id": "29",
+    "args": "minecraft:oak_wood"
+  },
+  {
+    "name": "Oak Wood (only bark)",
+    "mat_id": "435",
+    "args": "minecraft:log[facing=north,axis=y]"
+  },
+  {
+    "name": "Oak Wood Plank",
+    "mat_id": "19",
+    "args": "minecraft:oak_planks"
+  },
+  {
+    "name": "Oak Wood Slab (Bottom)",
+    "mat_id": "205",
+    "args": "minecraft:oak_slab[type=bottom]"
+  },
+  {
+    "name": " Oak Wood Slab (Upper)",
+    "mat_id": "325",
+    "args": "minecraft:oak_slab[type=top]"
+  },
+  {
+    "name": "Oak Wood Stairs (East, Normal)",
+    "mat_id": "101",
+    "args": "minecraft:oak_stairs[facing=east]"
+  },
+  {
+    "name": "Oak Wood Stairs (East, Upside-down)",
+    "mat_id": "406",
+    "args": "minecraft:oak_stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Oak Wood Stairs (North, Normal)",
+    "mat_id": "296",
+    "args": "minecraft:oak_stairs[facing=north,half=bottom]"
+  },
+  {
+    "name": "Oak Wood Stairs (North, Upside-down)",
+    "mat_id": "409",
+    "args": "minecraft:stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Oak Wood Stairs (South, Normal)",
+    "mat_id": "298",
+    "args": "minecraft:oak_stairs[facing=south]"
+  },
+  {
+    "name": "Oak Wood Stairs (South, Upside-down)",
+    "mat_id": "408",
+    "args": "minecraft:oak_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Oak Wood Stairs (West, Normal)",
+    "mat_id": "297",
+    "args": "minecraft:oak_stairs[facing=west]"
+  },
+  {
+    "name": "Oak Wood Stairs (West, Upside-down)",
+    "mat_id": "407",
+    "args": "minecraft:oak_stairs[facing=west,half=bottom,waterlogged=false]"
+  },
+  {
+    "name": "Obsidian",
+    "mat_id": "97",
+    "args": "minecraft:obsidian"
+  },
+  {
+    "name": "Orange Carpet",
+    "mat_id": "1097",
+    "args": "minecraft:orange_carpet"
+  },
+  {
+    "name": "Orange Stained Clay",
+    "mat_id": "245",
+    "args": "minecraft:orange_terracotta"
+  },
+  {
+    "name": "Orange Stained Glass",
+    "mat_id": "148",
+    "args": "minecraft:orange_stained_glass"
+  },
+  {
+    "name": "Orange Stained Glass Pane",
+    "mat_id": "261",
+    "args": "minecraft:orange_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Orange Tulip",
+    "mat_id": "1186",
+    "args": "minecraft:orange_tulip[facing=north]"
+  },
+  {
+    "name": "Orange Wool",
+    "mat_id": "62",
+    "args": "minecraft:orange_wool"
+  },
+  {
+    "name": "Oxeye Daisy",
+    "mat_id": "285",
+    "args": "minecraft:oxeye_daisy[facing=north]"
+  },
+  {
+    "name": "Packed Ice",
+    "mat_id": "1652",
+    "args": "minecraft:packed_ice"
+  },
+  {
+    "name": "Pillar Quartz Block (east-west)",
+    "mat_id": "303",
+    "args": "minecraft:quartz_pillar[facing=east]"
+  },
+  {
+    "name": "Pillar Quartz Block",
+    "mat_id": "243",
+    "args": "minecraft:quartz_pillar"
+  },
+  {
+    "name": "Pillar Quartz Block (north-south)",
+    "mat_id": "299",
+    "args": "minecraft:quartz_pillar[facing=north_south]"
+  },
+  {
+    "name": "Pink Carpet",
+    "mat_id": "1102",
+    "args": "minecraft:pink_carpet[dye=magenta]"
+  },
+  {
+    "name": "Pink Stained Clay",
+    "mat_id": "250",
+    "args": "minecraft:stained_hardened_clay[color=pink]"
+  },
+  {
+    "name": "Pink Stained Glass",
+    "mat_id": "152",
+    "args": "minecraft:pink_stained_glass"
+  },
+  {
+    "name": "Pink Stained Glass Pane",
+    "mat_id": "266",
+    "args": "minecraft:stained_glass_pane[color=pink]"
+  },
+  {
+    "name": "Pink Tulip",
+    "mat_id": "1188",
+    "args": "minecraft:<pink_tulip]"
+  },
+  {
+    "name": "Pink Wool",
+    "mat_id": "41",
+    "args": "minecraft:pink_wool"
+  },
+  {
+    "name": "Piston (6-sided piston2, Extended)",
+    "mat_id": "687",
+    "args": "minecraft:piston[extended=true,facing=north,type=sticky]"
+  },
+  {
+    "name": "Piston Extension (Facing down, Not Extended)",
+    "mat_id": "1157",
+    "args": "minecraft:piston[facing=down,extended=false]"
+  },
+  {
+    "name": "Piston Extension (Facing up, Extended)",
+    "mat_id": "1166",
+    "args": "minecraft:piston[facing=up,extended=true]"
+  },
+  {
+    "name": "Piston Extension (Facing up, Not Extended)",
+    "mat_id": "1158",
+    "args": "minecraft:piston[facing=up,extended=false]"
+  },
+  {
+    "name": "Piston (Facing down, Extended)",
+    "mat_id": "680",
+    "args": "minecraft:piston[facing=down,extended=true]"
+  },
+  {
+    "name": "Piston (Facing down, Not Extended)",
+    "mat_id": "500",
+    "args": "minecraft:piston[facing=down,extended=false]"
+  },
+  {
+    "name": "Piston (Facing east, Extended)",
+    "mat_id": "685",
+    "args": "minecraft:piston{facing=east,extended=true]"
+  },
+  {
+    "name": "Piston (Facing east, Not Extended)",
+    "mat_id": "505",
+    "args": "minecraft:piston[facing=east,extended=false]"
+  },
+  {
+    "name": "Piston (Facing north, Extended)",
+    "mat_id": "682",
+    "args": "minecraft:piston[facing=north,extended=true]"
+  },
+  {
+    "name": "Piston (Facing north, Not Extended)",
+    "mat_id": "502",
+    "args": "minecraft:piston[facing=north,extended=false]"
+  },
+  {
+    "name": "Piston (Facing south, Extended)",
+    "mat_id": "683",
+    "args": "minecraft:piston[facing=south,extended=true]"
+  },
+  {
+    "name": "Piston (Facing south, Not Extended)",
+    "mat_id": "503",
+    "args": "minecraft:piston[facing=south,extended=false]"
+  },
+  {
+    "name": "Piston (Facing up, Extended)",
+    "mat_id": "681",
+    "args": "minecraft:piston[facing=up,extended=true]"
+  },
+  {
+    "name": "Piston (Facing up, Not Extended)",
+    "mat_id": "501",
+    "args": "minecraft:piston[facing=up,extended=false]"
+  },
+  {
+    "name": "Piston (Facing west, Extended)",
+    "mat_id": "684",
+    "args": "minecraft:piston[facing=west,extended=true]"
+  },
+  {
+    "name": "Piston (Facing west, Not Extended)",
+    "mat_id": "504",
+    "args": "minecraft:piston[facing=west,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing down, Extended)",
+    "mat_id": "1149",
+    "args": "minecraft:piston_head[facing=down,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing down, Not Extended)",
+    "mat_id": "1141",
+    "args": "minecraft:piston_head[facing=down,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing east, Extended)",
+    "mat_id": "1154",
+    "args": "minecraft:piston_head[facing=east,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing east, Not Extended)",
+    "mat_id": "1146",
+    "args": "minecraft:piston_head[facing=east,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing north, Extended)",
+    "mat_id": "1151",
+    "args": "minecraft:piston_head[facing=north,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing north, Not Extended)",
+    "mat_id": "1143",
+    "args": "minecraft:piston_head[facing=north,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing south, Extended)",
+    "mat_id": "1152",
+    "args": "minecraft:piston[facing=south,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing south, Not Extended)",
+    "mat_id": "1144",
+    "args": "minecraft:piston_head[facing=south,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing up, Extended)",
+    "mat_id": "1150",
+    "args": "minecraft:piston_head[facing=up,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing up, Not Extended)",
+    "mat_id": "1142",
+    "args": "minecraft:piston_head[facing=up,extended=false]"
+  },
+  {
+    "name": "Piston Head (Facing west, Extended)",
+    "mat_id": "1153",
+    "args": "minecraft:piston[facing=west,extended=true]"
+  },
+  {
+    "name": "Piston Head (Facing west, Not Extended)",
+    "mat_id": "1145",
+    "args": "minecraft:piston_head[facing=west,extended=false]"
+  },
+  {
+    "name": "Podzol",
+    "mat_id": "17",
+    "args": "minecraft:podzol"
+  },
+  {
+    "name": "Polished Andesite",
+    "mat_id": "11",
+    "args": "minecraft:polished_andesite"
+  },
+  {
+    "name": "Polished Diorite",
+    "mat_id": "12",
+    "args": "minecraft:polished_diorite"
+  },
+  {
+    "name": "Polished Granite",
+    "mat_id": "7",
+    "args": "minecraft:polished_granite"
+  },
+  {
+    "name": "Poppy Flower Pot",
+    "mat_id": "333",
+    "args": "minecraft:flower_pot[contents=poppy]"
+  },
+  {
+    "name": "Poppy",
+    "mat_id": "282",
+    "args": "minecraft:red_flower[type=poppy]"
+  },
+  {
+    "name": "Potatoes (Growth level 0)",
+    "mat_id": "229",
+    "args": "minecraft:potatoes[age=0]"
+  },
+  {
+    "name": "Potatoes (Growth level 1)",
+    "mat_id": "1518",
+    "args": "minecraft:potatoes[age=1]"
+  },
+  {
+    "name": "Potatoes (Growth level 2)",
+    "mat_id": "1519",
+    "args": "minecraft:potatoes[age=2]"
+  },
+  {
+    "name": "Potatoes (Growth level 3)",
+    "mat_id": "1520",
+    "args": "minecraft:potato[stage=3]"
+  },
+  {
+    "name": "Potatoes (Growth level 4)",
+    "mat_id": "1521",
+    "args": "minecraft:potatoes[growth=4]"
+  },
+  {
+    "name": "Potatoes (Growth level 5)",
+    "mat_id": "1522",
+    "args": "minecraft:potato[stage=5]"
+  },
+  {
+    "name": "Potatoes (Growth level 6)",
+    "mat_id": "1523",
+    "args": "minecraft:potato[growth=6]"
+  },
+  {
+    "name": "Potatoes (Growth level 7)",
+    "mat_id": "1524",
+    "args": "minecraft:potatoe[growth=7]"
+  },
+  {
+    "name": "Powered Rail (Flat North-South, Active)",
+    "mat_id": "1304",
+    "args": "minecraft:powered_rail[shape=north_south,powered=true]"
+  },
+  {
+    "name": "Powered Rail (Flat North-South, Not Active)",
+    "mat_id": "1297",
+    "args": "minecraft:powered_rail[facing=north,shape=east_west]"
+  },
+  {
+    "name": "Powered Rail (Flat West-East, Active)",
+    "mat_id": "1305",
+    "args": "minecraft:powered_rail[powered=true,shape=east_west]"
+  },
+  {
+    "name": "Powered Rail (Flat West-East, Not Active)",
+    "mat_id": "1298",
+    "args": "minecraft:powered_rail[facing=east,shape=north_south,powered=false]"
+  },
+  {
+    "name": "Powered Rail (Sloped, Ascending to the East, Not Active)",
+    "mat_id": "1299",
+    "args": "minecraft:powered_rail[shape=ascending_east]"
+  },
+  {
+    "name": "Powered Rail (Sloped, Ascending to the West, Not Active)",
+    "mat_id": "1300",
+    "args": "minecraft:powered_rail[shape=ascending_west]"
+  },
+  {
+    "name": "Prismarine Bricks",
+    "mat_id": "354",
+    "args": "minecraft:prismarine_bricks"
+  },
+  {
+    "name": "Prismarine",
+    "mat_id": "353",
+    "args": "minecraft:prismarine_block"
+  },
+  {
+    "name": "Pumpkin (Facing East)",
+    "mat_id": "1092",
+    "args": "minecraft:pumpkin[facing=east]"
+  },
+  {
+    "name": "Pumpkin (Facing North)",
+    "mat_id": "1091",
+    "args": "minecraft:carved_pumpkin[facing=north]"
+  },
+  {
+    "name": "Pumpkin (Facing South)",
+    "mat_id": "134",
+    "args": "minecraft:pumpkin[facing=south]"
+  },
+  {
+    "name": "Pumpkin (Facing West)",
+    "mat_id": "1090",
+    "args": "minecraft:pumpkin[facing=west]"
+  },
+  {
+    "name": "Pumpkin Stem (Seventh Stage of Growth)",
+    "mat_id": "1672",
+    "args": "minecraft:pumpkin_stem[stage=7]"
+  },
+  {
+    "name": "Purple Carpet",
+    "mat_id": "1106",
+    "args": "minecraft:purple_carpet"
+  },
+  {
+    "name": "Purple Stained Clay",
+    "mat_id": "254",
+    "args": "minecraft:purple_stained_clay"
+  },
+  {
+    "name": "Purple Stained Glass",
+    "mat_id": "156",
+    "args": "minecraft:purple_stained_glass"
+  },
+  {
+    "name": "Purple Stained Glass Pane",
+    "mat_id": "270",
+    "args": "minecraft:purple_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Purple Wool",
+    "mat_id": "43",
+    "args": "minecraft:purple_wool"
+  },
+  {
+    "name": "Purpur Block",
+    "mat_id": "1708",
+    "args": "minecraft:purpur_block"
+  },
+  {
+    "name": "Purpur Double Slab",
+    "mat_id": "1712",
+    "args": "minecraft:purpur_double_slab"
+  },
+  {
+    "name": "Purpur Slab",
+    "mat_id": "1713",
+    "args": "minecraft:purpur_slab[type=bottom]"
+  },
+  {
+    "name": "Purpur Stairs (East, Normal",
+    "mat_id": "1709",
+    "args": "minecraft:purpur_stairs[facing=east]"
+  },
+  {
+    "name": "Purpur Stairs (East, Normal)",
+    "mat_id": "1716",
+    "args": "minecraft:purpur_stairs[facing=east]"
+  },
+  {
+    "name": "Purpur Stairs (South, Normal)",
+    "mat_id": "1717",
+    "args": "minecraft:purpur_stairs[facing=south,half=bottom]"
+  },
+  {
+    "name": "Purpur Stairs (West, Normal)",
+    "mat_id": "1710",
+    "args": "minecraft:purpur_stairs[facing=west]"
+  },
+  {
+    "name": "Quartz Block",
+    "mat_id": "225",
+    "args": "minecraft:quartz_block"
+  },
+  {
+    "name": "Quartz Slab",
+    "mat_id": "92",
+    "args": "minecraft:quartz_slab[type=bottom]"
+  },
+  {
+    "name": "Quartz Slab (Upper)",
+    "mat_id": "291",
+    "args": "minecraft:quartz_slab[type=upper]"
+  },
+  {
+    "name": "Quartz Stairs (East, Normal)",
+    "mat_id": "226",
+    "args": "minecraft:quartz_stairs[facing=east,half=bottom]"
+  },
+  {
+    "name": "Quartz Stairs (East, Upside-down)",
+    "mat_id": "289",
+    "args": "minecraft:quartz_stairs[facing=east,half=top,inverted=true]"
+  },
+  {
+    "name": "Quartz Stairs (North, Normal)",
+    "mat_id": "311",
+    "args": "minecraft:quartz_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Quartz Stairs (North, Upside-down)",
+    "mat_id": "293",
+    "args": "minecraft:quartz_stairs[facing=north,half=top,shape=straight]"
+  },
+  {
+    "name": "Quartz Stairs (South, Normal)",
+    "mat_id": "300",
+    "args": "minecraft:quartz_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Quartz Stairs (South, Upside-down)",
+    "mat_id": "287",
+    "args": "minecraft:quartz_stairs[facing=south,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Quartz Stairs (West, Normal)",
+    "mat_id": "292",
+    "args": "minecraft:quartz_stairs[facing=west]"
+  },
+  {
+    "name": "Quartz Stairs (West, Upside-down)",
+    "mat_id": "288",
+    "args": "minecraft:quartz_stairs[facing=west,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Rail (curved; north and east)",
+    "mat_id": "360",
+    "args": "minecraft:rail[shape=curved,direction=northeast]"
+  },
+  {
+    "name": "Rail (curved; north and west)",
+    "mat_id": "359",
+    "args": "minecraft:rail[shape=curve,direction=north_west]"
+  },
+  {
+    "name": "Rail (curved; south and east)",
+    "mat_id": "362",
+    "args": "minecraft:rail[shape=curve,direction=east_south]"
+  },
+  {
+    "name": "Rail (curved; south and west)",
+    "mat_id": "361",
+    "args": "minecraft:rail[shape=curved,direction=south_west]"
+  },
+  {
+    "name": "Rail",
+    "mat_id": "114",
+    "args": "minecraft:rail"
+  },
+  {
+    "name": "Rail (sloped, ascending to east)",
+    "mat_id": "364",
+    "args": "minecraft:rail[shape=ascending_east]"
+  },
+  {
+    "name": "Rail (sloped, ascending to north)",
+    "mat_id": "366",
+    "args": "minecraft:rail[shape=ascending_north]"
+  },
+  {
+    "name": "Rail (sloped, ascending to south)",
+    "mat_id": "367",
+    "args": "minecraft:rail[shape=north_south,powered=false]"
+  },
+  {
+    "name": "Rail (sloped, ascending to west)",
+    "mat_id": "365",
+    "args": "minecraft:rail{shape=ascending_west]"
+  },
+  {
+    "name": "Rail (straight; east and west)",
+    "mat_id": "363",
+    "args": "minecraft:rail[shape=straight_east_west]"
+  },
+  {
+    "name": "Red  Carpet",
+    "mat_id": "1110",
+    "args": "minecraft:red_carpet[facing=south]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap and stem)",
+    "mat_id": "1638",
+    "args": "minecraft:red_mushroom_block[north=false,east=false,south=false,west=false]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on all six sides)",
+    "mat_id": "1624",
+    "args": "minecraft:red_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top and east)",
+    "mat_id": "1618",
+    "args": "minecraft:red_mushroom_block[facing=east]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top and north)",
+    "mat_id": "1614",
+    "args": "minecraft:red_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top and south)",
+    "mat_id": "1620",
+    "args": "minecraft:red_mushroom_block[facing=south]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top and west)",
+    "mat_id": "1616",
+    "args": "minecraft:red_mushroom_block[facing=north,stem_direction=up]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top, east and south)",
+    "mat_id": "1621",
+    "args": "minecraft:red_mushroom[facing=south]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top)",
+    "mat_id": "1617",
+    "args": "minecraft:red_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top, north and east)",
+    "mat_id": "1615",
+    "args": "minecraft:red_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top, south and west)",
+    "mat_id": "1619",
+    "args": "minecraft:red_mushroom_block[facing=south]"
+  },
+  {
+    "name": "Red Mushroom Block (Cap texture on top, west and north )",
+    "mat_id": "1613",
+    "args": "minecraft:red_mushroom_block[facing=north]"
+  },
+  {
+    "name": "Red Mushroom Block (Pores on all sides)",
+    "mat_id": "175",
+    "args": "minecraft:red_mushroom[pores=all]"
+  },
+  {
+    "name": "Red Mushroom Block (Stem texture on all sides, pores on top and b)",
+    "mat_id": "1622",
+    "args": "minecraft:red_mushroom_block[stem=true,pores=down]"
+  },
+  {
+    "name": "Red Mushroom Block (Stem texture on all six sides)",
+    "mat_id": "1625",
+    "args": "minecraft:red_mushroom[facing=north,stem=true]"
+  },
+  {
+    "name": "Red mushroom Flower Pot",
+    "mat_id": "339",
+    "args": "minecraft:red_mushroom[potted=true]"
+  },
+  {
+    "name": "Red mushroom",
+    "mat_id": "1553",
+    "args": "minecraft:red_mushroom[facing=north]"
+  },
+  {
+    "name": "Red Sand",
+    "mat_id": "27",
+    "args": "minecraft:red_sand"
+  },
+  {
+    "name": "Red Sandstone",
+    "mat_id": "1247",
+    "args": "minecraft:red_sandstone[state=default]"
+  },
+  {
+    "name": "Red Sandstone Slab, Bottom",
+    "mat_id": "1673",
+    "args": "minecraft:red_sandstone_slab[type=bottom]"
+  },
+  {
+    "name": "Red Sandstone Slab, Upper",
+    "mat_id": "1674",
+    "args": "minecraft:red_sandstone_slab[type=top]"
+  },
+  {
+    "name": "Red Sandstone Stairs (East, Normal)",
+    "mat_id": "664",
+    "args": "minecraft:red_sandstone_stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Red Sandstone Stairs (East, Upside-down)",
+    "mat_id": "668",
+    "args": "minecraft:red_sandstone_stairs[facing=east,half=bottom,inverted]"
+  },
+  {
+    "name": "Red Sandstone Stairs (North, Normal)",
+    "mat_id": "667",
+    "args": "minecraft:red_sandstone_stairs[facing=north]"
+  },
+  {
+    "name": "Red Sandstone Stairs (North, Upside-down)",
+    "mat_id": "671",
+    "args": "minecraft:red_sandstone_stairs[facing=north,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Red Sandstone Stairs (South, Normal)",
+    "mat_id": "666",
+    "args": "minecraft:red_sandstone_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Red Sandstone Stairs (South, Upside-down)",
+    "mat_id": "670",
+    "args": "minecraft:red_sandstone_stairs[facing=south,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Red Sandstone Stairs (West, Normal)",
+    "mat_id": "665",
+    "args": "minecraft:red_sandstone_stairs[facing=west]"
+  },
+  {
+    "name": "Red Sandstone Stairs (West, Upside-down)",
+    "mat_id": "669",
+    "args": "minecraft:red_sandstone_stairs[facing=west,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Red Stained Clay",
+    "mat_id": "258",
+    "args": "minecraft:terracotta{color=red]"
+  },
+  {
+    "name": "Red Stained Glass",
+    "mat_id": "160",
+    "args": "minecraft:red_stained_glass"
+  },
+  {
+    "name": "Red Stained Glass Pane",
+    "mat_id": "274",
+    "args": "minecraft:red_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "Redstone Block",
+    "mat_id": "239",
+    "args": "minecraft:redstone_block"
+  },
+  {
+    "name": "Redstone Comparator (Facing East, Unset, Powered)",
+    "mat_id": "1363",
+    "args": "minecraft:redstone_comparator[facing=east,mode=compare,powered=true]"
+  },
+  {
+    "name": "Redstone Comparator (Facing East, Unset, Unpowered )",
+    "mat_id": "1355",
+    "args": "minecraft:comparator[facing=east,mode=compare,powered=false]"
+  },
+  {
+    "name": "Redstone Comparator (Facing North, Unset, Unpowered )",
+    "mat_id": "236",
+    "args": "minecraft:redstone_comparator[facing=north,mode=compare,powered=false]"
+  },
+  {
+    "name": "Redstone Comparator (Facing South, Unset, Unpowered )",
+    "mat_id": "1356",
+    "args": "minecraft:comparator[facing=south,mode=compare,powered=false]"
+  },
+  {
+    "name": "Redstone Comparator (Facing West, Substraction mode, Powered",
+    "mat_id": "1369",
+    "args": "minecraft:comparator{facing=west,mode=subtract,powered=true]"
+  },
+  {
+    "name": "Redstone Lamp (active)",
+    "mat_id": "198",
+    "args": "minecraft:redstone_lamp[lit=true]"
+  },
+  {
+    "name": "Redstone Lamp (inactive)",
+    "mat_id": "197",
+    "args": "minecraft:redstone_lamp[lit=false]"
+  },
+  {
+    "name": "Redstone Ore",
+    "mat_id": "121",
+    "args": "minecraft:redstone_ore"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing East, Delay of 1 tick)",
+    "mat_id": "802",
+    "args": "minecraft:redstone_repeater[facing=east,delay=1,locked=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing East, Delay of 2 ticks",
+    "mat_id": "806",
+    "args": "minecraft:repeater[facing=east,delay=2,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing East, Delay of 3 ticks",
+    "mat_id": "810",
+    "args": "minecraft:repeater[facing=east,delay=3,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing East, Delay of 4 ticks",
+    "mat_id": "814",
+    "args": "minecraft:repeater[facing=east,delay=4,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing North, Delay of 1 tick",
+    "mat_id": "143",
+    "args": "minecraft:redstone_repeater[facing=north,delay=1,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing North, Delay of 2 tick",
+    "mat_id": "805",
+    "args": "minecraft:repeater[facing=north,delay=2,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing North, Delay of 3 tick",
+    "mat_id": "809",
+    "args": "minecraft:repeating_command_block{facing=north,delay=3]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing North, Delay of 4 tick",
+    "mat_id": "813",
+    "args": "minecraft:repeater[facing=north,delay=4,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing South, Delay of 1 tick",
+    "mat_id": "803",
+    "args": "minecraft:repeater[facing=south,delay=1,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing South, Delay of 2 tick",
+    "mat_id": "807",
+    "args": "minecraft:repeater[facing=south,delay=2,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing South, Delay of 3 tick",
+    "mat_id": "811",
+    "args": "minecraft:repeating_command_block[facing=south,delay=3]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing South, Delay of 4 tick",
+    "mat_id": "815",
+    "args": "minecraft:redstone_repeater[facing=south,delay=4,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing West, Delay of 1 tick)",
+    "mat_id": "804",
+    "args": "minecraft:repeater[facing=west,delay=1,locked=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing West, Delay of 2 ticks",
+    "mat_id": "808",
+    "args": "minecraft:redstone_repeater[facing=west,delay=2,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing West, Delay of 3 ticks",
+    "mat_id": "812",
+    "args": "minecraft:redstone_repeater[delay=3,facing=west,locked=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (off) (Facing West, Delay of 4 ticks",
+    "mat_id": "816",
+    "args": "minecraft:redstone_repeater[facing=west,delay=4,powered=false]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing East, Delay of 1 tick)",
+    "mat_id": "786",
+    "args": "minecraft:repeater[facing=east,delay=1,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing East, Delay of 3 ticks)",
+    "mat_id": "794",
+    "args": "minecraft:redstone_repeater[facing=east,delay=3,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing East, Delay of 4 ticks)",
+    "mat_id": "798",
+    "args": "minecraft:repeater[facing=east,delay=4,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing North, Delay of 1 tick)",
+    "mat_id": "144",
+    "args": "minecraft:repeating_command_block[facing=north,delay=1,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing North, Delay of 2 ticks",
+    "mat_id": "789",
+    "args": "minecraft:redstone_repeater[facing=north,delay=2,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing North, Delay of 3 ticks",
+    "mat_id": "793",
+    "args": "minecraft:redstone_repeater[facing=north,delay=3,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing North, Delay of 4 ticks",
+    "mat_id": "797",
+    "args": "minecraft:repeating_command_block[facing=north,delay=4]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing South, Delay of 1 tick)",
+    "mat_id": "787",
+    "args": "minecraft:repeating_command_block[facing=south,conditional=true,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing South, Delay of 3 ticks",
+    "mat_id": "795",
+    "args": "minecraft:redstone_repeater[facing=south,delay=3,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing South, Delay of 4 ticks",
+    "mat_id": "799",
+    "args": "minecraft:repeater[facing=south,delay=4,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing West, Delay of 1 tick)",
+    "mat_id": "788",
+    "args": "minecraft:repeater{facing=west,delay=1,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing West, Delay of 2 ticks)",
+    "mat_id": "792",
+    "args": "minecraft:repeater[facing=west,delay=2,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing West, Delay of 3 ticks)",
+    "mat_id": "796",
+    "args": "minecraft:repeating_command_block[facing=west,delay=3,powered=true]"
+  },
+  {
+    "name": "Redstone Repeater Block (on) (Facing West, Delay of 4 ticks)",
+    "mat_id": "800",
+    "args": "minecraft:repeater[facing=west,delay=4,powered=true]"
+  },
+  {
+    "name": "Redstone Torch (off) (Facing East)",
+    "mat_id": "740",
+    "args": "minecraft:redstone_torch[facing=east,lit=false]"
+  },
+  {
+    "name": "Redstone Torch (off) (Facing North)",
+    "mat_id": "743",
+    "args": "minecraft:redstone_torch[facing=north,lit=false]"
+  },
+  {
+    "name": "Redstone Torch (off) (Facing South)",
+    "mat_id": "742",
+    "args": "minecraft:redstone_torch[facing=south,lit=false]"
+  },
+  {
+    "name": "Redstone Torch (off) (Facing Up)",
+    "mat_id": "744",
+    "args": "minecraft:redstone_torch[facing=up,lit=false]"
+  },
+  {
+    "name": "Redstone Torch (off) (Facing West)",
+    "mat_id": "741",
+    "args": "minecraft:redstone_torch[facing=west,lit=false]"
+  },
+  {
+    "name": "Redstone Torch (on) (Facing East)",
+    "mat_id": "488",
+    "args": "minecraft:redstone_torch[facing=east,lit=true]"
+  },
+  {
+    "name": "Redstone Torch (on) (Facing North)",
+    "mat_id": "491",
+    "args": "minecraft:redstone_torch[facing=north,lit=true]"
+  },
+  {
+    "name": "Redstone Torch (on) (Facing South)",
+    "mat_id": "490",
+    "args": "minecraft:redstone_torch[facing=south,lit=true]"
+  },
+  {
+    "name": "Redstone Torch (on) (Facing Up)",
+    "mat_id": "492",
+    "args": "minecraft:redstone_torch[lit=true,facing=up]"
+  },
+  {
+    "name": "Redstone Torch (on) (Facing West)",
+    "mat_id": "489",
+    "args": "minecraft:redstone_torch[facing=west, lit=true]"
+  },
+  {
+    "name": "Redstone Torch (on) ()",
+    "mat_id": "124",
+    "args": "minecraft:redstone_torch[lit=true]"
+  },
+  {
+    "name": "Redstone Wire (Power:0)",
+    "mat_id": "103",
+    "args": "minecraft:redstone_wire[power:0]"
+  },
+  {
+    "name": "Redstone Wire (Power:10)",
+    "mat_id": "733",
+    "args": "minecraft:redstone_wire[power=10]"
+  },
+  {
+    "name": "Redstone Wire (Power:11)",
+    "mat_id": "734",
+    "args": "minecraft:redstone_wire[power=11]"
+  },
+  {
+    "name": "Redstone Wire (Power:12)",
+    "mat_id": "735",
+    "args": "minecraft:redstone_wire[power=12]"
+  },
+  {
+    "name": "Redstone Wire (Power:13)",
+    "mat_id": "736",
+    "args": "minecraft:redstone_wire[power=13]"
+  },
+  {
+    "name": "Redstone Wire (Power:14)",
+    "mat_id": "737",
+    "args": "minecraft:redstone_wire[power=14]"
+  },
+  {
+    "name": "Redstone Wire (Power:15)",
+    "mat_id": "738",
+    "args": "minecraft:redstone_wire[power=15]"
+  },
+  {
+    "name": "Redstone Wire (Power:2)",
+    "mat_id": "725",
+    "args": "minecraft:redstone_wire[power=2]"
+  },
+  {
+    "name": "Redstone Wire (Power:3)",
+    "mat_id": "726",
+    "args": "minecraft:redstone_wire[power=3]"
+  },
+  {
+    "name": "Redstone Wire (Power:4)",
+    "mat_id": "727",
+    "args": "minecraft:redstone_wire[power=4]"
+  },
+  {
+    "name": "Redstone Wire (Power:5)",
+    "mat_id": "728",
+    "args": "minecraft:redstone_wire[power=5]"
+  },
+  {
+    "name": "Redstone Wire (Power:6)",
+    "mat_id": "729",
+    "args": "minecraft:redstone_wire[power=6]"
+  },
+  {
+    "name": "Redstone Wire (Power:7)",
+    "mat_id": "730",
+    "args": "minecraft:redstone_wire[power:7]"
+  },
+  {
+    "name": "Redstone Wire (Power:8)",
+    "mat_id": "731",
+    "args": "minecraft:redstone_wire[power=8]"
+  },
+  {
+    "name": "Redstone Wire (Power:9)",
+    "mat_id": "732",
+    "args": "minecraft:redstone_wire[power=9]"
+  },
+  {
+    "name": "Red Tulip",
+    "mat_id": "1185",
+    "args": "minecraft:red_tulip[facing=north]"
+  },
+  {
+    "name": "Red Wool",
+    "mat_id": "72",
+    "args": "minecraft:wool[color=14]"
+  },
+  {
+    "name": "Sand",
+    "mat_id": "26",
+    "args": "minecraft:sand"
+  },
+  {
+    "name": "Sandstone",
+    "mat_id": "53",
+    "args": "minecraft:sandstone"
+  },
+  {
+    "name": "Sandstone Slab",
+    "mat_id": "86",
+    "args": "minecraft:sandstone_slab[type=double]"
+  },
+  {
+    "name": "Sandstone Slab (Upper)",
+    "mat_id": "494",
+    "args": "minecraft:sandstone_slab[type=top]"
+  },
+  {
+    "name": "Sandstone Stairs (East, Normal)",
+    "mat_id": "212",
+    "args": "minecraft:sandstone_stairs[facing=east]"
+  },
+  {
+    "name": "Sandstone Stairs (East, Upside-down)",
+    "mat_id": "612",
+    "args": "minecraft:sandstone_stairs[facing=east,half=top,shape=inner_left]"
+  },
+  {
+    "name": "Sandstone Stairs (North, Normal)",
+    "mat_id": "611",
+    "args": "minecraft:sandstone_stairs[facing=north]"
+  },
+  {
+    "name": "Sandstone Stairs (North, Upside-down)",
+    "mat_id": "615",
+    "args": "minecraft:sandstone_stairs[facing=north,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Sandstone Stairs (South, Normal)",
+    "mat_id": "610",
+    "args": "minecraft:sandstone_stairs[facing=south]"
+  },
+  {
+    "name": "Sandstone Stairs (South, Upside-down)",
+    "mat_id": "614",
+    "args": "minecraft:sandstone_stairs[facing=south,half=bottom,inverted=true]"
+  },
+  {
+    "name": "Sandstone Stairs (West, Normal)",
+    "mat_id": "609",
+    "args": "minecraft:sandstone_stairs[facing=west]"
+  },
+  {
+    "name": "Sandstone Stairs (West, Upside-down)",
+    "mat_id": "613",
+    "args": "minecraft:sandstone_stairs[facing=west,half=top,inverted=true]"
+  },
+  {
+    "name": "Sapling (Acacia, Ready to grow)",
+    "mat_id": "1409",
+    "args": "minecraft:sapling[type=acacia,stage=1]"
+  },
+  {
+    "name": "Sapling (Birch, Ready to grow)",
+    "mat_id": "1407",
+    "args": "minecraft:birch_sapling[stage=1]"
+  },
+  {
+    "name": "Sapling (Dark Oak, Ready to grow)",
+    "mat_id": "1410",
+    "args": "minecraft:dark_oak_sapling[stage=1]"
+  },
+  {
+    "name": "Sapling (Jungle, Ready to grow)",
+    "mat_id": "1408",
+    "args": "minecraft:jungle_sapling[stage=1]"
+  },
+  {
+    "name": "Sapling (Oak, )",
+    "mat_id": "1398",
+    "args": "minecraft:oak_sapling"
+  },
+  {
+    "name": "Sapling (Oak, Ready to grow)",
+    "mat_id": "1405",
+    "args": "minecraft:oak_sapling[stage=1]"
+  },
+  {
+    "name": "Sapling (Spruce, Ready to grow)",
+    "mat_id": "1406",
+    "args": "minecraft:spruce_sapling[stage=1]"
+  },
+  {
+    "name": "Sea Lantern",
+    "mat_id": "1353",
+    "args": "minecraft:lantern{facing:north]"
+  },
+  {
+    "name": "Slightly Damaged Anvil (East/West)",
+    "mat_id": "933",
+    "args": "minecraft:anvil{facing=west,damage=1]"
+  },
+  {
+    "name": "Slightly Damaged Anvil (North/South)",
+    "mat_id": "932",
+    "args": "minecraft:anvil[facing=north,damage=1]"
+  },
+  {
+    "name": "Slightly Damaged Anvil (South/North)",
+    "mat_id": "935",
+    "args": "minecraft:anvil[facing=south,damage=1]"
+  },
+  {
+    "name": "Slightly Damaged Anvil (West/East)",
+    "mat_id": "934",
+    "args": "minecraft:anvil[facing=east,damage=1]"
+  },
+  {
+    "name": "Slime Block",
+    "mat_id": "1475",
+    "args": "minecraft:slime_block"
+  },
+  {
+    "name": "Smooth Double Stone Slab",
+    "mat_id": "1643",
+    "args": "minecraft:smooth_stone_slab[type=double]"
+  },
+  {
+    "name": "Smooth Red Sandstone",
+    "mat_id": "1249",
+    "args": "minecraft:red_sandstone_smooth"
+  },
+  {
+    "name": "Smooth Sandstone",
+    "mat_id": "55",
+    "args": "minecraft:sandstone_smooth"
+  },
+  {
+    "name": "Snow Block",
+    "mat_id": "128",
+    "args": "minecraft:snow_block"
+  },
+  {
+    "name": "Snow  (Eight Layers)",
+    "mat_id": "1335",
+    "args": "minecraft:snow_layer[layers=8]"
+  },
+  {
+    "name": "Snow  (Five Layers)",
+    "mat_id": "1332",
+    "args": "minecraft:snow_block[layers=5]"
+  },
+  {
+    "name": "Snow  (Four Layers)",
+    "mat_id": "1331",
+    "args": "minecraft:snow_layer[layers=4]"
+  },
+  {
+    "name": "Snow  (One Layer)",
+    "mat_id": "126",
+    "args": "minecraft:snow_layer[layers=1]"
+  },
+  {
+    "name": "Snow  (Seven Layers)",
+    "mat_id": "1334",
+    "args": "minecraft:snow_block[layers=7]"
+  },
+  {
+    "name": "Snow  (Six Layers)",
+    "mat_id": "1333",
+    "args": "minecraft:snow_layer[layers=6]"
+  },
+  {
+    "name": "Snow  (Three Layers)",
+    "mat_id": "1330",
+    "args": "minecraft:snow_layer[layers=3]"
+  },
+  {
+    "name": "Snow  (Two Layers)",
+    "mat_id": "1329",
+    "args": "minecraft:snow_layer[layers=2]"
+  },
+  {
+    "name": "Soul Sand",
+    "mat_id": "136",
+    "args": "minecraft:soul_sand"
+  },
+  {
+    "name": "Sponge",
+    "mat_id": "47",
+    "args": "minecraft:sponge[wet=false]"
+  },
+  {
+    "name": "Spruce Door (Upper, Hinge left, Powered)",
+    "mat_id": "960",
+    "args": "minecraft:spruce_door[facing=north,half=upper,hinge=left,powered=true]"
+  },
+  {
+    "name": "Spruce Door (Upper, Hinge left, Unpowered)",
+    "mat_id": "958",
+    "args": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false]"
+  },
+  {
+    "name": "Spruce Door (Upper, Hinge right, Powered)",
+    "mat_id": "961",
+    "args": "minecraft:spruce_door[facing=north,half=upper,hinged=right,open=true]"
+  },
+  {
+    "name": "Spruce Door (Upper, Hinge right, Unpowered)",
+    "mat_id": "959",
+    "args": "minecraft:spruce_door[facing=north,half=upper,hinge=right,open=false]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing East, Closed)",
+    "mat_id": "1045",
+    "args": "minecraft:spruce_fence_gate[facing=east,open=false]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing East, Opened)",
+    "mat_id": "1049",
+    "args": "minecraft:spruce_fence_gate[facing=east,open=true]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing North, Closed)",
+    "mat_id": "1044",
+    "args": "minecraft:spruce_fence_gate[facing=north,open=false]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing North, Opened)",
+    "mat_id": "1048",
+    "args": "minecraft:spruce_fence_gate[facing=north,open=true]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing South, Closed)",
+    "mat_id": "1042",
+    "args": "minecraft:spruce_fence_gate[facing=south,open=false]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing South, Opened)",
+    "mat_id": "1046",
+    "args": "minecraft:spruce_fence_gate[facing=south,open=true]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing West, Closed)",
+    "mat_id": "1043",
+    "args": "minecraft:spruce_fence_gate[facing=west,open=false]"
+  },
+  {
+    "name": "Spruce Fence Gate (Facing West, Opened)",
+    "mat_id": "1047",
+    "args": "minecraft:spruce_fence_gate[facing=west,open=true]"
+  },
+  {
+    "name": "Spruce Fence Gate (In Wall, Facing North, Opened)",
+    "mat_id": "1653",
+    "args": "minecraft:spruce_fence_gate[facing=north,in_wall=true,open=true]"
+  },
+  {
+    "name": "Spruce Fence",
+    "mat_id": "907",
+    "args": "minecraft:spruce_fence[facing=north]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing East, Closed)",
+    "mat_id": "964",
+    "args": "minecraft:spruce_stairs[facing=east,half=bottom,waterlogged=false]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing East, Opened)",
+    "mat_id": "968",
+    "args": "minecraft:spruce_door[facing=east,half=lower,open=true]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing North, Closed)",
+    "mat_id": "963",
+    "args": "minecraft:spruce_stairs[facing=north,half=bottom,open=false]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing North, Opened)",
+    "mat_id": "967",
+    "args": "minecraft:spruce_door[facing=north,half=lower,open=true]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing South, Closed)",
+    "mat_id": "965",
+    "args": "minecraft:spruce_trapdoor[facing=south,half=lower,open=false]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing South, Opened)",
+    "mat_id": "969",
+    "args": "minecraft:spruce_door[facing=south,half=lower,open=true]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing West, Closed)",
+    "mat_id": "962",
+    "args": "minecraft:spruce_doors[facing=west,half=lower,open=false]"
+  },
+  {
+    "name": "Spruce Foor (Lower, Facing West, Opened)",
+    "mat_id": "966",
+    "args": "minecraft:spruce_door[facing=west,half=lower,open=true]"
+  },
+  {
+    "name": "Spruce Leaves",
+    "mat_id": "34",
+    "args": "minecraft:spruce_leaves[distance=1,persistent=true]"
+  },
+  {
+    "name": "Spruce Leaves (No Decay and Check Decay)",
+    "mat_id": "322",
+    "args": "minecraft:leaves[type=spruce, decayable=false, check_decay=true]"
+  },
+  {
+    "name": "Spruce Leaves (No Decay)",
+    "mat_id": "329",
+    "args": "minecraft:leaves[variant=spruce,decayable=false]"
+  },
+  {
+    "name": "Spruce sapling Flower Pot",
+    "mat_id": "336",
+    "args": "minecraft:potted_spruce_sapling"
+  },
+  {
+    "name": "Spruce wood (facing east/west) ",
+    "mat_id": "430",
+    "args": "minecraft:spruce_wood[facing=east]"
+  },
+  {
+    "name": "Spruce Wood (facing north/south)",
+    "mat_id": "433",
+    "args": "minecraft:spruce_wood[facing=north_south]"
+  },
+  {
+    "name": "Spruce Wood",
+    "mat_id": "30",
+    "args": "minecraft:spruce_wood_planks"
+  },
+  {
+    "name": "Spruce Wood (only bark)",
+    "mat_id": "436",
+    "args": "minecraft:spruce_bark"
+  },
+  {
+    "name": "Spruce Wood Plank",
+    "mat_id": "20",
+    "args": "minecraft:spruce_planks"
+  },
+  {
+    "name": " Spruce Wood Slab (Bottom)",
+    "mat_id": "206",
+    "args": "minecraft:spruce_slab[type=bottom]"
+  },
+  {
+    "name": " Spruce Wood Slab (Upper)",
+    "mat_id": "1136",
+    "args": "minecraft:spruce_slab[type=top]"
+  },
+  {
+    "name": "Spruce Wood Stairs (East, Normal)",
+    "mat_id": "218",
+    "args": "minecraft:spruce_stairs[facing=east]"
+  },
+  {
+    "name": "Spruce Wood Stairs (East, Upside-down)",
+    "mat_id": "620",
+    "args": "minecraft:spruce_stairs[facing=east,half=top,inverted=true]"
+  },
+  {
+    "name": "Spruce Wood Stairs (North, Normal)",
+    "mat_id": "619",
+    "args": "minecraft:spruce_stairs[facing=north, half=bottom] "
+  },
+  {
+    "name": "Spruce Wood Stairs (North, Upside-down)",
+    "mat_id": "623",
+    "args": "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Spruce Wood Stairs (South, Normal)",
+    "mat_id": "618",
+    "args": "minecraft:spruce_stairs[facing=south]"
+  },
+  {
+    "name": "Spruce Wood Stairs (South, Upside-down)",
+    "mat_id": "622",
+    "args": "minecraft:spruce_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Spruce Wood Stairs (West, Normal)",
+    "mat_id": "617",
+    "args": "minecraft:spruce_stairs[facing=west]"
+  },
+  {
+    "name": "Spruce Wood Stairs (West, Upside-down)",
+    "mat_id": "621",
+    "args": "minecraft:spruce_stairs[facing=west,half=top]"
+  },
+  {
+    "name": "Standing Sign (East)",
+    "mat_id": "1030",
+    "args": "minecraft:standing_sign[facing=east]"
+  },
+  {
+    "name": "Standing Sign (East-NorthEast)",
+    "mat_id": "1029",
+    "args": "minecraft:standing_sign[facing=east_northeast]"
+  },
+  {
+    "name": "Standing Sign (East-SouthEast)",
+    "mat_id": "1031",
+    "args": "minecraft:standing_sign[facing=southeast]"
+  },
+  {
+    "name": "Standing Sign (NorthEast)",
+    "mat_id": "1028",
+    "args": "minecraft:standing_sign[facing=north_east]"
+  },
+  {
+    "name": "Standing Sign (North)",
+    "mat_id": "1026",
+    "args": "minecraft:standing_sign[facing=north]"
+  },
+  {
+    "name": "Standing Sign (North-NorthEast)",
+    "mat_id": "1027",
+    "args": "minecraft:standing_sign[facing=north_northeast]"
+  },
+  {
+    "name": "Standing Sign (North-NorthWest)",
+    "mat_id": "1025",
+    "args": "minecraft:standing_sign[facing=northwest]"
+  },
+  {
+    "name": "Standing Sign (NorthWest)",
+    "mat_id": "1024",
+    "args": "minecraft:wall_sign[facing=northwest]"
+  },
+  {
+    "name": "Standing Sign (SouthEast)",
+    "mat_id": "1032",
+    "args": "minecraft:standing_sign[facing=southeast]"
+  },
+  {
+    "name": "Standing Sign (South)",
+    "mat_id": "111",
+    "args": "minecraft:standing_sign[facing=south]"
+  },
+  {
+    "name": "Standing Sign (South-SouthEast)",
+    "mat_id": "1033",
+    "args": "minecraft:standing_sign[facing=sse]"
+  },
+  {
+    "name": "Standing Sign (South-SouthWest)",
+    "mat_id": "1019",
+    "args": "minecraft:standing_sign[facing=south_southwest]"
+  },
+  {
+    "name": "Standing Sign (SouthWest)",
+    "mat_id": "1020",
+    "args": "minecraft:standing_sign[facing=southwest]"
+  },
+  {
+    "name": "Standing Sign (West)",
+    "mat_id": "1022",
+    "args": "minecraft:standing_sign[facing=west]"
+  },
+  {
+    "name": "Standing Sign (West-NorthWest)",
+    "mat_id": "1023",
+    "args": "minecraft:standing_sign[facing=northwest]"
+  },
+  {
+    "name": "Standing Sign (West-Southwest)",
+    "mat_id": "1021",
+    "args": "minecraft:standing_sign[facing=southwest]"
+  },
+  {
+    "name": "Sticky Piston (Facing down, Extended)",
+    "mat_id": "696",
+    "args": "minecraft:sticky_piston[facing=down,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing down, Not Extended)",
+    "mat_id": "58",
+    "args": "minecraft:sticky_piston[facing=down,extended=false]"
+  },
+  {
+    "name": "Sticky Piston (Facing east, Extended)",
+    "mat_id": "701",
+    "args": "minecraft:sticky_piston[facing=east,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing east, Not Extended)",
+    "mat_id": "693",
+    "args": "minecraft:sticky_piston[facing=east,extended=false]"
+  },
+  {
+    "name": "Sticky Piston (Facing north, Extended)",
+    "mat_id": "698",
+    "args": "minecraft:sticky_piston[facing=north,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing north, Not Extended)",
+    "mat_id": "690",
+    "args": "minecraft:sticky_piston[facing=north,extended=false]"
+  },
+  {
+    "name": "Sticky Piston (Facing south, Extended)",
+    "mat_id": "699",
+    "args": "minecraft:piston[facing=south,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing south, Not Extended)",
+    "mat_id": "691",
+    "args": "minecraft:piston[facing=south,extended=false]"
+  },
+  {
+    "name": "Sticky Piston (Facing up, Extended)",
+    "mat_id": "697",
+    "args": "minecraft:sticky_piston[facing=up,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing up, Not Extended)",
+    "mat_id": "689",
+    "args": "minecraft:sticky_piston[facing=up,extended=false]"
+  },
+  {
+    "name": "Sticky Piston (Facing west, Extended)",
+    "mat_id": "700",
+    "args": "minecraft:sticky_piston[facing=west,extended=true]"
+  },
+  {
+    "name": "Sticky Piston (Facing west, Not Extended)",
+    "mat_id": "692",
+    "args": "minecraft:sticky_piston[facing=west,extended=false]"
+  },
+  {
+    "name": "Still Water",
+    "mat_id": "331",
+    "args": "minecraft:water[level=0]"
+  },
+  {
+    "name": "Stone Brick Monster Egg",
+    "mat_id": "165",
+    "args": "minecraft:monster_egg{variant:stone_brick]"
+  },
+  {
+    "name": "Stone Brick Slab",
+    "mat_id": "90",
+    "args": "minecraft:stone_brick_slab[type=bottom]"
+  },
+  {
+    "name": "Stone Brick Slab (Upper)",
+    "mat_id": "498",
+    "args": "minecraft:stone_brick_slab[type=top]"
+  },
+  {
+    "name": "Stone Bricks",
+    "mat_id": "169",
+    "args": "minecraft:stone_bricks"
+  },
+  {
+    "name": "Stone Brick Stairs (East)",
+    "mat_id": "183",
+    "args": "minecraft:stone_brick_stairs[facing=east]"
+  },
+  {
+    "name": "Stone Brick Stairs (East, Upside-down)",
+    "mat_id": "484",
+    "args": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Stone Brick Stairs (North, Normal)",
+    "mat_id": "483",
+    "args": "minecraft:stone_brick_stairs[facing=north,half=bottom]"
+  },
+  {
+    "name": "Stone Brick Stairs (North, Upside-down)",
+    "mat_id": "487",
+    "args": "minecraft:stone_brick_stairs[facing=north,half=bottom]"
+  },
+  {
+    "name": "Stone Brick Stairs (South, Normal)",
+    "mat_id": "482",
+    "args": "minecraft:stone_brick_stairs[facing=south,shape=straight]"
+  },
+  {
+    "name": "Stone Brick Stairs (South, Upside-down)",
+    "mat_id": "486",
+    "args": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight]"
+  },
+  {
+    "name": "Stone Brick Stairs (West)",
+    "mat_id": "351",
+    "args": "minecraft:stone_brick_stairs[facing=west]"
+  },
+  {
+    "name": "Stone Brick Stairs (West, Upside-down)",
+    "mat_id": "485",
+    "args": "minecraft:stone_brick_stairs[facing=west,half=top]"
+  },
+  {
+    "name": "Stone Button (Facing Down, Inactive)",
+    "mat_id": "125",
+    "args": "minecraft:stone_button[facing=down,powered=false]"
+  },
+  {
+    "name": "Stone Button (Facing East, Inactive)",
+    "mat_id": "758",
+    "args": "minecraft:stone_button[facing=east,powered=false]"
+  },
+  {
+    "name": "Stone Button (Facing North, Inactive)",
+    "mat_id": "308",
+    "args": "minecraft:stone_button[facing=north,powered=false]"
+  },
+  {
+    "name": "Stone Button (Facing South, Inactive)",
+    "mat_id": "304",
+    "args": "minecraft:button[facing=south,powered=false]"
+  },
+  {
+    "name": "Stone Button (Facing Up, Active)",
+    "mat_id": "769",
+    "args": "minecraft:stone_button[facing=up,powered=true]"
+  },
+  {
+    "name": "Stone Button (Facing Up, Inactive)",
+    "mat_id": "762",
+    "args": "minecraft:stone_button[facing=up,powered=false]"
+  },
+  {
+    "name": "Stone Button (Facing West, Inactive)",
+    "mat_id": "759",
+    "args": "minecraft:stone_button[facing=west,powered=false]"
+  },
+  {
+    "name": "Stone",
+    "mat_id": "4",
+    "args": "minecraft:stone"
+  },
+  {
+    "name": "Stone Monster Egg",
+    "mat_id": "163",
+    "args": "minecraft:monster_egg{variant=stone]"
+  },
+  {
+    "name": "Stone Pressure Plate (Active)",
+    "mat_id": "1666",
+    "args": "minecraft:stone_pressure_plate[powered=true]"
+  },
+  {
+    "name": "Stone Pressure Plate (Unactive)",
+    "mat_id": "118",
+    "args": "minecraft:stone_pressure_plate[powered=false]"
+  },
+  {
+    "name": "Stone Slab",
+    "mat_id": "85",
+    "args": "minecraft:stone_slab[type=bottom]"
+  },
+  {
+    "name": "Stone Slab (Upper)",
+    "mat_id": "493",
+    "args": "minecraft:stone_slab[type=top]"
+  },
+  {
+    "name": "(Stone) Wooden Slab (Upper)",
+    "mat_id": "495",
+    "args": "minecraft:wooden_slab[type=top]"
+  },
+  {
+    "name": "Sugar Canes (Eigth stage of growth)",
+    "mat_id": "1572",
+    "args": "minecraft:sugarcane[age=7]"
+  },
+  {
+    "name": "Sugar Canes (Eleventh stage of growth)",
+    "mat_id": "1575",
+    "args": "minecraft:sugar_cane[age=10]"
+  },
+  {
+    "name": "Sugar Canes (Fifteenth stage of growth)",
+    "mat_id": "1579",
+    "args": "minecraft:sugar_cane[age=14]"
+  },
+  {
+    "name": "Sugar Canes (Fifth stage of growth)",
+    "mat_id": "1569",
+    "args": "minecraft:sugar_cane[age=4]"
+  },
+  {
+    "name": "Sugar Canes (First stage of growth)",
+    "mat_id": "1417",
+    "args": "minecraft:sugar_cane[age=0]"
+  },
+  {
+    "name": "Sugar Canes (Fourteenth stage of growth)",
+    "mat_id": "1578",
+    "args": "minecraft:sugar_cane[age=13]"
+  },
+  {
+    "name": "Sugar Canes (Fourth stage of growth)",
+    "mat_id": "1568",
+    "args": "minecraft:sugar_cane[age=3]"
+  },
+  {
+    "name": "Sugar Canes (Freshly Planted Cane)",
+    "mat_id": "131",
+    "args": "minecraft:sugarcane[age=0]"
+  },
+  {
+    "name": "Sugar Canes (Ninth stage of growth)",
+    "mat_id": "1573",
+    "args": "minecraft:sugar_cane[age=8]"
+  },
+  {
+    "name": "Sugar Canes (Second stage of growth)",
+    "mat_id": "1566",
+    "args": "minecraft:sugar_cane[age=1]"
+  },
+  {
+    "name": "Sugar Canes (Seventh stage of growth)",
+    "mat_id": "1571",
+    "args": "minecraft:sugar_cane[age=7]"
+  },
+  {
+    "name": "Sugar Canes (Sixth stage of growth)",
+    "mat_id": "1570",
+    "args": "minecraft:sugar_cane[age=5]"
+  },
+  {
+    "name": "Sugar Canes (Tenth stage of growth)",
+    "mat_id": "1574",
+    "args": "minecraft:sugar_cane[age=9]"
+  },
+  {
+    "name": "Sugar Canes (Third stage of growth)",
+    "mat_id": "1567",
+    "args": "minecraft:sugar_cane[age=2]"
+  },
+  {
+    "name": "Sugar Canes (Thirteenth stage of growth)",
+    "mat_id": "1577",
+    "args": "minecraft:sugar_cane[stage=12]"
+  },
+  {
+    "name": "TNT",
+    "mat_id": "94",
+    "args": "minecraft:tnt"
+  },
+  {
+    "name": "Torch (Facing East)",
+    "mat_id": "446",
+    "args": "minecraft:torch"
+  },
+  {
+    "name": "Torch (Facing North)",
+    "mat_id": "449",
+    "args": "minecraft:torch"
+  },
+  {
+    "name": "Torch (Facing South)",
+    "mat_id": "448",
+    "args": "minecraft:torch"
+  },
+  {
+    "name": "Torch (Facing Up)",
+    "mat_id": "332",
+    "args": "minecraft:torch"
+  },
+  {
+    "name": "Torch (Facing West)",
+    "mat_id": "447",
+    "args": "minecraft:torch"
+  },
+  {
+    "name": "Trapped Chest (Facing East)",
+    "mat_id": "944",
+    "args": "minecraft:chest[facing=east,type=trapped]"
+  },
+  {
+    "name": "Trapped Chest (Facing North)",
+    "mat_id": "941",
+    "args": "minecraft:chest[facing:north,type:trapped]"
+  },
+  {
+    "name": "Trapped Chest (Facing South)",
+    "mat_id": "942",
+    "args": "minecraft:chest[facing:south,type:trapped]"
+  },
+  {
+    "name": "Trapped Chest (Facing West)",
+    "mat_id": "943",
+    "args": "minecraft:chest[ Facing: west, type: trapped ]"
+  },
+  {
+    "name": "Tripwire Hook (Facing East)",
+    "mat_id": "412",
+    "args": "minecraft:tripwire_hook[facing=east]"
+  },
+  {
+    "name": "Tripwire hook (Facing East, Ready, Middle Pos)",
+    "mat_id": "416",
+    "args": "minecraft:tripwire_hook[facing=east,attached=false,powered=false]"
+  },
+  {
+    "name": "Tripwire Hook (Facing North)",
+    "mat_id": "411",
+    "args": "minecraft:tripwire_hook[facing=north]"
+  },
+  {
+    "name": "Tripwire Hook (Facing North, Ready, Middle Pos)",
+    "mat_id": "415",
+    "args": "minecraft:tripwire_hook[facing=north,attached=false,powered=false]"
+  },
+  {
+    "name": "Tripwire Hook (Facing West)",
+    "mat_id": "410",
+    "args": "minecraft:tripwire_hook[facing=west]"
+  },
+  {
+    "name": "Tripwire Hook (Facing West, Ready, Middle Pos)",
+    "mat_id": "414",
+    "args": "minecraft:tripwire_hook[facing=west,attached=false,powered=false]"
+  },
+  {
+    "name": "Tripwire Hook",
+    "mat_id": "215",
+    "args": "minecraft:tripwire_hook[facing=north]"
+  },
+  {
+    "name": "Tripwire Hook (Ready, Middle Pos)",
+    "mat_id": "413",
+    "args": "minecraft:tripwire_hook[facing=north,attached=true]"
+  },
+  {
+    "name": "Tripwire (Unactive, In the Air, Attached to a Circuit, Armed",
+    "mat_id": "1205",
+    "args": "minecraft:tripwire_hook[attached=true,powered=false]"
+  },
+  {
+    "name": "Tripwire (Unactive, In the Air, Unattached, Armed)",
+    "mat_id": "1201",
+    "args": "minecraft:tripwire[armed=true]"
+  },
+  {
+    "name": "Tripwire (Unactive, On a Block, Unattached, Armed)",
+    "mat_id": "216",
+    "args": "minecraft:tripwire[powered=false,attached=false,disarmed=false]"
+  },
+  {
+    "name": "Very Damaged Anvil (East/West)",
+    "mat_id": "937",
+    "args": "minecraft:anvil[facing=east,damage=4]"
+  },
+  {
+    "name": "Very Damaged Anvil (North/South)",
+    "mat_id": "936",
+    "args": "minecraft:anvil[facing=south,damage=12]{facing='south']"
+  },
+  {
+    "name": "Very Damaged Anvil (South/North)",
+    "mat_id": "939",
+    "args": "minecraft:anvil[facing=south,damage=6]"
+  },
+  {
+    "name": "Very Damaged Anvil (West/East)",
+    "mat_id": "938",
+    "args": "minecraft:anvil[facing=west,damage=13]"
+  },
+  {
+    "name": "Vines (Above)",
+    "mat_id": "180",
+    "args": "minecraft:藤[facing=north]"
+  },
+  {
+    "name": "Vines (East)",
+    "mat_id": "1179",
+    "args": "minecraft:jungle_stairs[facing=east]"
+  },
+  {
+    "name": "Vines ()",
+    "mat_id": "1177",
+    "args": "minecraft:<vine]"
+  },
+  {
+    "name": "Vines (multiple sides 1)",
+    "mat_id": "1586",
+    "args": "minecraft:vine[facing=north]"
+  },
+  {
+    "name": "Vines (multiple sides 2)",
+    "mat_id": "1610",
+    "args": "minecraft:vine[facing=north_south,east=true,west=true]"
+  },
+  {
+    "name": "Vines (multiple sides 3)",
+    "mat_id": "1611",
+    "args": "minecraft:<vine>{facing:'north']"
+  },
+  {
+    "name": "Vines (multiple sides 4)",
+    "mat_id": "1641",
+    "args": "minecraft:minecraftjungle_wall_hanging[facing=south,upsidedown=false,variant=vines]"
+  },
+  {
+    "name": "Vines (multiple sides 5)",
+    "mat_id": "1642",
+    "args": "minecraft:twisting_vines[facing=north,age=5] "
+  },
+  {
+    "name": "Vines (multiple sides 6)",
+    "mat_id": "1649",
+    "args": "minecraft:jungle_stairs[facing=north,waterlogged=false]"
+  },
+  {
+    "name": "Vines (multiple sides)",
+    "mat_id": "1516",
+    "args": "minecraft:<vine>[facing=north,south]"
+  },
+  {
+    "name": "Vines (North & East)",
+    "mat_id": "1514",
+    "args": "minecraft:minecraftvine[facing=north_east]"
+  },
+  {
+    "name": "Vines (North)",
+    "mat_id": "1178",
+    "args": "minecraft:vines[facing=north] "
+  },
+  {
+    "name": "Vines (North&West)",
+    "mat_id": "1182",
+    "args": "minecraft:jungle_stairs[facing=north,half=bottom,waterlogged=false]"
+  },
+  {
+    "name": "Vines (South & East)",
+    "mat_id": "1181",
+    "args": "minecraft:vine[facing=south]"
+  },
+  {
+    "name": "Vines (South)",
+    "mat_id": "1175",
+    "args": "minecraft:jungle_leaves[facing=south]"
+  },
+  {
+    "name": "Vines (West)",
+    "mat_id": "1176",
+    "args": "minecraft:jungle_stairs[facing=west]"
+  },
+  {
+    "name": "Wall-Mounted Banner (southwest)",
+    "mat_id": "370",
+    "args": "minecraft:banner{rotation:7]"
+  },
+  {
+    "name": "Wall-Mounted Banner (west)",
+    "mat_id": "371",
+    "args": "minecraft:wall_banner[facing=west]"
+  },
+  {
+    "name": "Wall-Mounted Banner (west-northwest)",
+    "mat_id": "372",
+    "args": "minecraft:wall_banner[facing=northwest]"
+  },
+  {
+    "name": "Wall-Mounted Banner (west-southwest)",
+    "mat_id": "368",
+    "args": "minecraft:banner{rotation:13}[facing=south]"
+  },
+  {
+    "name": "Wall-mounted Sign Block west-northwest",
+    "mat_id": "327",
+    "args": "minecraft:wall_sign[facing=northwest]"
+  },
+  {
+    "name": "Wall Sign, north",
+    "mat_id": "403",
+    "args": "minecraft:wall_sign[facing=north]"
+  },
+  {
+    "name": "Wall Sign, south",
+    "mat_id": "404",
+    "args": "minecraft:standing_sign[facing=south]"
+  },
+  {
+    "name": "Wall Sign, west",
+    "mat_id": "405",
+    "args": "minecraft:wall_sign[facing=west]"
+  },
+  {
+    "name": "Water (Water level Max - 1, Falling)",
+    "mat_id": "476",
+    "args": "minecraft:water[level=15]"
+  },
+  {
+    "name": "Water (Water level Max - 1)",
+    "mat_id": "469",
+    "args": "minecraft:water[level=15]"
+  },
+  {
+    "name": "Water (Water level Max - 2, Falling)",
+    "mat_id": "477",
+    "args": "minecraft:water[level=1,falling=true]"
+  },
+  {
+    "name": "Water (Water level Max - 2)",
+    "mat_id": "470",
+    "args": "minecraft:water[level=17]"
+  },
+  {
+    "name": "Water (Water level Max - 3, Falling)",
+    "mat_id": "478",
+    "args": "minecraft:water[level=4]"
+  },
+  {
+    "name": "Water (Water level Max - 3)",
+    "mat_id": "471",
+    "args": "minecraft:water[level=3]"
+  },
+  {
+    "name": "Water (Water level Max - 4, Falling)",
+    "mat_id": "479",
+    "args": "minecraft:water[level=4]"
+  },
+  {
+    "name": "Water (Water level Max - 4)",
+    "mat_id": "472",
+    "args": "minecraft:water[level=7]"
+  },
+  {
+    "name": "Water (Water level Max - 5, Falling)",
+    "mat_id": "480",
+    "args": "minecraft:water[level=5]"
+  },
+  {
+    "name": "Water (Water level Max, Falling)",
+    "mat_id": "475",
+    "args": "minecraft:water[level=7]"
+  },
+  {
+    "name": "Water (Water level Max)",
+    "mat_id": "468",
+    "args": "minecraft:water[level=8]"
+  },
+  {
+    "name": "Water (Water level Min +1, Falling)",
+    "mat_id": "481",
+    "args": "minecraft:water[level=1,falling=true]"
+  },
+  {
+    "name": "Water (Water level Min + 1)",
+    "mat_id": "473",
+    "args": "minecraft:water[level=1]"
+  },
+  {
+    "name": "Water (Water level Min, Falling)",
+    "mat_id": "1671",
+    "args": "minecraft:water[level=0]"
+  },
+  {
+    "name": "Water (Water level Min)",
+    "mat_id": "474",
+    "args": "minecraft:water[level=1]"
+  },
+  {
+    "name": "Weighted Pressure Plate (heavy)",
+    "mat_id": "235",
+    "args": "minecraft:weighted_pressure_plate[power=15]"
+  },
+  {
+    "name": "Weighted Pressure Plate (light)",
+    "mat_id": "234",
+    "args": "minecraft:weighted_pressure_plate[power=1]"
+  },
+  {
+    "name": "Wet Sponge",
+    "mat_id": "48",
+    "args": "minecraft:sponge[wet:true]"
+  },
+  {
+    "name": "Wheat (Age 0)",
+    "mat_id": "107",
+    "args": "minecraft:wheat[age=0]"
+  },
+  {
+    "name": "Wheat (Age 1)",
+    "mat_id": "1460",
+    "args": "minecraft:wheat[age=1]"
+  },
+  {
+    "name": "Wheat (Age 2)",
+    "mat_id": "1461",
+    "args": "minecraft:wheat[age=2]"
+  },
+  {
+    "name": "Wheat (Age 3)",
+    "mat_id": "1462",
+    "args": "minecraft:wheat[age=3]"
+  },
+  {
+    "name": "Wheat (Age 4)",
+    "mat_id": "1463",
+    "args": "minecraft:wheat[age=4]"
+  },
+  {
+    "name": "Wheat (Age 5)",
+    "mat_id": "1464",
+    "args": "minecraft:wheat[age=5]"
+  },
+  {
+    "name": "Wheat (Age 6)",
+    "mat_id": "1465",
+    "args": "minecraft:wheat[age=6]"
+  },
+  {
+    "name": "Wheat (Age 7)",
+    "mat_id": "1466",
+    "args": "minecraft:wheat[age=7]"
+  },
+  {
+    "name": "White Carpet",
+    "mat_id": "1096",
+    "args": "minecraft:white_carpet"
+  },
+  {
+    "name": "White Stained Clay",
+    "mat_id": "244",
+    "args": "minecraft:white_stained_hardened_clay"
+  },
+  {
+    "name": "White Stained Glass",
+    "mat_id": "145",
+    "args": "minecraft:stained_glass{color:white]"
+  },
+  {
+    "name": "White Stained Glass Pane",
+    "mat_id": "260",
+    "args": "minecraft:white_stained_glass_pane[facing=north]"
+  },
+  {
+    "name": "White Tulip",
+    "mat_id": "1187",
+    "args": "minecraft:white_tulip[facing=north]"
+  },
+  {
+    "name": "White Wool",
+    "mat_id": "40",
+    "args": "minecraft:white_wool"
+  },
+  {
+    "name": "Wooden Button (Facing Down, Inactive)",
+    "mat_id": "230",
+    "args": "minecraft:wooden_button[facing=down,powered=false]"
+  },
+  {
+    "name": "Wooden Button (Facing East, Inactive)",
+    "mat_id": "394",
+    "args": "minecraft:wooden_button[facing=east,powered=false]"
+  },
+  {
+    "name": "Wooden Button (Facing North, Inactive)",
+    "mat_id": "307",
+    "args": "minecraft:wooden_button[facing=north,powered=false]"
+  },
+  {
+    "name": "Wooden Button (Facing South, Inactive)",
+    "mat_id": "305",
+    "args": "minecraft:wooden_button[facing=south,powered=false]"
+  },
+  {
+    "name": "Wooden Button (Facing Up, Inactive)",
+    "mat_id": "396",
+    "args": "minecraft:wooden_button[facing=up,powered=false]"
+  },
+  {
+    "name": "Wooden Button (Facing West, Inactive)",
+    "mat_id": "395",
+    "args": "minecraft:wooden_button[facing=west,powered=false]"
+  },
+  {
+    "name": "Wooden Pressure Plate (Active)",
+    "mat_id": "1664",
+    "args": "minecraft:wooden_pressure_plate[powered=true]"
+  },
+  {
+    "name": "Wooden Pressure Plate (Unactive)",
+    "mat_id": "120",
+    "args": "minecraft:wooden_pressure_plate[powered=false]"
+  },
+  {
+    "name": "Wooden Slab",
+    "mat_id": "87",
+    "args": "minecraft:<wooden_slab]"
+  },
+  {
+    "name": "Wooden Trapdoor (East from block, Closed, Bottom half)",
+    "mat_id": "867",
+    "args": "minecraft:trapdoor[facing=east,half=bottom,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (East from block, Closed, Top Half)",
+    "mat_id": "875",
+    "args": "minecraft:trapdoor[facing=east,half=top,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (East from block, Open, Bottom half)",
+    "mat_id": "871",
+    "args": "minecraft:trapdoor[facing=east,half=bottom,open=true]"
+  },
+  {
+    "name": "Wooden Trapdoor (East from block, Open, Top Half)",
+    "mat_id": "879",
+    "args": "minecraft:trapdoor[facing=east,half=top,open=true]"
+  },
+  {
+    "name": "Wooden Trapdoor (North from block, Closed, Bottom half)",
+    "mat_id": "868",
+    "args": "minecraft:trapdoor[facing=north,open=false,half=bottom]"
+  },
+  {
+    "name": "Wooden Trapdoor (North from block, Closed, Top Half)",
+    "mat_id": "876",
+    "args": "minecraft:trapdoor[facing=north,half=top,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (North from block, Open, Bottom half)",
+    "mat_id": "872",
+    "args": "minecraft:trapdoor[facing=north,open=true,half=bottom]"
+  },
+  {
+    "name": "Wooden Trapdoor (North from block, Open, Top Half)",
+    "mat_id": "880",
+    "args": "minecraft:trapdoor[facing=north,open=true,half=top]"
+  },
+  {
+    "name": "Wooden Trapdoor (South from block, Closed, Bottom half)",
+    "mat_id": "866",
+    "args": "minecraft:trapdoor[facing=south,half=bottom,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (South from block, Closed, Top Half)",
+    "mat_id": "874",
+    "args": "minecraft:trapdoor[facing=south,half=top,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (South from block, Open, Bottom half)",
+    "mat_id": "870",
+    "args": "minecraft:trapdoor[facing=south,open=true,half=bottom]"
+  },
+  {
+    "name": "Wooden Trapdoor (South from block, Open, Top Half)",
+    "mat_id": "878",
+    "args": "minecraft:trapdoor[facing=south,half=top,open=true]"
+  },
+  {
+    "name": "Wooden Trapdoor (West from block, Closed, Bottom half)",
+    "mat_id": "162",
+    "args": "minecraft:trapdoor[facing=west,half=bottom,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (West from block, Closed, Top Half)",
+    "mat_id": "873",
+    "args": "minecraft:trapdoor[facing=west,half=top,open=false]"
+  },
+  {
+    "name": "Wooden Trapdoor (West from block, Open, Bottom half)",
+    "mat_id": "869",
+    "args": "minecraft:trapdoor[facing=west,open=true,half=bottom]"
+  },
+  {
+    "name": "Wooden Trapdoor (West from block, Open, Top Half)",
+    "mat_id": "877",
+    "args": "minecraft:trapdoor[facing=west,half=top,open=true]"
+  },
+  {
+    "name": "Yellow Carpet",
+    "mat_id": "1100",
+    "args": "minecraft:yellow_carpet"
+  },
+  {
+    "name": "Yellow Stained Clay",
+    "mat_id": "248",
+    "args": "minecraft:yellow_terracotta[facing=north]"
+  },
+  {
+    "name": "Yellow Stained Glass",
+    "mat_id": "150",
+    "args": "minecraft:yellow_stained_glass"
+  },
+  {
+    "name": "Yellow Stained Glass Pane",
+    "mat_id": "264",
+    "args": "minecraft:glass_pane[color:yellow]"
+  },
+  {
+    "name": "Yellow Wool",
+    "mat_id": "64",
+    "args": "minecraft:yellow_wool"
+  }
+]

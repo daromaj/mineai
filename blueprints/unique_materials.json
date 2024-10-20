@@ -1,0 +1,1081 @@
+{"name":"Acacia Door (Lower, Facing East, Closed)","mat_id":"996"}
+{"name":"Acacia Door (Lower, Facing East, Opened)","mat_id":"1000"}
+{"name":"Acacia Door (Lower, Facing North, Closed)","mat_id":"995"}
+{"name":"Acacia Door (Lower, Facing North, Opened)","mat_id":"999"}
+{"name":"Acacia Door (Lower, Facing South, Closed)","mat_id":"997"}
+{"name":"Acacia Door (Lower, Facing South, Opened)","mat_id":"1001"}
+{"name":"Acacia Door (Lower, Facing West, Closed)","mat_id":"994"}
+{"name":"Acacia Door (Lower, Facing West, Opened)","mat_id":"998"}
+{"name":"Acacia Door (Upper, Hinge Left, Powered)","mat_id":"1004"}
+{"name":"Acacia Door (Upper, Hinge Left, Unpowered)","mat_id":"1002"}
+{"name":"Acacia Door (Upper, Hinge Right, Unpowered)","mat_id":"1003"}
+{"name":"Acacia Fence Gate (Facing North, Closed)","mat_id":"1076"}
+{"name":"Acacia Fence Gate (Facing West, Closed)","mat_id":"1075"}
+{"name":"Acacia Fence","mat_id":"911"}
+{"name":"Acacia Leaves","mat_id":"286"}
+{"name":"Acacia Leaves (No Decay and Check Decay)","mat_id":"1194"}
+{"name":"Acacia Leaves (No Decay)","mat_id":"1190"}
+{"name":"Acacia sapling Flower Pot","mat_id":"344"}
+{"name":" (Acacia Wood, Bottom)","mat_id":"209"}
+{"name":"Acacia Wood, Facing East/West","mat_id":"421"}
+{"name":"Acacia Wood, Facing North/South","mat_id":"423"}
+{"name":"Acacia Wood","mat_id":"279"}
+{"name":"Acacia Wood (No axis)","mat_id":"1669"}
+{"name":"Acacia Wood Plank","mat_id":"24"}
+{"name":"Acacia Wood Stairs (East, Normal)","mat_id":"648"}
+{"name":"Acacia Wood Stairs (East, Upside-down)","mat_id":"652"}
+{"name":"Acacia Wood Stairs (North, Normal)","mat_id":"651"}
+{"name":"Acacia Wood Stairs (North, Upside-down)","mat_id":"655"}
+{"name":"Acacia Wood Stairs (South, Normal)","mat_id":"650"}
+{"name":"Acacia Wood Stairs (South, Upside-down)","mat_id":"654"}
+{"name":"Acacia Wood Stairs (West, Normal)","mat_id":"649"}
+{"name":"Acacia Wood Stairs (West, Upside-down)","mat_id":"653"}
+{"name":" (Acacia Wood, Upper)","mat_id":"1139"}
+{"name":"Activator Rail (Flat North-South, Not Active)","mat_id":"1500"}
+{"name":"Activator Rail (Flat West-East, Not Active)","mat_id":"1501"}
+{"name":"Allium","mat_id":"1184"}
+{"name":"Andesite","mat_id":"13"}
+{"name":"Anvil (East/West)","mat_id":"930"}
+{"name":"Anvil (North/South)","mat_id":"232"}
+{"name":"Anvil (South/North)","mat_id":"326"}
+{"name":"Anvil (West/East)","mat_id":"931"}
+{"name":"Azure Bluet","mat_id":"284"}
+{"name":"Barrier","mat_id":"1667"}
+{"name":"Beacon","mat_id":"222"}
+{"name":"Bed (East, Empty, Foot of the bed)","mat_id":"509"}
+{"name":"Bed (East, Empty, Head of the bed)","mat_id":"516"}
+{"name":"Bed (North, Empty, Foot of the bed)","mat_id":"508"}
+{"name":"Bed (North, Empty, Head of the bed)","mat_id":"521"}
+{"name":"Bedrock","mat_id":"38"}
+{"name":"Bed (South, Empty, Foot of the bed)","mat_id":"57"}
+{"name":"Bed (South, Empty, Head of the bed)","mat_id":"514"}
+{"name":"Bed (West, Empty, Foot of the bed)","mat_id":"507"}
+{"name":"Bed (West, Empty, Head of the bed)","mat_id":"515"}
+{"name":"Birch Door (Lower, Facing East, Closed)","mat_id":"972"}
+{"name":"Birch Door (Lower, Facing East, Opened)","mat_id":"976"}
+{"name":"Birch Door (Lower, Facing North, Closed)","mat_id":"971"}
+{"name":"Birch Door (Lower, Facing North, Opened)","mat_id":"975"}
+{"name":"Birch Door (Lower, Facing South, Closed)","mat_id":"973"}
+{"name":"Birch Door (Lower, Facing South, Opened)","mat_id":"977"}
+{"name":"Birch Door (Lower, Facing West, Closed)","mat_id":"970"}
+{"name":"Birch Door (Upper, Hinge Left, Powered)","mat_id":"980"}
+{"name":"Birch Door (Upper, Hinge Left, Unpowered)","mat_id":"978"}
+{"name":"Birch Door (Upper, Hinge Right, Powered)","mat_id":"981"}
+{"name":"Birch Door (Upper, Hinge Right, Unpowered)","mat_id":"979"}
+{"name":"Birch Fence Gate (Facing East, Closed)","mat_id":"1053"}
+{"name":"Birch Fence Gate (Facing North, Closed)","mat_id":"1052"}
+{"name":"Birch Fence Gate (Facing South, Closed)","mat_id":"1050"}
+{"name":"Birch Fence Gate (Facing West, Closed)","mat_id":"1051"}
+{"name":"Birch Fence","mat_id":"908"}
+{"name":"Birch Leaves","mat_id":"35"}
+{"name":"Birch Leaves (No Decay and Check Decay)","mat_id":"321"}
+{"name":"Birch Leaves (No Decay)","mat_id":"330"}
+{"name":"Birch sapling Flower Pot","mat_id":"337"}
+{"name":" (Birch Wood, Bottom)","mat_id":"207"}
+{"name":"Birch Wood (facing east/west)","mat_id":"431"}
+{"name":"Birch Wood (facing north/south)","mat_id":"302"}
+{"name":"Birch Wood","mat_id":"31"}
+{"name":"Birch Wood (only bark)","mat_id":"437"}
+{"name":"Birch Wood Plank","mat_id":"21"}
+{"name":"Birch Wood Stairs (East, Normal)","mat_id":"219"}
+{"name":"Birch Wood Stairs (East, Upside-down)","mat_id":"442"}
+{"name":"Birch Wood Stairs (North, Normal)","mat_id":"441"}
+{"name":"Birch Wood Stairs (North, Upside-down)","mat_id":"445"}
+{"name":"Birch Wood Stairs (South, Normal)","mat_id":"440"}
+{"name":"Birch Wood Stairs (South, Upside-down)","mat_id":"444"}
+{"name":"Birch Wood Stairs (West, Normal)","mat_id":"439"}
+{"name":"Birch Wood Stairs (West, Upside-down)","mat_id":"443"}
+{"name":" (Birch Wood, Upper)","mat_id":"1137"}
+{"name":"Black Carpet","mat_id":"1111"}
+{"name":"Black Stained Clay","mat_id":"259"}
+{"name":"Black Stained Glass","mat_id":"161"}
+{"name":"Black Stained Glass Pane","mat_id":"275"}
+{"name":"Black Wool","mat_id":"39"}
+{"name":"Block of Coal","mat_id":"426"}
+{"name":"Blue Carpet","mat_id":"1107"}
+{"name":"Blue Orchid","mat_id":"1183"}
+{"name":"Blue Stained Clay","mat_id":"255"}
+{"name":"Blue Stained Glass","mat_id":"157"}
+{"name":"Blue Stained Glass Pane","mat_id":"271"}
+{"name":"Blue Wool","mat_id":"69"}
+{"name":"Bone Block (Oriented east-west)","mat_id":"1726"}
+{"name":"Bone Block (Oriented north-south)","mat_id":"1728"}
+{"name":"Bone Block (Oriented vertically)","mat_id":"1727"}
+{"name":"Bookshelf","mat_id":"95"}
+{"name":"Brewing Stand (Slot 1 Active, Slot 2 Active, Slot 3 Active)","mat_id":"1483"}
+{"name":"Brewing Stand (Slot 1 Active, Slot 2 Active, Slot 3 Unactive","mat_id":"1479"}
+{"name":"Brewing Stand (Slot 1 Active, Slot 2 Unactive, Slot 3 Active","mat_id":"1481"}
+{"name":"Brewing Stand (Slot 1 Active, Slot 2 Unactive, Slot 3 Unacti","mat_id":"1477"}
+{"name":"Brewing Stand (Slot 1 Unactive, Slot 2 Active, Slot 3 Active","mat_id":"1482"}
+{"name":"Brewing Stand (Slot 1 Unactive, Slot 2 Active, Slot 3 Unacti","mat_id":"1478"}
+{"name":"Brewing Stand (Slot 1 Unactive, Slot 2 Unactive, Slot 3 Acti","mat_id":"1480"}
+{"name":"Brewing Stand (Slot 1 Unactive, Slot 2 Unactive, Slot 3 Unac","mat_id":"191"}
+{"name":"Brick Slab","mat_id":"89"}
+{"name":"Bricks","mat_id":"93"}
+{"name":"Brick Stairs (East, Normal)","mat_id":"182"}
+{"name":"Brick Stairs (East, Upside-down)","mat_id":"588"}
+{"name":"Brick Stairs (North, Normal)","mat_id":"587"}
+{"name":"Brick Stairs (North, Upside-down)","mat_id":"591"}
+{"name":"Brick Stairs (South, Normal)","mat_id":"586"}
+{"name":"Brick Stairs (South, Upside-down)","mat_id":"590"}
+{"name":"Brick Stairs (West, Normal)","mat_id":"585"}
+{"name":"Brick Stairs (West, Upside-down)","mat_id":"589"}
+{"name":"Bricks (Upper)","mat_id":"497"}
+{"name":"Brown Carpet","mat_id":"1108"}
+{"name":"Brown Mushroom Block Cap Texture on all 6 Sides","mat_id":"1327"}
+{"name":"Brown Mushroom Block","mat_id":"1296"}
+{"name":"Brown Mushroom (Cap texture on top, east and south)","mat_id":"1725"}
+{"name":"Brown Mushroom (Cap texture on top, north and east)","mat_id":"1723"}
+{"name":"Brown Mushroom (Cap texture on top, south and west)","mat_id":"1724"}
+{"name":"Brown Mushroom (Cap texture on top, west and north)","mat_id":"1722"}
+{"name":"Brown mushroom Flower Pot","mat_id":"340"}
+{"name":"Brown Mushroom","mat_id":"1552"}
+{"name":"Brown Mushroom  (stem  6 sides)","mat_id":"1699"}
+{"name":"Brown Stained Clay","mat_id":"256"}
+{"name":"Brown Stained Glass","mat_id":"158"}
+{"name":"Brown Stained Glass Pane","mat_id":"272"}
+{"name":"Brown Wool","mat_id":"70"}
+{"name":"Burning Furnace (Facing East)","mat_id":"906"}
+{"name":"Burning Furnace (Facing North)","mat_id":"903"}
+{"name":"Burning Furnace (Facing South)","mat_id":"904"}
+{"name":"Burning Furnace (Facing West)","mat_id":"905"}
+{"name":"Burning Furnace ()","mat_id":"110"}
+{"name":"Cactus (Age 10)","mat_id":"1686"}
+{"name":"Cactus (Age 11)","mat_id":"1687"}
+{"name":"Cactus (Age 12)","mat_id":"1688"}
+{"name":"Cactus (Age 13)","mat_id":"1689"}
+{"name":"Cactus (Age 15)","mat_id":"1691"}
+{"name":"Cactus (Age 1)","mat_id":"1677"}
+{"name":"Cactus (Age 2)","mat_id":"1678"}
+{"name":"Cactus (Age 5)","mat_id":"1681"}
+{"name":"Cactus (Age 7)","mat_id":"1683"}
+{"name":"Cactus (Age 8)","mat_id":"1684"}
+{"name":"Cactus (Age 9)","mat_id":"1685"}
+{"name":"Cactus Flower Pot","mat_id":"341"}
+{"name":"Cake  (1 piece eaten)","mat_id":"1701"}
+{"name":"Cake  (2 pieces eaten)","mat_id":"1700"}
+{"name":"Cake Block","mat_id":"141"}
+{"name":"Carrots (Growth level 4)","mat_id":"1658"}
+{"name":"Carrots (Growth level 7)","mat_id":"1661"}
+{"name":"Cauldron (1/3 Filled)","mat_id":"913"}
+{"name":"Cauldron (2/3 Filled)","mat_id":"914"}
+{"name":"Cauldron (Empty)","mat_id":"192"}
+{"name":"Cauldron (Fully Filled)","mat_id":"915"}
+{"name":"Chest (East)","mat_id":"525"}
+{"name":"Chest","mat_id":"102"}
+{"name":"Chest (North)","mat_id":"522"}
+{"name":"Chest (South)","mat_id":"523"}
+{"name":"Chest (West)","mat_id":"524"}
+{"name":"Chiseled Quartz Block","mat_id":"242"}
+{"name":"Chiseled Red Sandstone","mat_id":"1248"}
+{"name":"Chiseled Sandstone","mat_id":"54"}
+{"name":"Chiseled Stone Brick Monster Egg","mat_id":"168"}
+{"name":"Chiseled Stone Bricks","mat_id":"172"}
+{"name":"Clay","mat_id":"130"}
+{"name":"Coal Ore","mat_id":"46"}
+{"name":"Coarse Dirt","mat_id":"16"}
+{"name":"Cobblestone","mat_id":"18"}
+{"name":"Cobblestone Monster Egg","mat_id":"164"}
+{"name":"Cobblestone Slab","mat_id":"88"}
+{"name":"Cobblestone Stairs (East, Normal)","mat_id":"115"}
+{"name":"Cobblestone Stairs (East, Upside-down)","mat_id":"316"}
+{"name":"Cobblestone Stairs (North, Normal)","mat_id":"315"}
+{"name":"Cobblestone Stairs (North, Upside-down)","mat_id":"319"}
+{"name":"Cobblestone Stairs (South, Normal)","mat_id":"314"}
+{"name":"Cobblestone Stairs (South, Upside-down)","mat_id":"318"}
+{"name":"Cobblestone Stairs (West, Normal)","mat_id":"313"}
+{"name":"Cobblestone Stairs (West, Upside-down)","mat_id":"317"}
+{"name":"Cobblestone (Upper)","mat_id":"496"}
+{"name":"Cobblestone Wall","mat_id":"223"}
+{"name":"Cobweb","mat_id":"1095"}
+{"name":"cocoa (Attached to the East, Third Stage)","mat_id":"1493"}
+{"name":"cocoa (Attached to the North, Third Stage)","mat_id":"1492"}
+{"name":"cocoa (Attached to the South, Third Stage)","mat_id":"1494"}
+{"name":"cocoa (Attached to the West, Third Stage)","mat_id":"1495"}
+{"name":"Command block (facing east)","mat_id":"1706"}
+{"name":"Command block (facing north)","mat_id":"1703"}
+{"name":"Command block (facing south)","mat_id":"1704"}
+{"name":"Command block (facing up)","mat_id":"1702"}
+{"name":"Command block (facing west)","mat_id":"1705"}
+{"name":"Cracked Stone Brick Monster Egg","mat_id":"167"}
+{"name":"Cracked Stone Bricks","mat_id":"171"}
+{"name":"Crafting Table","mat_id":"106"}
+{"name":"Cyan Carpet","mat_id":"1105"}
+{"name":"Cyan Stained Clay","mat_id":"253"}
+{"name":"Cyan Stained Glass","mat_id":"155"}
+{"name":"Cyan Stained Glass Pane","mat_id":"269"}
+{"name":"Cyan Wool","mat_id":"68"}
+{"name":"Dandelion Flower Pot","mat_id":"334"}
+{"name":"Dandelion","mat_id":"283"}
+{"name":"Dark Oak Door (Lower, Facing East, Closed)","mat_id":"1008"}
+{"name":"Dark Oak Door (Lower, Facing East, Opened)","mat_id":"1012"}
+{"name":"Dark Oak Door (Lower, Facing North, Closed)","mat_id":"1007"}
+{"name":"Dark Oak Door (Lower, Facing North, Opened)","mat_id":"1011"}
+{"name":"Dark Oak Door (Lower, Facing South, Closed)","mat_id":"1009"}
+{"name":"Dark Oak Door (Lower, Facing South, Opened)","mat_id":"1013"}
+{"name":"Dark Oak Door (Lower, Facing West, Closed)","mat_id":"1006"}
+{"name":"Dark Oak Door (Lower, Facing West, Opened)","mat_id":"1010"}
+{"name":"Dark Oak Door (Upper, Hinge Left, Powered)","mat_id":"1016"}
+{"name":"Dark Oak Door (Upper, Hinge Left, Unpowered)","mat_id":"1014"}
+{"name":"Dark Oak Door (Upper, Hinge Right, Powered)","mat_id":"1017"}
+{"name":"Dark Oak Door (Upper, Hinge Right, Unpowered)","mat_id":"1015"}
+{"name":"Dark Oak Fence Gate (Facing East, Closed)","mat_id":"1069"}
+{"name":"Dark Oak Fence Gate (Facing East, Opened)","mat_id":"1073"}
+{"name":"Dark Oak Fence Gate (Facing North, Closed)","mat_id":"1068"}
+{"name":"Dark Oak Fence Gate (Facing North, Opened)","mat_id":"1072"}
+{"name":"Dark Oak Fence Gate (Facing South, Closed)","mat_id":"1066"}
+{"name":"Dark Oak Fence Gate (Facing West, Closed)","mat_id":"1067"}
+{"name":"Dark Oak Fence Gate (Facing West, Opened)","mat_id":"1071"}
+{"name":"Dark Oak Fence","mat_id":"910"}
+{"name":"Dark Oak Leaves (Check Decay and No Decay)","mat_id":"1195"}
+{"name":"Dark Oak Leaves","mat_id":"1189"}
+{"name":"Dark Oak Leaves (No Decay)","mat_id":"1191"}
+{"name":"Dark Oak Wood, Facing East/West","mat_id":"422"}
+{"name":"Dark Oak Wood, Facing North/South","mat_id":"424"}
+{"name":"Dark Oak Wood","mat_id":"281"}
+{"name":"Dark Oak Wood (No Axis)","mat_id":"1670"}
+{"name":"Dark Oak Wood Plank","mat_id":"25"}
+{"name":" Dark Oak Wood Slab (Bottom)","mat_id":"210"}
+{"name":" Dark Oak Wood Slab (Upper)","mat_id":"1140"}
+{"name":"Dark Oak Wood Stairs (East, Normal)","mat_id":"278"}
+{"name":"Dark Oak Wood Stairs (East, Upside-down)","mat_id":"532"}
+{"name":"Dark Oak Wood Stairs (North, Normal)","mat_id":"531"}
+{"name":"Dark Oak Wood Stairs (North, Upside-down)","mat_id":"535"}
+{"name":"Dark Oak Wood Stairs (South, Normal)","mat_id":"530"}
+{"name":"Dark Oak Wood Stairs (South, Upside-down)","mat_id":"534"}
+{"name":"Dark Oak Wood Stairs (West, Normal)","mat_id":"529"}
+{"name":"Dark Oak Wood Stairs (West, Upside-down)","mat_id":"533"}
+{"name":"Dark Prismarine","mat_id":"355"}
+{"name":"Daylight Sensor (Power level 0)","mat_id":"238"}
+{"name":"Daylight Sensor (Power level 10)","mat_id":"1346"}
+{"name":"Daylight Sensor (Power level 11)","mat_id":"1347"}
+{"name":"Daylight Sensor (Power level 13)","mat_id":"1349"}
+{"name":"Daylight Sensor (Power level 14)","mat_id":"1350"}
+{"name":"Daylight Sensor (Power level 15)","mat_id":"1351"}
+{"name":"Daylight Sensor (Power level 1)","mat_id":"1337"}
+{"name":"Daylight Sensor (Power level 2)","mat_id":"1338"}
+{"name":"Daylight Sensor (Power level 3)","mat_id":"1339"}
+{"name":"Daylight Sensor (Power level 4)","mat_id":"1340"}
+{"name":"Daylight Sensor (Power level 5)","mat_id":"1341"}
+{"name":"Daylight Sensor (Power level 6)","mat_id":"1342"}
+{"name":"Daylight Sensor (Power level 7)","mat_id":"1343"}
+{"name":"Daylight Sensor (Power level 8)","mat_id":"1344"}
+{"name":"Daylight Sensor (Power level 9)","mat_id":"1345"}
+{"name":"Dead bush Flower Pot","mat_id":"342"}
+{"name":"Dead Bush","mat_id":"1352"}
+{"name":"Dead Shrub","mat_id":"59"}
+{"name":"Detector Rail (Flat, North-South, Unactive)","mat_id":"1250"}
+{"name":"Detector Rail (Flat, West-East, Unactive)","mat_id":"1251"}
+{"name":"Diamond Block","mat_id":"105"}
+{"name":"Diamond Ore","mat_id":"104"}
+{"name":"Diorite","mat_id":"277"}
+{"name":"Dirt","mat_id":"15"}
+{"name":"Dispenser (Facing Down, Activated)","mat_id":"1285"}
+{"name":"Dispenser (Facing Down, Unactive)","mat_id":"52"}
+{"name":"Dispenser (Facing East, Unactive)","mat_id":"1283"}
+{"name":"Dispenser (Facing North, Activated)","mat_id":"1287"}
+{"name":"Dispenser (Facing North, Unactive)","mat_id":"1280"}
+{"name":"Dispenser (Facing South, Activated)","mat_id":"1288"}
+{"name":"Dispenser (Facing South, Unactive)","mat_id":"1281"}
+{"name":"Dispenser (Facing Up, Unactive)","mat_id":"1279"}
+{"name":"Dispenser (Facing West, Activated)","mat_id":"1289"}
+{"name":"Dispenser (Facing West, Unactive)","mat_id":"1282"}
+{"name":"Double Acacia Wood Slab","mat_id":"203"}
+{"name":"Double Birch Wood Slab","mat_id":"201"}
+{"name":"Double Brick Slab","mat_id":"81"}
+{"name":"Double Cobblestone Slab","mat_id":"80"}
+{"name":"Double Dark Oak Wood Slab","mat_id":"204"}
+{"name":"Double Jungle Wood Slab","mat_id":"202"}
+{"name":"Double Nether Brick Slab","mat_id":"83"}
+{"name":"Double Oak Wood Slab","mat_id":"199"}
+{"name":"Double Quartz Slab","mat_id":"84"}
+{"name":"Double Red Sandstone Slab","mat_id":"1707"}
+{"name":"Double Sandstone Slab","mat_id":"77"}
+{"name":"Double Sandstone Slab Seamless","mat_id":"1668"}
+{"name":"Double Spruce Wood Slab","mat_id":"200"}
+{"name":"Double Stone Brick Slab","mat_id":"82"}
+{"name":"Double Stone Slab","mat_id":"78"}
+{"name":"Double Wooden Slab","mat_id":"79"}
+{"name":"Dragon Egg","mat_id":"196"}
+{"name":"Dropper (Facing Down, Unactive)","mat_id":"1264"}
+{"name":"Dropper (Facing East, Activated)","mat_id":"1276"}
+{"name":"Dropper (Facing East, Unactive)","mat_id":"1269"}
+{"name":"Dropper (Facing North, Activated)","mat_id":"1273"}
+{"name":"Dropper (Facing North, Unactive)","mat_id":"1266"}
+{"name":"Dropper (Facing South, Unactive)","mat_id":"1267"}
+{"name":"Dropper (Facing Up, Unactive)","mat_id":"1265"}
+{"name":"Dropper (Facing West, Activated)","mat_id":"1275"}
+{"name":"Dropper (Facing West, Unactive)","mat_id":"1268"}
+{"name":"Emerald Block","mat_id":"217"}
+{"name":"Emerald Ore","mat_id":"213"}
+{"name":"Enchantment Table","mat_id":"190"}
+{"name":"Ender Chest (Facing East)","mat_id":"949"}
+{"name":"Ender Chest (Facing North)","mat_id":"946"}
+{"name":"Ender Chest (Facing South)","mat_id":"947"}
+{"name":"Ender Chest (Facing West)","mat_id":"948"}
+{"name":"End Portal Frame (Vectors to the East, Empty)","mat_id":"953"}
+{"name":"End Portal Frame (Vectors to the East, Eye of Ender)","mat_id":"957"}
+{"name":"End Portal Frame (Vectors to the North, Empty)","mat_id":"952"}
+{"name":"End Portal Frame (Vectors to the North, Eye of Ender)","mat_id":"956"}
+{"name":"End Portal Frame (Vectors to the South, Empty)","mat_id":"194"}
+{"name":"End Portal Frame (Vectors to the South, Eye of Ender)","mat_id":"954"}
+{"name":"End Portal Frame (Vectors to the West, Empty)","mat_id":"951"}
+{"name":"End Portal Frame (Vectors to the West, Eye of Ender)","mat_id":"955"}
+{"name":"End Portal","mat_id":"193"}
+{"name":"End Rod (Facing Down)","mat_id":"1693"}
+{"name":"End Rod (Facing East)","mat_id":"1698"}
+{"name":"End Rod (Facing North)","mat_id":"1695"}
+{"name":"End Rod (Facing South)","mat_id":"1696"}
+{"name":"End Rod (Facing Up)","mat_id":"1694"}
+{"name":"End Rod (Facing West)","mat_id":"1697"}
+{"name":"End Stone Bricks","mat_id":"1676"}
+{"name":"End Stone","mat_id":"195"}
+{"name":"Farmland (Dry Land)","mat_id":"108"}
+{"name":"Farmland (Fully Hydrated)","mat_id":"1474"}
+{"name":"Farmland (Wet level 1)","mat_id":"1468"}
+{"name":"Farmland (Wet level 2)","mat_id":"1469"}
+{"name":"Farmland (Wet level 3)","mat_id":"1470"}
+{"name":"Farmland (Wet level 4)","mat_id":"1471"}
+{"name":"Farmland (Wet level 5)","mat_id":"1472"}
+{"name":"Farmland (Wet level 6)","mat_id":"1473"}
+{"name":"Fern Flower Pot","mat_id":"343"}
+{"name":"Fern","mat_id":"61"}
+{"name":"Fire (Age 0)","mat_id":"99"}
+{"name":"Fire (Age 14)","mat_id":"1126"}
+{"name":"Fire (Age 15)","mat_id":"1127"}
+{"name":"Fire (Age 2)","mat_id":"1114"}
+{"name":"Fire (Age 6)","mat_id":"1118"}
+{"name":"Flower (Double Tallgrass, Lower)","mat_id":"918"}
+{"name":"Flower (Double Tallgrass, Upper)","mat_id":"925"}
+{"name":"Flower (Large Fern, Lower)","mat_id":"919"}
+{"name":"Flower (Large Fern, Upper)","mat_id":"926"}
+{"name":"Flower (Lilac, Lower)","mat_id":"917"}
+{"name":"Flower (Lilac, Upper)","mat_id":"924"}
+{"name":"Flower (Peony, Lower)","mat_id":"921"}
+{"name":"Flower Pot","mat_id":"227"}
+{"name":"Flower (Rose Bush, Lower)","mat_id":"920"}
+{"name":"Flower (Sunflower, Lower)","mat_id":"916"}
+{"name":"Flower (Sunflower, Upper)","mat_id":"923"}
+{"name":"Free-Standing Banner Facing East","mat_id":"1675"}
+{"name":"Freshly Planted Cactus","mat_id":"129"}
+{"name":"Furnace (Facing East)","mat_id":"901"}
+{"name":"Furnace (Facing North)","mat_id":"898"}
+{"name":"Furnace (Facing South)","mat_id":"899"}
+{"name":"Furnace (Facing West)","mat_id":"900"}
+{"name":"Glass","mat_id":"49"}
+{"name":"Glass Pane","mat_id":"176"}
+{"name":"Glowstone","mat_id":"137"}
+{"name":"Gold Block","mat_id":"73"}
+{"name":"Gold Ore","mat_id":"44"}
+{"name":"Granite","mat_id":"5"}
+{"name":"Grass 1","mat_id":"1292"}
+{"name":"Grass 2","mat_id":"1293"}
+{"name":"Grass 3","mat_id":"1294"}
+{"name":"grass 6","mat_id":"1647"}
+{"name":"Grass 7","mat_id":"1648"}
+{"name":"Grass","mat_id":"14"}
+{"name":"Grass","mat_id":"60"}
+{"name":"Grass Path","mat_id":"1692"}
+{"name":"Gravel","mat_id":"28"}
+{"name":"Gray Carpet","mat_id":"1103"}
+{"name":"Gray Stained Clay","mat_id":"251"}
+{"name":"Gray Stained Glass","mat_id":"153"}
+{"name":"Gray Stained Glass Pane","mat_id":"267"}
+{"name":"Gray Wool","mat_id":"66"}
+{"name":"Green Carpet","mat_id":"1109"}
+{"name":"Green Stained Clay","mat_id":"257"}
+{"name":"Green Stained Glass","mat_id":"159"}
+{"name":"Green Stained Glass Pane","mat_id":"273"}
+{"name":"Green Wool","mat_id":"71"}
+{"name":"Hardened Clay","mat_id":"425"}
+{"name":"Hay Bale (Axis X)","mat_id":"721"}
+{"name":"Hay Bale (Axis Y)","mat_id":"720"}
+{"name":"Hay Bale (Axis Z)","mat_id":"722"}
+{"name":"Hopper (Output Facing Down, Activated)","mat_id":"1392"}
+{"name":"Hopper (Output Facing Down, Disabled)","mat_id":"241"}
+{"name":"Hopper (Output Facing East, Activated)","mat_id":"1397"}
+{"name":"Hopper (Output Facing East, Disabled)","mat_id":"1391"}
+{"name":"Hopper (Output Facing North, Activated)","mat_id":"1394"}
+{"name":"Hopper (Output Facing North, Disabled)","mat_id":"1388"}
+{"name":"Hopper (Output Facing South, Activated)","mat_id":"1395"}
+{"name":"Hopper (Output Facing South, Disabled)","mat_id":"1389"}
+{"name":"Hopper (Output Facing West, Activated)","mat_id":"1396"}
+{"name":"Hopper (Output Facing West, Disabled)","mat_id":"1390"}
+{"name":"Ice","mat_id":"127"}
+{"name":"Iron Bars 1","mat_id":"1644"}
+{"name":"Iron Bars","mat_id":"173"}
+{"name":"Iron Block","mat_id":"74"}
+{"name":"Iron Door (Lower, Facing East, Closed)","mat_id":"458"}
+{"name":"Iron Door (Lower, Facing East, Opened)","mat_id":"462"}
+{"name":"Iron Door (Lower, Facing North, Closed)","mat_id":"457"}
+{"name":"Iron Door (Lower, Facing North, Opened)","mat_id":"461"}
+{"name":"Iron Door (Lower, Facing South, Closed)","mat_id":"459"}
+{"name":"Iron Door (Lower, Facing South, Opened)","mat_id":"463"}
+{"name":"Iron Door (Lower, Facing West, Closed)","mat_id":"119"}
+{"name":"Iron Door (Lower, Facing West, Opened)","mat_id":"460"}
+{"name":"Iron Door (Upper, Hinge Left, Powered)","mat_id":"466"}
+{"name":"Iron Door (Upper, Hinge Left, Unpowered)","mat_id":"464"}
+{"name":"Iron Door (Upper, Hinge Right, Powered)","mat_id":"467"}
+{"name":"Iron Door (Upper, Hinge Right, Unpowered)","mat_id":"465"}
+{"name":"Iron Ore","mat_id":"45"}
+{"name":"Iron Trapdoor (East from block, Closed, Bottom half)","mat_id":"883"}
+{"name":"Iron Trapdoor (East from block, Closed, Top Half)","mat_id":"891"}
+{"name":"Iron Trapdoor (East from block, Open, Bottom half)","mat_id":"887"}
+{"name":"Iron Trapdoor (East from block, Open, Top Half)","mat_id":"895"}
+{"name":"Iron Trapdoor (North from block, Closed, Bottom half)","mat_id":"884"}
+{"name":"Iron Trapdoor (North from block, Closed, Top Half)","mat_id":"892"}
+{"name":"Iron Trapdoor (North from block, Open, Bottom half)","mat_id":"888"}
+{"name":"Iron Trapdoor (North from block, Open, Top Half)","mat_id":"896"}
+{"name":"Iron Trapdoor (South from block, Closed, Bottom half)","mat_id":"882"}
+{"name":"Iron Trapdoor (South from block, Closed, Top Half)","mat_id":"890"}
+{"name":"Iron Trapdoor (South from block, Open, Bottom half)","mat_id":"886"}
+{"name":"Iron Trapdoor (South from block, Open, Top Half)","mat_id":"894"}
+{"name":"Iron Trapdoor (West from block, Closed, Bottom half)","mat_id":"881"}
+{"name":"Iron Trapdoor (West from block, Closed, Top Half)","mat_id":"889"}
+{"name":"Iron Trapdoor (West from block, Open, Bottom half)","mat_id":"885"}
+{"name":"Iron Trapdoor (West from block, Open, Top Half)","mat_id":"893"}
+{"name":"Jack-o-Lantern (Facing East)","mat_id":"1583"}
+{"name":"Jack-o-Lantern (Facing North)","mat_id":"1582"}
+{"name":"Jack-o-Lantern (Facing South)","mat_id":"142"}
+{"name":"Jack-o-Lantern (Facing West)","mat_id":"1581"}
+{"name":"Jukebox (Disc inside)","mat_id":"1295"}
+{"name":"Jukebox","mat_id":"132"}
+{"name":"Jungle Door (Lower, Facing East, Closed)","mat_id":"984"}
+{"name":"Jungle Door (Lower, Facing East, Opened)","mat_id":"988"}
+{"name":"Jungle Door (Lower, Facing North, Closed)","mat_id":"983"}
+{"name":"Jungle Door (Lower, Facing North, Opened)","mat_id":"987"}
+{"name":"Jungle Door (Lower, Facing South, Closed)","mat_id":"985"}
+{"name":"Jungle Door (Lower, Facing South, Opened)","mat_id":"989"}
+{"name":"Jungle Door (Lower, Facing West, Closed)","mat_id":"982"}
+{"name":"Jungle Door (Lower, Facing West, Opened)","mat_id":"986"}
+{"name":"Jungle Door (Upper, Hinge Left, Unpowered)","mat_id":"990"}
+{"name":"Jungle Door (Upper, Hinge Right, Unpowered)","mat_id":"991"}
+{"name":"Jungle Fence Gate (Facing East, Closed)","mat_id":"1061"}
+{"name":"Jungle Fence Gate (Facing East, Opened)","mat_id":"1065"}
+{"name":"Jungle Fence Gate (Facing North, Closed)","mat_id":"1060"}
+{"name":"Jungle Fence Gate (Facing South, Closed)","mat_id":"1058"}
+{"name":"Jungle Fence Gate (Facing West, Closed)","mat_id":"1059"}
+{"name":"Jungle Fence Gate (Facing West, Opened)","mat_id":"1063"}
+{"name":"Jungle Fence","mat_id":"909"}
+{"name":"Jungle Leaves (Check Decay)","mat_id":"324"}
+{"name":"Jungle Leaves","mat_id":"36"}
+{"name":"Jungle Leaves (No Decay and Check Decay)","mat_id":"320"}
+{"name":"Jungle Leaves (No Decay)","mat_id":"290"}
+{"name":"Jungle sapling Flower Pot","mat_id":"338"}
+{"name":" (Jungle Wood, Bottom)","mat_id":"208"}
+{"name":"Jungle Wood (facing east/west)","mat_id":"432"}
+{"name":"Jungle Wood (facing north/south)","mat_id":"434"}
+{"name":"Jungle Wood","mat_id":"32"}
+{"name":"Jungle Wood (only bark)","mat_id":"438"}
+{"name":"Jungle Wood Plank","mat_id":"22"}
+{"name":"Jungle Wood Stairs (East, Normal)","mat_id":"220"}
+{"name":"Jungle Wood Stairs (East, Upside-down)","mat_id":"636"}
+{"name":"Jungle Wood Stairs (North, Normal)","mat_id":"635"}
+{"name":"Jungle Wood Stairs (North, Upside-down)","mat_id":"639"}
+{"name":"Jungle Wood Stairs (South, Normal)","mat_id":"634"}
+{"name":"Jungle Wood Stairs (South, Upside-down)","mat_id":"638"}
+{"name":"Jungle Wood Stairs (West, Normal)","mat_id":"633"}
+{"name":"Jungle Wood Stairs (West, Upside-down)","mat_id":"637"}
+{"name":" (Jungle Wood, Upper)","mat_id":"301"}
+{"name":"Ladder (facing east)","mat_id":"350"}
+{"name":"Ladder (facing north)","mat_id":"347"}
+{"name":"Ladder (facing south)","mat_id":"348"}
+{"name":"Ladder (facing west)","mat_id":"349"}
+{"name":"Lapis Lazuli Block","mat_id":"51"}
+{"name":"Lapis Lazuli Ore","mat_id":"50"}
+{"name":"Lava (Height Level 2, Falling Lava)","mat_id":"1604"}
+{"name":"Lava (Height Level 2, Still Lava)","mat_id":"1545"}
+{"name":"Lava (Height Level 4, Falling Lava)","mat_id":"1606"}
+{"name":"Lava (Height Level 4, Still Lava)","mat_id":"1547"}
+{"name":"Lava (Height Level 6, Falling Lava)","mat_id":"1608"}
+{"name":"Lava (Height Level 6, Still Lava)","mat_id":"1549"}
+{"name":"Lava (Lava Source Block, Falling Lava)","mat_id":"1551"}
+{"name":"Lava (Lava Source Block, Still Lava)","mat_id":"1173"}
+{"name":"Lever (On Block Bottom Points East When Off, Active)","mat_id":"390"}
+{"name":"Lever (On Block Bottom Points East When Off, Not Active)","mat_id":"117"}
+{"name":"Lever (On Block Bottom Points South When Off, Active)","mat_id":"1326"}
+{"name":"Lever (On Block Bottom Points South When Off, Not Active)","mat_id":"389"}
+{"name":"Lever (On Block Side Facing East, Active)","mat_id":"391"}
+{"name":"Lever (On Block Side Facing East, Not Active)","mat_id":"383"}
+{"name":"Lever (On Block Side Facing North, Active)","mat_id":"393"}
+{"name":"Lever (On Block Side Facing North, Not Active)","mat_id":"386"}
+{"name":"Lever (On Block Side Facing South, Active)","mat_id":"392"}
+{"name":"Lever (On Block Side Facing South, Not Active)","mat_id":"385"}
+{"name":"Lever (On Block Side Facing West, Active)","mat_id":"346"}
+{"name":"Lever (On Block Side Facing West, Not Active)","mat_id":"384"}
+{"name":"Lever (On Block Top Points East When Off, Active)","mat_id":"1325"}
+{"name":"Lever (On Block Top Points East When Off, Not Active)","mat_id":"388"}
+{"name":"Lever (On Block Top Points South When Off, Active)","mat_id":"1324"}
+{"name":"Lever (On Block Top Points South When Off, Not Active)","mat_id":"387"}
+{"name":"Light Blue Carpet","mat_id":"1099"}
+{"name":"Light Blue Stained Clay","mat_id":"247"}
+{"name":"Light Blue Stained Glass","mat_id":"149"}
+{"name":"Light Blue Stained Glass Pane","mat_id":"263"}
+{"name":"Light Blue Wool","mat_id":"63"}
+{"name":"Light Gray Carpet","mat_id":"1104"}
+{"name":"Light Gray Stained Clay","mat_id":"252"}
+{"name":"Light Gray Stained Glass","mat_id":"154"}
+{"name":"Light Gray Stained Glass Pane","mat_id":"268"}
+{"name":"Light Gray Wool","mat_id":"67"}
+{"name":"Lily Pad","mat_id":"185"}
+{"name":"Lime Carpet","mat_id":"1101"}
+{"name":"Lime Stained Clay","mat_id":"249"}
+{"name":"Lime Stained Glass","mat_id":"151"}
+{"name":"Lime Stained Glass Pane","mat_id":"265"}
+{"name":"Lime Wool","mat_id":"65"}
+{"name":"Magenta Carpet","mat_id":"1098"}
+{"name":"Magenta Stained Clay","mat_id":"246"}
+{"name":"Magenta Stained Glass","mat_id":"147"}
+{"name":"Magenta Stained Glass Pane","mat_id":"262"}
+{"name":"Magenta Wool","mat_id":"42"}
+{"name":"Magma block","mat_id":"1715"}
+{"name":"Melon Block","mat_id":"177"}
+{"name":"Melon Stem (Fifth stage of growth)","mat_id":"1559"}
+{"name":"Melon Stem (First stage of growth)","mat_id":"1555"}
+{"name":"Melon Stem (Fourth stage of growth)","mat_id":"1558"}
+{"name":"Melon Stem (Second stage of growth)","mat_id":"1556"}
+{"name":"Melon Stem (Seventh stage of growth)","mat_id":"1561"}
+{"name":"Melon Stem (Sixth stage of growth)","mat_id":"1560"}
+{"name":"Melon Stem (Third stage of growth)","mat_id":"1557"}
+{"name":"Mob Head ()","mat_id":"231"}
+{"name":"Mob Head (On a Wall Facing East)","mat_id":"1425"}
+{"name":"Mob Head (On a Wall Facing North)","mat_id":"1423"}
+{"name":"Mob Head (On a Wall Facing South)","mat_id":"1424"}
+{"name":"Mob Head (On a Wall Facing West)","mat_id":"1426"}
+{"name":"Mob Head (On The Floor)","mat_id":"1422"}
+{"name":"Monster Spawner","mat_id":"100"}
+{"name":"Moss Stone","mat_id":"96"}
+{"name":"Mossy Cobblestone Wall","mat_id":"224"}
+{"name":"Mossy Stone Brick Monster Egg","mat_id":"166"}
+{"name":"Mossy Stone Bricks","mat_id":"170"}
+{"name":"Mycelium","mat_id":"184"}
+{"name":"Nether Brick Fence","mat_id":"187"}
+{"name":"Nether Brick","mat_id":"186"}
+{"name":"Nether Brick Slab","mat_id":"91"}
+{"name":"Nether Brick Slab (Upper)","mat_id":"499"}
+{"name":"Nether Brick Stairs (East, Normal)","mat_id":"188"}
+{"name":"Nether Brick Stairs (East, Upside-down)","mat_id":"604"}
+{"name":"Nether Brick Stairs (North, Normal)","mat_id":"603"}
+{"name":"Nether Brick Stairs (North, Upside-down)","mat_id":"607"}
+{"name":"Nether Brick Stairs (South, Normal)","mat_id":"602"}
+{"name":"Nether Brick Stairs (South, Upside-down)","mat_id":"606"}
+{"name":"Nether Brick Stairs (West, Normal)","mat_id":"601"}
+{"name":"Nether Brick Stairs (West, Upside-down)","mat_id":"605"}
+{"name":"Nether Portal (Axis X - Oriented East-West)","mat_id":"1083"}
+{"name":"Nether Portal (Axis Z - Oriented North-South)","mat_id":"1084"}
+{"name":"Nether Quartz Ore","mat_id":"240"}
+{"name":"Netherrack","mat_id":"135"}
+{"name":"Nether Wart Block","mat_id":"1721"}
+{"name":"Nether Wart ()","mat_id":"1088"}
+{"name":"Note Block","mat_id":"56"}
+{"name":"Oak Door (Facing East, Closed, Lower)","mat_id":"451"}
+{"name":"Oak Door (Facing East, Opened, Lower)","mat_id":"453"}
+{"name":"Oak Door (Facing East, Opened)","mat_id":"1441"}
+{"name":"Oak Door (Facing North, Closed, Lower)","mat_id":"450"}
+{"name":"Oak Door (Facing North, Opened, Lower)","mat_id":"312"}
+{"name":"Oak Door (Facing North, Opened)","mat_id":"1440"}
+{"name":"Oak Door (Facing South, Closed, Lower)","mat_id":"452"}
+{"name":"Oak Door (Facing South, Opened, Lower)","mat_id":"454"}
+{"name":"Oak Door (Facing South, Opened)","mat_id":"1442"}
+{"name":"Oak Door (Facing West, Closed, Lower)","mat_id":"112"}
+{"name":"Oak Door (Facing West, Opened, Lower)","mat_id":"306"}
+{"name":"Oak Door (Hinge Left, Powered, Upper)","mat_id":"455"}
+{"name":"Oak Door (Hinge Left, Unpowered, Upper","mat_id":"309"}
+{"name":"Oak Door (Hinge Right, Powered, Upper)","mat_id":"1439"}
+{"name":"Oak Door (Hinge Right, Powered, Upper )","mat_id":"456"}
+{"name":"Oak Door (Hinge Right, Unpowered, Upper)","mat_id":"310"}
+{"name":"Oak Fence Gate (Facing East, Closed)","mat_id":"1037"}
+{"name":"Oak Fence Gate (Facing East, Opened)","mat_id":"1041"}
+{"name":"Oak Fence Gate (Facing North, Closed)","mat_id":"1036"}
+{"name":"Oak Fence Gate (Facing North, Opened)","mat_id":"1040"}
+{"name":"Oak Fence Gate (Facing South, Closed)","mat_id":"181"}
+{"name":"Oak Fence Gate (Facing South, Opened)","mat_id":"1038"}
+{"name":"Oak Fence Gate (Facing West, Closed)","mat_id":"1035"}
+{"name":"Oak Fence Gate (Facing West, Opened)","mat_id":"1039"}
+{"name":"Oak Fence","mat_id":"133"}
+{"name":"Oak Leaves (Check Decay)","mat_id":"1196"}
+{"name":"Oak Leaves","mat_id":"33"}
+{"name":"Oak Leaves (No Decay and Check Decay)","mat_id":"323"}
+{"name":"Oak Leaves (No Decay)","mat_id":"328"}
+{"name":"Oak sapling Flower Pot","mat_id":"335"}
+{"name":"Oak Wood (facing east/west)","mat_id":"295"}
+{"name":"Oak Wood (facing north/south)","mat_id":"294"}
+{"name":"Oak Wood","mat_id":"29"}
+{"name":"Oak Wood (only bark)","mat_id":"435"}
+{"name":"Oak Wood Plank","mat_id":"19"}
+{"name":"Oak Wood Slab (Bottom)","mat_id":"205"}
+{"name":" Oak Wood Slab (Upper)","mat_id":"325"}
+{"name":"Oak Wood Stairs (East, Normal)","mat_id":"101"}
+{"name":"Oak Wood Stairs (East, Upside-down)","mat_id":"406"}
+{"name":"Oak Wood Stairs (North, Normal)","mat_id":"296"}
+{"name":"Oak Wood Stairs (North, Upside-down)","mat_id":"409"}
+{"name":"Oak Wood Stairs (South, Normal)","mat_id":"298"}
+{"name":"Oak Wood Stairs (South, Upside-down)","mat_id":"408"}
+{"name":"Oak Wood Stairs (West, Normal)","mat_id":"297"}
+{"name":"Oak Wood Stairs (West, Upside-down)","mat_id":"407"}
+{"name":"Obsidian","mat_id":"97"}
+{"name":"Orange Carpet","mat_id":"1097"}
+{"name":"Orange Stained Clay","mat_id":"245"}
+{"name":"Orange Stained Glass","mat_id":"148"}
+{"name":"Orange Stained Glass Pane","mat_id":"261"}
+{"name":"Orange Tulip","mat_id":"1186"}
+{"name":"Orange Wool","mat_id":"62"}
+{"name":"Oxeye Daisy","mat_id":"285"}
+{"name":"Packed Ice","mat_id":"1652"}
+{"name":"Pillar Quartz Block (east-west)","mat_id":"303"}
+{"name":"Pillar Quartz Block","mat_id":"243"}
+{"name":"Pillar Quartz Block (north-south)","mat_id":"299"}
+{"name":"Pink Carpet","mat_id":"1102"}
+{"name":"Pink Stained Clay","mat_id":"250"}
+{"name":"Pink Stained Glass","mat_id":"152"}
+{"name":"Pink Stained Glass Pane","mat_id":"266"}
+{"name":"Pink Tulip","mat_id":"1188"}
+{"name":"Pink Wool","mat_id":"41"}
+{"name":"Piston (6-sided piston2, Extended)","mat_id":"687"}
+{"name":"Piston Extension (Facing down, Not Extended)","mat_id":"1157"}
+{"name":"Piston Extension (Facing up, Extended)","mat_id":"1166"}
+{"name":"Piston Extension (Facing up, Not Extended)","mat_id":"1158"}
+{"name":"Piston (Facing down, Extended)","mat_id":"680"}
+{"name":"Piston (Facing down, Not Extended)","mat_id":"500"}
+{"name":"Piston (Facing east, Extended)","mat_id":"685"}
+{"name":"Piston (Facing east, Not Extended)","mat_id":"505"}
+{"name":"Piston (Facing north, Extended)","mat_id":"682"}
+{"name":"Piston (Facing north, Not Extended)","mat_id":"502"}
+{"name":"Piston (Facing south, Extended)","mat_id":"683"}
+{"name":"Piston (Facing south, Not Extended)","mat_id":"503"}
+{"name":"Piston (Facing up, Extended)","mat_id":"681"}
+{"name":"Piston (Facing up, Not Extended)","mat_id":"501"}
+{"name":"Piston (Facing west, Extended)","mat_id":"684"}
+{"name":"Piston (Facing west, Not Extended)","mat_id":"504"}
+{"name":"Piston Head (Facing down, Extended)","mat_id":"1149"}
+{"name":"Piston Head (Facing down, Not Extended)","mat_id":"1141"}
+{"name":"Piston Head (Facing east, Extended)","mat_id":"1154"}
+{"name":"Piston Head (Facing east, Not Extended)","mat_id":"1146"}
+{"name":"Piston Head (Facing north, Extended)","mat_id":"1151"}
+{"name":"Piston Head (Facing north, Not Extended)","mat_id":"1143"}
+{"name":"Piston Head (Facing south, Extended)","mat_id":"1152"}
+{"name":"Piston Head (Facing south, Not Extended)","mat_id":"1144"}
+{"name":"Piston Head (Facing up, Extended)","mat_id":"1150"}
+{"name":"Piston Head (Facing up, Not Extended)","mat_id":"1142"}
+{"name":"Piston Head (Facing west, Extended)","mat_id":"1153"}
+{"name":"Piston Head (Facing west, Not Extended)","mat_id":"1145"}
+{"name":"Podzol","mat_id":"17"}
+{"name":"Polished Andesite","mat_id":"11"}
+{"name":"Polished Diorite","mat_id":"12"}
+{"name":"Polished Granite","mat_id":"7"}
+{"name":"Poppy Flower Pot","mat_id":"333"}
+{"name":"Poppy","mat_id":"282"}
+{"name":"Potatoes (Growth level 0)","mat_id":"229"}
+{"name":"Potatoes (Growth level 1)","mat_id":"1518"}
+{"name":"Potatoes (Growth level 2)","mat_id":"1519"}
+{"name":"Potatoes (Growth level 3)","mat_id":"1520"}
+{"name":"Potatoes (Growth level 4)","mat_id":"1521"}
+{"name":"Potatoes (Growth level 5)","mat_id":"1522"}
+{"name":"Potatoes (Growth level 6)","mat_id":"1523"}
+{"name":"Potatoes (Growth level 7)","mat_id":"1524"}
+{"name":"Powered Rail (Flat North-South, Active)","mat_id":"1304"}
+{"name":"Powered Rail (Flat North-South, Not Active)","mat_id":"1297"}
+{"name":"Powered Rail (Flat West-East, Active)","mat_id":"1305"}
+{"name":"Powered Rail (Flat West-East, Not Active)","mat_id":"1298"}
+{"name":"Powered Rail (Sloped, Ascending to the East, Not Active)","mat_id":"1299"}
+{"name":"Powered Rail (Sloped, Ascending to the West, Not Active)","mat_id":"1300"}
+{"name":"Prismarine Bricks","mat_id":"354"}
+{"name":"Prismarine","mat_id":"353"}
+{"name":"Pumpkin (Facing East)","mat_id":"1092"}
+{"name":"Pumpkin (Facing North)","mat_id":"1091"}
+{"name":"Pumpkin (Facing South)","mat_id":"134"}
+{"name":"Pumpkin (Facing West)","mat_id":"1090"}
+{"name":"Pumpkin Stem (Seventh Stage of Growth)","mat_id":"1672"}
+{"name":"Purple Carpet","mat_id":"1106"}
+{"name":"Purple Stained Clay","mat_id":"254"}
+{"name":"Purple Stained Glass","mat_id":"156"}
+{"name":"Purple Stained Glass Pane","mat_id":"270"}
+{"name":"Purple Wool","mat_id":"43"}
+{"name":"Purpur Block","mat_id":"1708"}
+{"name":"Purpur Double Slab","mat_id":"1712"}
+{"name":"Purpur Slab","mat_id":"1713"}
+{"name":"Purpur Stairs (East, Normal","mat_id":"1709"}
+{"name":"Purpur Stairs (East, Normal)","mat_id":"1716"}
+{"name":"Purpur Stairs (South, Normal)","mat_id":"1717"}
+{"name":"Purpur Stairs (West, Normal)","mat_id":"1710"}
+{"name":"Quartz Block","mat_id":"225"}
+{"name":"Quartz Slab","mat_id":"92"}
+{"name":"Quartz Slab (Upper)","mat_id":"291"}
+{"name":"Quartz Stairs (East, Normal)","mat_id":"226"}
+{"name":"Quartz Stairs (East, Upside-down)","mat_id":"289"}
+{"name":"Quartz Stairs (North, Normal)","mat_id":"311"}
+{"name":"Quartz Stairs (North, Upside-down)","mat_id":"293"}
+{"name":"Quartz Stairs (South, Normal)","mat_id":"300"}
+{"name":"Quartz Stairs (South, Upside-down)","mat_id":"287"}
+{"name":"Quartz Stairs (West, Normal)","mat_id":"292"}
+{"name":"Quartz Stairs (West, Upside-down)","mat_id":"288"}
+{"name":"Rail (curved; north and east)","mat_id":"360"}
+{"name":"Rail (curved; north and west)","mat_id":"359"}
+{"name":"Rail (curved; south and east)","mat_id":"362"}
+{"name":"Rail (curved; south and west)","mat_id":"361"}
+{"name":"Rail","mat_id":"114"}
+{"name":"Rail (sloped, ascending to east)","mat_id":"364"}
+{"name":"Rail (sloped, ascending to north)","mat_id":"366"}
+{"name":"Rail (sloped, ascending to south)","mat_id":"367"}
+{"name":"Rail (sloped, ascending to west)","mat_id":"365"}
+{"name":"Rail (straight; east and west)","mat_id":"363"}
+{"name":"Red  Carpet","mat_id":"1110"}
+{"name":"Red Mushroom Block (Cap and stem)","mat_id":"1638"}
+{"name":"Red Mushroom Block (Cap texture on all six sides)","mat_id":"1624"}
+{"name":"Red Mushroom Block (Cap texture on top and east)","mat_id":"1618"}
+{"name":"Red Mushroom Block (Cap texture on top and north)","mat_id":"1614"}
+{"name":"Red Mushroom Block (Cap texture on top and south)","mat_id":"1620"}
+{"name":"Red Mushroom Block (Cap texture on top and west)","mat_id":"1616"}
+{"name":"Red Mushroom Block (Cap texture on top, east and south)","mat_id":"1621"}
+{"name":"Red Mushroom Block (Cap texture on top)","mat_id":"1617"}
+{"name":"Red Mushroom Block (Cap texture on top, north and east)","mat_id":"1615"}
+{"name":"Red Mushroom Block (Cap texture on top, south and west)","mat_id":"1619"}
+{"name":"Red Mushroom Block (Cap texture on top, west and north )","mat_id":"1613"}
+{"name":"Red Mushroom Block (Pores on all sides)","mat_id":"175"}
+{"name":"Red Mushroom Block (Stem texture on all sides, pores on top and b)","mat_id":"1622"}
+{"name":"Red Mushroom Block (Stem texture on all six sides)","mat_id":"1625"}
+{"name":"Red mushroom Flower Pot","mat_id":"339"}
+{"name":"Red mushroom","mat_id":"1553"}
+{"name":"Red Sand","mat_id":"27"}
+{"name":"Red Sandstone","mat_id":"1247"}
+{"name":"Red Sandstone Slab, Bottom","mat_id":"1673"}
+{"name":"Red Sandstone Slab, Upper","mat_id":"1674"}
+{"name":"Red Sandstone Stairs (East, Normal)","mat_id":"664"}
+{"name":"Red Sandstone Stairs (East, Upside-down)","mat_id":"668"}
+{"name":"Red Sandstone Stairs (North, Normal)","mat_id":"667"}
+{"name":"Red Sandstone Stairs (North, Upside-down)","mat_id":"671"}
+{"name":"Red Sandstone Stairs (South, Normal)","mat_id":"666"}
+{"name":"Red Sandstone Stairs (South, Upside-down)","mat_id":"670"}
+{"name":"Red Sandstone Stairs (West, Normal)","mat_id":"665"}
+{"name":"Red Sandstone Stairs (West, Upside-down)","mat_id":"669"}
+{"name":"Red Stained Clay","mat_id":"258"}
+{"name":"Red Stained Glass","mat_id":"160"}
+{"name":"Red Stained Glass Pane","mat_id":"274"}
+{"name":"Redstone Block","mat_id":"239"}
+{"name":"Redstone Comparator (Facing East, Unset, Powered)","mat_id":"1363"}
+{"name":"Redstone Comparator (Facing East, Unset, Unpowered )","mat_id":"1355"}
+{"name":"Redstone Comparator (Facing North, Unset, Unpowered )","mat_id":"236"}
+{"name":"Redstone Comparator (Facing South, Unset, Unpowered )","mat_id":"1356"}
+{"name":"Redstone Comparator (Facing West, Substraction mode, Powered","mat_id":"1369"}
+{"name":"Redstone Lamp (active)","mat_id":"198"}
+{"name":"Redstone Lamp (inactive)","mat_id":"197"}
+{"name":"Redstone Ore","mat_id":"121"}
+{"name":"Redstone Repeater Block (off) (Facing East, Delay of 1 tick)","mat_id":"802"}
+{"name":"Redstone Repeater Block (off) (Facing East, Delay of 2 ticks","mat_id":"806"}
+{"name":"Redstone Repeater Block (off) (Facing East, Delay of 3 ticks","mat_id":"810"}
+{"name":"Redstone Repeater Block (off) (Facing East, Delay of 4 ticks","mat_id":"814"}
+{"name":"Redstone Repeater Block (off) (Facing North, Delay of 1 tick","mat_id":"143"}
+{"name":"Redstone Repeater Block (off) (Facing North, Delay of 2 tick","mat_id":"805"}
+{"name":"Redstone Repeater Block (off) (Facing North, Delay of 3 tick","mat_id":"809"}
+{"name":"Redstone Repeater Block (off) (Facing North, Delay of 4 tick","mat_id":"813"}
+{"name":"Redstone Repeater Block (off) (Facing South, Delay of 1 tick","mat_id":"803"}
+{"name":"Redstone Repeater Block (off) (Facing South, Delay of 2 tick","mat_id":"807"}
+{"name":"Redstone Repeater Block (off) (Facing South, Delay of 3 tick","mat_id":"811"}
+{"name":"Redstone Repeater Block (off) (Facing South, Delay of 4 tick","mat_id":"815"}
+{"name":"Redstone Repeater Block (off) (Facing West, Delay of 1 tick)","mat_id":"804"}
+{"name":"Redstone Repeater Block (off) (Facing West, Delay of 2 ticks","mat_id":"808"}
+{"name":"Redstone Repeater Block (off) (Facing West, Delay of 3 ticks","mat_id":"812"}
+{"name":"Redstone Repeater Block (off) (Facing West, Delay of 4 ticks","mat_id":"816"}
+{"name":"Redstone Repeater Block (on) (Facing East, Delay of 1 tick)","mat_id":"786"}
+{"name":"Redstone Repeater Block (on) (Facing East, Delay of 3 ticks)","mat_id":"794"}
+{"name":"Redstone Repeater Block (on) (Facing East, Delay of 4 ticks)","mat_id":"798"}
+{"name":"Redstone Repeater Block (on) (Facing North, Delay of 1 tick)","mat_id":"144"}
+{"name":"Redstone Repeater Block (on) (Facing North, Delay of 2 ticks","mat_id":"789"}
+{"name":"Redstone Repeater Block (on) (Facing North, Delay of 3 ticks","mat_id":"793"}
+{"name":"Redstone Repeater Block (on) (Facing North, Delay of 4 ticks","mat_id":"797"}
+{"name":"Redstone Repeater Block (on) (Facing South, Delay of 1 tick)","mat_id":"787"}
+{"name":"Redstone Repeater Block (on) (Facing South, Delay of 3 ticks","mat_id":"795"}
+{"name":"Redstone Repeater Block (on) (Facing South, Delay of 4 ticks","mat_id":"799"}
+{"name":"Redstone Repeater Block (on) (Facing West, Delay of 1 tick)","mat_id":"788"}
+{"name":"Redstone Repeater Block (on) (Facing West, Delay of 2 ticks)","mat_id":"792"}
+{"name":"Redstone Repeater Block (on) (Facing West, Delay of 3 ticks)","mat_id":"796"}
+{"name":"Redstone Repeater Block (on) (Facing West, Delay of 4 ticks)","mat_id":"800"}
+{"name":"Redstone Torch (off) (Facing East)","mat_id":"740"}
+{"name":"Redstone Torch (off) (Facing North)","mat_id":"743"}
+{"name":"Redstone Torch (off) (Facing South)","mat_id":"742"}
+{"name":"Redstone Torch (off) (Facing Up)","mat_id":"744"}
+{"name":"Redstone Torch (off) (Facing West)","mat_id":"741"}
+{"name":"Redstone Torch (on) (Facing East)","mat_id":"488"}
+{"name":"Redstone Torch (on) (Facing North)","mat_id":"491"}
+{"name":"Redstone Torch (on) (Facing South)","mat_id":"490"}
+{"name":"Redstone Torch (on) (Facing Up)","mat_id":"492"}
+{"name":"Redstone Torch (on) (Facing West)","mat_id":"489"}
+{"name":"Redstone Torch (on) ()","mat_id":"124"}
+{"name":"Redstone Wire (Power:0)","mat_id":"103"}
+{"name":"Redstone Wire (Power:10)","mat_id":"733"}
+{"name":"Redstone Wire (Power:11)","mat_id":"734"}
+{"name":"Redstone Wire (Power:12)","mat_id":"735"}
+{"name":"Redstone Wire (Power:13)","mat_id":"736"}
+{"name":"Redstone Wire (Power:14)","mat_id":"737"}
+{"name":"Redstone Wire (Power:15)","mat_id":"738"}
+{"name":"Redstone Wire (Power:2)","mat_id":"725"}
+{"name":"Redstone Wire (Power:3)","mat_id":"726"}
+{"name":"Redstone Wire (Power:4)","mat_id":"727"}
+{"name":"Redstone Wire (Power:5)","mat_id":"728"}
+{"name":"Redstone Wire (Power:6)","mat_id":"729"}
+{"name":"Redstone Wire (Power:7)","mat_id":"730"}
+{"name":"Redstone Wire (Power:8)","mat_id":"731"}
+{"name":"Redstone Wire (Power:9)","mat_id":"732"}
+{"name":"Red Tulip","mat_id":"1185"}
+{"name":"Red Wool","mat_id":"72"}
+{"name":"Sand","mat_id":"26"}
+{"name":"Sandstone","mat_id":"53"}
+{"name":"Sandstone Slab","mat_id":"86"}
+{"name":"Sandstone Slab (Upper)","mat_id":"494"}
+{"name":"Sandstone Stairs (East, Normal)","mat_id":"212"}
+{"name":"Sandstone Stairs (East, Upside-down)","mat_id":"612"}
+{"name":"Sandstone Stairs (North, Normal)","mat_id":"611"}
+{"name":"Sandstone Stairs (North, Upside-down)","mat_id":"615"}
+{"name":"Sandstone Stairs (South, Normal)","mat_id":"610"}
+{"name":"Sandstone Stairs (South, Upside-down)","mat_id":"614"}
+{"name":"Sandstone Stairs (West, Normal)","mat_id":"609"}
+{"name":"Sandstone Stairs (West, Upside-down)","mat_id":"613"}
+{"name":"Sapling (Acacia, Ready to grow)","mat_id":"1409"}
+{"name":"Sapling (Birch, Ready to grow)","mat_id":"1407"}
+{"name":"Sapling (Dark Oak, Ready to grow)","mat_id":"1410"}
+{"name":"Sapling (Jungle, Ready to grow)","mat_id":"1408"}
+{"name":"Sapling (Oak, )","mat_id":"1398"}
+{"name":"Sapling (Oak, Ready to grow)","mat_id":"1405"}
+{"name":"Sapling (Spruce, Ready to grow)","mat_id":"1406"}
+{"name":"Sea Lantern","mat_id":"1353"}
+{"name":"Slightly Damaged Anvil (East/West)","mat_id":"933"}
+{"name":"Slightly Damaged Anvil (North/South)","mat_id":"932"}
+{"name":"Slightly Damaged Anvil (South/North)","mat_id":"935"}
+{"name":"Slightly Damaged Anvil (West/East)","mat_id":"934"}
+{"name":"Slime Block","mat_id":"1475"}
+{"name":"Smooth Double Stone Slab","mat_id":"1643"}
+{"name":"Smooth Red Sandstone","mat_id":"1249"}
+{"name":"Smooth Sandstone","mat_id":"55"}
+{"name":"Snow Block","mat_id":"128"}
+{"name":"Snow  (Eight Layers)","mat_id":"1335"}
+{"name":"Snow  (Five Layers)","mat_id":"1332"}
+{"name":"Snow  (Four Layers)","mat_id":"1331"}
+{"name":"Snow  (One Layer)","mat_id":"126"}
+{"name":"Snow  (Seven Layers)","mat_id":"1334"}
+{"name":"Snow  (Six Layers)","mat_id":"1333"}
+{"name":"Snow  (Three Layers)","mat_id":"1330"}
+{"name":"Snow  (Two Layers)","mat_id":"1329"}
+{"name":"Soul Sand","mat_id":"136"}
+{"name":"Sponge","mat_id":"47"}
+{"name":"Spruce Door (Upper, Hinge left, Powered)","mat_id":"960"}
+{"name":"Spruce Door (Upper, Hinge left, Unpowered)","mat_id":"958"}
+{"name":"Spruce Door (Upper, Hinge right, Powered)","mat_id":"961"}
+{"name":"Spruce Door (Upper, Hinge right, Unpowered)","mat_id":"959"}
+{"name":"Spruce Fence Gate (Facing East, Closed)","mat_id":"1045"}
+{"name":"Spruce Fence Gate (Facing East, Opened)","mat_id":"1049"}
+{"name":"Spruce Fence Gate (Facing North, Closed)","mat_id":"1044"}
+{"name":"Spruce Fence Gate (Facing North, Opened)","mat_id":"1048"}
+{"name":"Spruce Fence Gate (Facing South, Closed)","mat_id":"1042"}
+{"name":"Spruce Fence Gate (Facing South, Opened)","mat_id":"1046"}
+{"name":"Spruce Fence Gate (Facing West, Closed)","mat_id":"1043"}
+{"name":"Spruce Fence Gate (Facing West, Opened)","mat_id":"1047"}
+{"name":"Spruce Fence Gate (In Wall, Facing North, Opened)","mat_id":"1653"}
+{"name":"Spruce Fence","mat_id":"907"}
+{"name":"Spruce Foor (Lower, Facing East, Closed)","mat_id":"964"}
+{"name":"Spruce Foor (Lower, Facing East, Opened)","mat_id":"968"}
+{"name":"Spruce Foor (Lower, Facing North, Closed)","mat_id":"963"}
+{"name":"Spruce Foor (Lower, Facing North, Opened)","mat_id":"967"}
+{"name":"Spruce Foor (Lower, Facing South, Closed)","mat_id":"965"}
+{"name":"Spruce Foor (Lower, Facing South, Opened)","mat_id":"969"}
+{"name":"Spruce Foor (Lower, Facing West, Closed)","mat_id":"962"}
+{"name":"Spruce Foor (Lower, Facing West, Opened)","mat_id":"966"}
+{"name":"Spruce Leaves","mat_id":"34"}
+{"name":"Spruce Leaves (No Decay and Check Decay)","mat_id":"322"}
+{"name":"Spruce Leaves (No Decay)","mat_id":"329"}
+{"name":"Spruce sapling Flower Pot","mat_id":"336"}
+{"name":"Spruce wood (facing east/west) ","mat_id":"430"}
+{"name":"Spruce Wood (facing north/south)","mat_id":"433"}
+{"name":"Spruce Wood","mat_id":"30"}
+{"name":"Spruce Wood (only bark)","mat_id":"436"}
+{"name":"Spruce Wood Plank","mat_id":"20"}
+{"name":" Spruce Wood Slab (Bottom)","mat_id":"206"}
+{"name":" Spruce Wood Slab (Upper)","mat_id":"1136"}
+{"name":"Spruce Wood Stairs (East, Normal)","mat_id":"218"}
+{"name":"Spruce Wood Stairs (East, Upside-down)","mat_id":"620"}
+{"name":"Spruce Wood Stairs (North, Normal)","mat_id":"619"}
+{"name":"Spruce Wood Stairs (North, Upside-down)","mat_id":"623"}
+{"name":"Spruce Wood Stairs (South, Normal)","mat_id":"618"}
+{"name":"Spruce Wood Stairs (South, Upside-down)","mat_id":"622"}
+{"name":"Spruce Wood Stairs (West, Normal)","mat_id":"617"}
+{"name":"Spruce Wood Stairs (West, Upside-down)","mat_id":"621"}
+{"name":"Standing Sign (East)","mat_id":"1030"}
+{"name":"Standing Sign (East-NorthEast)","mat_id":"1029"}
+{"name":"Standing Sign (East-SouthEast)","mat_id":"1031"}
+{"name":"Standing Sign (NorthEast)","mat_id":"1028"}
+{"name":"Standing Sign (North)","mat_id":"1026"}
+{"name":"Standing Sign (North-NorthEast)","mat_id":"1027"}
+{"name":"Standing Sign (North-NorthWest)","mat_id":"1025"}
+{"name":"Standing Sign (NorthWest)","mat_id":"1024"}
+{"name":"Standing Sign (SouthEast)","mat_id":"1032"}
+{"name":"Standing Sign (South)","mat_id":"111"}
+{"name":"Standing Sign (South-SouthEast)","mat_id":"1033"}
+{"name":"Standing Sign (South-SouthWest)","mat_id":"1019"}
+{"name":"Standing Sign (SouthWest)","mat_id":"1020"}
+{"name":"Standing Sign (West)","mat_id":"1022"}
+{"name":"Standing Sign (West-NorthWest)","mat_id":"1023"}
+{"name":"Standing Sign (West-Southwest)","mat_id":"1021"}
+{"name":"Sticky Piston (Facing down, Extended)","mat_id":"696"}
+{"name":"Sticky Piston (Facing down, Not Extended)","mat_id":"58"}
+{"name":"Sticky Piston (Facing east, Extended)","mat_id":"701"}
+{"name":"Sticky Piston (Facing east, Not Extended)","mat_id":"693"}
+{"name":"Sticky Piston (Facing north, Extended)","mat_id":"698"}
+{"name":"Sticky Piston (Facing north, Not Extended)","mat_id":"690"}
+{"name":"Sticky Piston (Facing south, Extended)","mat_id":"699"}
+{"name":"Sticky Piston (Facing south, Not Extended)","mat_id":"691"}
+{"name":"Sticky Piston (Facing up, Extended)","mat_id":"697"}
+{"name":"Sticky Piston (Facing up, Not Extended)","mat_id":"689"}
+{"name":"Sticky Piston (Facing west, Extended)","mat_id":"700"}
+{"name":"Sticky Piston (Facing west, Not Extended)","mat_id":"692"}
+{"name":"Still Water","mat_id":"331"}
+{"name":"Stone Brick Monster Egg","mat_id":"165"}
+{"name":"Stone Brick Slab","mat_id":"90"}
+{"name":"Stone Brick Slab (Upper)","mat_id":"498"}
+{"name":"Stone Bricks","mat_id":"169"}
+{"name":"Stone Brick Stairs (East)","mat_id":"183"}
+{"name":"Stone Brick Stairs (East, Upside-down)","mat_id":"484"}
+{"name":"Stone Brick Stairs (North, Normal)","mat_id":"483"}
+{"name":"Stone Brick Stairs (North, Upside-down)","mat_id":"487"}
+{"name":"Stone Brick Stairs (South, Normal)","mat_id":"482"}
+{"name":"Stone Brick Stairs (South, Upside-down)","mat_id":"486"}
+{"name":"Stone Brick Stairs (West)","mat_id":"351"}
+{"name":"Stone Brick Stairs (West, Upside-down)","mat_id":"485"}
+{"name":"Stone Button (Facing Down, Inactive)","mat_id":"125"}
+{"name":"Stone Button (Facing East, Inactive)","mat_id":"758"}
+{"name":"Stone Button (Facing North, Inactive)","mat_id":"308"}
+{"name":"Stone Button (Facing South, Inactive)","mat_id":"304"}
+{"name":"Stone Button (Facing Up, Active)","mat_id":"769"}
+{"name":"Stone Button (Facing Up, Inactive)","mat_id":"762"}
+{"name":"Stone Button (Facing West, Inactive)","mat_id":"759"}
+{"name":"Stone","mat_id":"4"}
+{"name":"Stone Monster Egg","mat_id":"163"}
+{"name":"Stone Pressure Plate (Active)","mat_id":"1666"}
+{"name":"Stone Pressure Plate (Unactive)","mat_id":"118"}
+{"name":"Stone Slab","mat_id":"85"}
+{"name":"Stone Slab (Upper)","mat_id":"493"}
+{"name":"(Stone) Wooden Slab (Upper)","mat_id":"495"}
+{"name":"Sugar Canes (Eigth stage of growth)","mat_id":"1572"}
+{"name":"Sugar Canes (Eleventh stage of growth)","mat_id":"1575"}
+{"name":"Sugar Canes (Fifteenth stage of growth)","mat_id":"1579"}
+{"name":"Sugar Canes (Fifth stage of growth)","mat_id":"1569"}
+{"name":"Sugar Canes (First stage of growth)","mat_id":"1417"}
+{"name":"Sugar Canes (Fourteenth stage of growth)","mat_id":"1578"}
+{"name":"Sugar Canes (Fourth stage of growth)","mat_id":"1568"}
+{"name":"Sugar Canes (Freshly Planted Cane)","mat_id":"131"}
+{"name":"Sugar Canes (Ninth stage of growth)","mat_id":"1573"}
+{"name":"Sugar Canes (Second stage of growth)","mat_id":"1566"}
+{"name":"Sugar Canes (Seventh stage of growth)","mat_id":"1571"}
+{"name":"Sugar Canes (Sixth stage of growth)","mat_id":"1570"}
+{"name":"Sugar Canes (Tenth stage of growth)","mat_id":"1574"}
+{"name":"Sugar Canes (Third stage of growth)","mat_id":"1567"}
+{"name":"Sugar Canes (Thirteenth stage of growth)","mat_id":"1577"}
+{"name":"TNT","mat_id":"94"}
+{"name":"Torch (Facing East)","mat_id":"446"}
+{"name":"Torch (Facing North)","mat_id":"449"}
+{"name":"Torch (Facing South)","mat_id":"448"}
+{"name":"Torch (Facing Up)","mat_id":"332"}
+{"name":"Torch (Facing West)","mat_id":"447"}
+{"name":"Trapped Chest (Facing East)","mat_id":"944"}
+{"name":"Trapped Chest (Facing North)","mat_id":"941"}
+{"name":"Trapped Chest (Facing South)","mat_id":"942"}
+{"name":"Trapped Chest (Facing West)","mat_id":"943"}
+{"name":"Tripwire Hook (Facing East)","mat_id":"412"}
+{"name":"Tripwire hook (Facing East, Ready, Middle Pos)","mat_id":"416"}
+{"name":"Tripwire Hook (Facing North)","mat_id":"411"}
+{"name":"Tripwire Hook (Facing North, Ready, Middle Pos)","mat_id":"415"}
+{"name":"Tripwire Hook (Facing West)","mat_id":"410"}
+{"name":"Tripwire Hook (Facing West, Ready, Middle Pos)","mat_id":"414"}
+{"name":"Tripwire Hook","mat_id":"215"}
+{"name":"Tripwire Hook (Ready, Middle Pos)","mat_id":"413"}
+{"name":"Tripwire (Unactive, In the Air, Attached to a Circuit, Armed","mat_id":"1205"}
+{"name":"Tripwire (Unactive, In the Air, Unattached, Armed)","mat_id":"1201"}
+{"name":"Tripwire (Unactive, On a Block, Unattached, Armed)","mat_id":"216"}
+{"name":"Very Damaged Anvil (East/West)","mat_id":"937"}
+{"name":"Very Damaged Anvil (North/South)","mat_id":"936"}
+{"name":"Very Damaged Anvil (South/North)","mat_id":"939"}
+{"name":"Very Damaged Anvil (West/East)","mat_id":"938"}
+{"name":"Vines (Above)","mat_id":"180"}
+{"name":"Vines (East)","mat_id":"1179"}
+{"name":"Vines ()","mat_id":"1177"}
+{"name":"Vines (multiple sides 1)","mat_id":"1586"}
+{"name":"Vines (multiple sides 2)","mat_id":"1610"}
+{"name":"Vines (multiple sides 3)","mat_id":"1611"}
+{"name":"Vines (multiple sides 4)","mat_id":"1641"}
+{"name":"Vines (multiple sides 5)","mat_id":"1642"}
+{"name":"Vines (multiple sides 6)","mat_id":"1649"}
+{"name":"Vines (multiple sides)","mat_id":"1516"}
+{"name":"Vines (North & East)","mat_id":"1514"}
+{"name":"Vines (North)","mat_id":"1178"}
+{"name":"Vines (North&West)","mat_id":"1182"}
+{"name":"Vines (South & East)","mat_id":"1181"}
+{"name":"Vines (South)","mat_id":"1175"}
+{"name":"Vines (West)","mat_id":"1176"}
+{"name":"Wall-Mounted Banner (southwest)","mat_id":"370"}
+{"name":"Wall-Mounted Banner (west)","mat_id":"371"}
+{"name":"Wall-Mounted Banner (west-northwest)","mat_id":"372"}
+{"name":"Wall-Mounted Banner (west-southwest)","mat_id":"368"}
+{"name":"Wall-mounted Sign Block west-northwest","mat_id":"327"}
+{"name":"Wall Sign, north","mat_id":"403"}
+{"name":"Wall Sign, south","mat_id":"404"}
+{"name":"Wall Sign, west","mat_id":"405"}
+{"name":"Water (Water level Max - 1, Falling)","mat_id":"476"}
+{"name":"Water (Water level Max - 1)","mat_id":"469"}
+{"name":"Water (Water level Max - 2, Falling)","mat_id":"477"}
+{"name":"Water (Water level Max - 2)","mat_id":"470"}
+{"name":"Water (Water level Max - 3, Falling)","mat_id":"478"}
+{"name":"Water (Water level Max - 3)","mat_id":"471"}
+{"name":"Water (Water level Max - 4, Falling)","mat_id":"479"}
+{"name":"Water (Water level Max - 4)","mat_id":"472"}
+{"name":"Water (Water level Max - 5, Falling)","mat_id":"480"}
+{"name":"Water (Water level Max, Falling)","mat_id":"475"}
+{"name":"Water (Water level Max)","mat_id":"468"}
+{"name":"Water (Water level Min +1, Falling)","mat_id":"481"}
+{"name":"Water (Water level Min + 1)","mat_id":"473"}
+{"name":"Water (Water level Min, Falling)","mat_id":"1671"}
+{"name":"Water (Water level Min)","mat_id":"474"}
+{"name":"Weighted Pressure Plate (heavy)","mat_id":"235"}
+{"name":"Weighted Pressure Plate (light)","mat_id":"234"}
+{"name":"Wet Sponge","mat_id":"48"}
+{"name":"Wheat (Age 0)","mat_id":"107"}
+{"name":"Wheat (Age 1)","mat_id":"1460"}
+{"name":"Wheat (Age 2)","mat_id":"1461"}
+{"name":"Wheat (Age 3)","mat_id":"1462"}
+{"name":"Wheat (Age 4)","mat_id":"1463"}
+{"name":"Wheat (Age 5)","mat_id":"1464"}
+{"name":"Wheat (Age 6)","mat_id":"1465"}
+{"name":"Wheat (Age 7)","mat_id":"1466"}
+{"name":"White Carpet","mat_id":"1096"}
+{"name":"White Stained Clay","mat_id":"244"}
+{"name":"White Stained Glass","mat_id":"145"}
+{"name":"White Stained Glass Pane","mat_id":"260"}
+{"name":"White Tulip","mat_id":"1187"}
+{"name":"White Wool","mat_id":"40"}
+{"name":"Wooden Button (Facing Down, Inactive)","mat_id":"230"}
+{"name":"Wooden Button (Facing East, Inactive)","mat_id":"394"}
+{"name":"Wooden Button (Facing North, Inactive)","mat_id":"307"}
+{"name":"Wooden Button (Facing South, Inactive)","mat_id":"305"}
+{"name":"Wooden Button (Facing Up, Inactive)","mat_id":"396"}
+{"name":"Wooden Button (Facing West, Inactive)","mat_id":"395"}
+{"name":"Wooden Pressure Plate (Active)","mat_id":"1664"}
+{"name":"Wooden Pressure Plate (Unactive)","mat_id":"120"}
+{"name":"Wooden Slab","mat_id":"87"}
+{"name":"Wooden Trapdoor (East from block, Closed, Bottom half)","mat_id":"867"}
+{"name":"Wooden Trapdoor (East from block, Closed, Top Half)","mat_id":"875"}
+{"name":"Wooden Trapdoor (East from block, Open, Bottom half)","mat_id":"871"}
+{"name":"Wooden Trapdoor (East from block, Open, Top Half)","mat_id":"879"}
+{"name":"Wooden Trapdoor (North from block, Closed, Bottom half)","mat_id":"868"}
+{"name":"Wooden Trapdoor (North from block, Closed, Top Half)","mat_id":"876"}
+{"name":"Wooden Trapdoor (North from block, Open, Bottom half)","mat_id":"872"}
+{"name":"Wooden Trapdoor (North from block, Open, Top Half)","mat_id":"880"}
+{"name":"Wooden Trapdoor (South from block, Closed, Bottom half)","mat_id":"866"}
+{"name":"Wooden Trapdoor (South from block, Closed, Top Half)","mat_id":"874"}
+{"name":"Wooden Trapdoor (South from block, Open, Bottom half)","mat_id":"870"}
+{"name":"Wooden Trapdoor (South from block, Open, Top Half)","mat_id":"878"}
+{"name":"Wooden Trapdoor (West from block, Closed, Bottom half)","mat_id":"162"}
+{"name":"Wooden Trapdoor (West from block, Closed, Top Half)","mat_id":"873"}
+{"name":"Wooden Trapdoor (West from block, Open, Bottom half)","mat_id":"869"}
+{"name":"Wooden Trapdoor (West from block, Open, Top Half)","mat_id":"877"}
+{"name":"Yellow Carpet","mat_id":"1100"}
+{"name":"Yellow Stained Clay","mat_id":"248"}
+{"name":"Yellow Stained Glass","mat_id":"150"}
+{"name":"Yellow Stained Glass Pane","mat_id":"264"}
+{"name":"Yellow Wool","mat_id":"64"}

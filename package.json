@@ -1,0 +1,29 @@
+{
+  "name": "mineai",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:local": "NODE_ENV=local node -r dotenv/config server.js dotenv_config_path=.env.local",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "mineflayer": "^4.21.0",
+    "openai": "^4.67.3",
+    "prismarine-viewer": "^1.28.0",
+    "progress": "^2.0.3",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "sqlite3": "^5.1.7"
+  }
+}
