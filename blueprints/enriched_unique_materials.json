@@ -47,7 +47,7 @@
   {
     "name": "Acacia Door (Upper, Hinge Left, Unpowered)",
     "mat_id": "1002",
-    "args": "minecraft:acacia_door[half=upper,facing=-z,hinge=left,open=false]"
+    "args": "minecraft:acacia_door[half=upper,hinge=left,open=false]"
   },
   {
     "name": "Acacia Door (Upper, Hinge Right, Unpowered)",
@@ -67,7 +67,7 @@
   {
     "name": "Acacia Fence",
     "mat_id": "911",
-    "args": "minecraft:acacia_fence[facing=north]"
+    "args": "minecraft:acacia_fence[north=true]"
   },
   {
     "name": "Acacia Leaves",
@@ -77,32 +77,32 @@
   {
     "name": "Acacia Leaves (No Decay and Check Decay)",
     "mat_id": "1194",
-    "args": "minecraft:acacia_leaves[decayable=false,persistent=true]"
+    "args": "minecraft:acacia_leaves[persistent=true]"
   },
   {
     "name": "Acacia Leaves (No Decay)",
     "mat_id": "1190",
-    "args": "minecraft:acacia_leaves[decayable=false]"
+    "args": "minecraft:acacia_leaves"
   },
   {
     "name": "Acacia sapling Flower Pot",
     "mat_id": "344",
-    "args": "minecraft:flower_pot[plant_type=acacia_sapling]"
+    "args": "minecraft:potted_acacia_sapling"
   },
   {
     "name": " (Acacia Wood, Bottom)",
     "mat_id": "209",
-    "args": "minecraft:acacia_wood[facing=north]"
+    "args": "minecraft:acacia_wood"
   },
   {
     "name": "Acacia Wood, Facing East/West",
     "mat_id": "421",
-    "args": "minecraft:acacia_log[facing=east_west]"
+    "args": "minecraft:acacia_log"
   },
   {
     "name": "Acacia Wood, Facing North/South",
     "mat_id": "423",
-    "args": "minecraft:acacia_wood[facing=north]"
+    "args": "minecraft:acacia_wood"
   },
   {
     "name": "Acacia Wood",
@@ -127,7 +127,7 @@
   {
     "name": "Acacia Wood Stairs (East, Upside-down)",
     "mat_id": "652",
-    "args": "minecraft:acacia_stairs[facing=east,half=top,inverted=true]"
+    "args": "minecraft:acacia_stairs[facing=east,half=top]"
   },
   {
     "name": "Acacia Wood Stairs (North, Normal)",
@@ -162,22 +162,22 @@
   {
     "name": " (Acacia Wood, Upper)",
     "mat_id": "1139",
-    "args": "minecraft:acacia_wood[variant=bark]"
+    "args": "minecraft:acacia_wood"
   },
   {
     "name": "Activator Rail (Flat North-South, Not Active)",
     "mat_id": "1500",
-    "args": "minecraft:rail{activated:false,shape:north_south]"
+    "args": "minecraft:activator_rail[powered=false,shape=north_south]"
   },
   {
     "name": "Activator Rail (Flat West-East, Not Active)",
     "mat_id": "1501",
-    "args": "minecraft:rail{direction=west_east,powered=false]"
+    "args": "minecraft:activator_rail[shape=east_west,powered=false]"
   },
   {
     "name": "Allium",
     "mat_id": "1184",
-    "args": "minecraft:allium[growth=1]"
+    "args": "minecraft:allium"
   },
   {
     "name": "Andesite",
@@ -192,7 +192,7 @@
   {
     "name": "Anvil (North/South)",
     "mat_id": "232",
-    "args": "minecraft:anvil[facing=north_south]"
+    "args": "minecraft:anvil[facing=north]"
   },
   {
     "name": "Anvil (South/North)",
@@ -207,12 +207,12 @@
   {
     "name": "Azure Bluet",
     "mat_id": "284",
-    "args": "minecraft:blue_orchid[facing=south]"
+    "args": "minecraft:azure_bluet"
   },
   {
     "name": "Barrier",
     "mat_id": "1667",
-    "args": "minecraft:barrier{invisible_to_players=true]"
+    "args": "minecraft:barrier"
   },
   {
     "name": "Beacon",
@@ -222,22 +222,22 @@
   {
     "name": "Bed (East, Empty, Foot of the bed)",
     "mat_id": "509",
-    "args": "minecraft:bed[facing=east,part=foot,occupied=false]"
+    "args": "minecraft:white_bed[facing=east,part=foot,occupied=false]"
   },
   {
     "name": "Bed (East, Empty, Head of the bed)",
     "mat_id": "516",
-    "args": "minecraft:bed[facing=east,part=head,occupied=false]"
+    "args": "minecraft:white_bed[facing=east,part=head,occupied=false]"
   },
   {
     "name": "Bed (North, Empty, Foot of the bed)",
     "mat_id": "508",
-    "args": "minecraft:bed[facing=north,part=foot]"
+    "args": "minecraft:white_bed[facing=north,part=foot]"
   },
   {
     "name": "Bed (North, Empty, Head of the bed)",
     "mat_id": "521",
-    "args": "minecraft:bed[facing=north,part=head]"
+    "args": "minecraft:white_bed[facing=north,part=head]"
   },
   {
     "name": "Bedrock",
@@ -247,12 +247,12 @@
   {
     "name": "Bed (South, Empty, Foot of the bed)",
     "mat_id": "57",
-    "args": "minecraft:bed[facing=south,part=foot]"
+    "args": "minecraft:white_bed[facing=south,part=foot]"
   },
   {
     "name": "Bed (South, Empty, Head of the bed)",
     "mat_id": "514",
-    "args": "minecraft:bed[facing=south,occupied=false,part=head]"
+    "args": "minecraft:white_bed[facing=south,occupied=false,part=head]"
   },
   {
     "name": "Bed (West, Empty, Foot of the bed)",
@@ -262,7 +262,7 @@
   {
     "name": "Bed (West, Empty, Head of the bed)",
     "mat_id": "515",
-    "args": "minecraft:bed[facing=west,occupied=false,part=head]"
+    "args": "minecraft:white_bed[facing=west,occupied=false,part=head]"
   },
   {
     "name": "Birch Door (Lower, Facing East, Closed)",
@@ -317,7 +317,7 @@
   {
     "name": "Birch Door (Upper, Hinge Right, Unpowered)",
     "mat_id": "979",
-    "args": "minecraft:birch_door[half=upper,facing=east,hinge=right,power=0]"
+    "args": "minecraft:birch_door[half=upper,facing=east,hinge=right,powered=false]"
   },
   {
     "name": "Birch Fence Gate (Facing East, Closed)",
@@ -342,27 +342,27 @@
   {
     "name": "Birch Fence",
     "mat_id": "908",
-    "args": "minecraft:fence[type=birch]"
+    "args": "minecraft:birch_fence"
   },
   {
     "name": "Birch Leaves",
     "mat_id": "35",
-    "args": "minecraft:leaves[type=birch,persistent=false,stage=1]"
+    "args": "minecraft:birch_leaves[persistent=false]"
   },
   {
     "name": "Birch Leaves (No Decay and Check Decay)",
     "mat_id": "321",
-    "args": "minecraft:birch_leaves[decayable=false,check_decay=true]"
+    "args": "minecraft:birch_leaves"
   },
   {
     "name": "Birch Leaves (No Decay)",
     "mat_id": "330",
-    "args": "minecraft:leaves[type=birch,decayable=false]"
+    "args": "minecraft:birch_leaves"
   },
   {
     "name": "Birch sapling Flower Pot",
     "mat_id": "337",
-    "args": "minecraft:flower_pot[contained=birch_sapling]"
+    "args": "minecraft:potted_birch_sapling"
   },
   {
     "name": " (Birch Wood, Bottom)",
@@ -372,12 +372,12 @@
   {
     "name": "Birch Wood (facing east/west)",
     "mat_id": "431",
-    "args": "minecraft:birch_wood[facing=east]"
+    "args": "minecraft:birch_wood"
   },
   {
     "name": "Birch Wood (facing north/south)",
     "mat_id": "302",
-    "args": "minecraft:birch_wood[facing=north]"
+    "args": "minecraft:birch_wood"
   },
   {
     "name": "Birch Wood",
@@ -387,7 +387,7 @@
   {
     "name": "Birch Wood (only bark)",
     "mat_id": "437",
-    "args": "minecraft:stripped_birch_logs[facing=north]"
+    "args": "minecraft:birch_wood"
   },
   {
     "name": "Birch Wood Plank",
@@ -422,7 +422,7 @@
   {
     "name": "Birch Wood Stairs (South, Upside-down)",
     "mat_id": "444",
-    "args": "minecraft:birch_wood_stairs[facing=south,half=bottom,shape=straight]"
+    "args": "minecraft:birch_stairs[facing=south,half=bottom,shape=straight]"
   },
   {
     "name": "Birch Wood Stairs (West, Normal)",
@@ -437,27 +437,27 @@
   {
     "name": " (Birch Wood, Upper)",
     "mat_id": "1137",
-    "args": "minecraft:birch_wood[facing=north]"
+    "args": "minecraft:birch_wood"
   },
   {
     "name": "Black Carpet",
     "mat_id": "1111",
-    "args": "minecraft:black_carpet[facing=north]"
+    "args": "minecraft:black_carpet"
   },
   {
     "name": "Black Stained Clay",
     "mat_id": "259",
-    "args": "minecraft:black_stained_hardened_clay"
+    "args": "minecraft:terracotta"
   },
   {
     "name": "Black Stained Glass",
     "mat_id": "161",
-    "args": "minecraft:stained_glass{color=black]"
+    "args": "minecraft:black_stained_glass"
   },
   {
     "name": "Black Stained Glass Pane",
     "mat_id": "275",
-    "args": "minecraft:black_stained_glass_pane[facing=north]"
+    "args": "minecraft:black_stained_glass_pane[north=true]"
   },
   {
     "name": "Black Wool",
@@ -477,7 +477,7 @@
   {
     "name": "Blue Orchid",
     "mat_id": "1183",
-    "args": "minecraft:light_blue_orchid[facing=north]"
+    "args": "minecraft:blue_orchid"
   },
   {
     "name": "Blue Stained Clay",
@@ -487,32 +487,32 @@
   {
     "name": "Blue Stained Glass",
     "mat_id": "157",
-    "args": "minecraft:stained_glass{color:blue]"
+    "args": "minecraft:blue_stained_glass"
   },
   {
     "name": "Blue Stained Glass Pane",
     "mat_id": "271",
-    "args": "minecraft:blue_stained_glass_pane[facing=north]"
+    "args": "minecraft:blue_stained_glass_pane[north=true]"
   },
   {
     "name": "Blue Wool",
     "mat_id": "69",
-    "args": "minecraft:wool[color=blue]"
+    "args": "minecraft:blue_wool"
   },
   {
     "name": "Bone Block (Oriented east-west)",
     "mat_id": "1726",
-    "args": "minecraft:bone_block[facing=east]"
+    "args": "minecraft:bone_block"
   },
   {
     "name": "Bone Block (Oriented north-south)",
     "mat_id": "1728",
-    "args": "minecraft:bone_block[facing=north]"
+    "args": "minecraft:bone_block"
   },
   {
     "name": "Bone Block (Oriented vertically)",
     "mat_id": "1727",
-    "args": "minecraft:bone_block[facing=up]"
+    "args": "minecraft:bone_block"
   },
   {
     "name": "Bookshelf",
