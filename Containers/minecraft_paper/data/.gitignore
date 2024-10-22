@@ -1,0 +1,4 @@
+!.gitignore
+!ops.json
+!data/paper-global.yaml
+!whitelist.json
