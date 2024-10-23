@@ -16,6 +16,7 @@
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
     "express": "^4.17.1",
+    "minecraft-data": "^3.76.0",
     "mineflayer": "^4.21.0",
     "openai": "^4.67.3",
     "prismarine-viewer": "^1.28.0",
