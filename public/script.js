@@ -25,7 +25,9 @@ stopBtn.addEventListener('click', () => {
 
 function instantiateViewer() {
     const iframe = document.createElement('iframe');
-    iframe.src = "http://localhost:3001";
+    const origin = window.location.origin.replace(window.location.port, 3001); 
+    iframe.src = `${origin}/${window.location.pathname}`
+
     iframe.title = "Mineflayer Viewer";
     iframe.classList = ["viewer-frame"];
         
