@@ -15,8 +15,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 io.on('connection', (socket) => {
   console.log('A user connected');
 
-  socket.on('login', () => {
-    startBot(socket);
+  // Send default configuration to client
+  socket.emit('defaultConfig', {
+    host: process.env.HOST,
+    port: process.env.PORT
+  });
+
+  socket.on('login', (config = {}) => {
+    startBot(socket, {
+      host: config.host || undefined,
+      port: config.port || undefined
+    });
   });
 
   socket.on('sendMessage', (message) => {

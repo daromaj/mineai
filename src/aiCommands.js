@@ -1,37 +1,45 @@
 const { fork } = require('child_process');
 const path = require('path');
 const { handleAIBotBuild, handleAIBot } = require('./openaiHandler');
+const MessageTypes = require('./messageTypes');
 
 let botProcess = null;
 let isBotConnected = false;
 
-function startBot(socket) {
+function startBot(socket, config = {}) {
   if (botProcess) {
     socket.emit('message', { type: 'log', content: 'Bot is already connected' });
     return;
   }
 
+  const host = config.host || process.env.HOST;
+  const port = config.port || process.env.PORT;
+
   botProcess = fork(path.join(__dirname, '..', 'bot.js'), [], {
     env: {
       ...process.env,
-      HOST: process.env.HOST,
-      PORT: process.env.PORT,
+      HOST: host,
+      PORT: port,
       USERNAME: process.env.USERNAME
     }
   });
 
   botProcess.on('message', (message) => {
     console.log('Bot process message:', message);
-    if (message === 'BOT_SPAWNED') {
+    if (message === MessageTypes.BOT_SPAWNED) {
       isBotConnected = true;
       socket.emit('message', { type: 'log', content: 'Bot has spawned and is connected' });
-    } else if (message === 'BOT_DISCONNECTED') {
+    } else if (message === MessageTypes.BOT_DISCONNECTED) {
       isBotConnected = false;
       socket.emit('message', { type: 'log', content: 'Bot has disconnected' });
-    } else if (message.type === 'CHAT_MESSAGE') {
-      handleChatMessage(message.data.username, message.data.message, socket);
+    } else if (message.type === MessageTypes.CHAT_MESSAGE) {
+      // Extract the username from the message and pass it to handleChatMessage
+      const startIndex = message.data.message.indexOf('<') + 1;
+      const endIndex = message.data.message.indexOf('>');
+      const username = message.data.message.substring(startIndex, endIndex);
+      handleChatMessage(username, message.data.message, socket);
       socket.emit('message', { type: 'chat', content: message.data.message });
-    } else if (message.type === 'LOG') {
+    } else if (message.type === MessageTypes.LOG) {
       socket.emit('message', { type: 'log', content: message.data });
     }
   });
@@ -63,7 +71,7 @@ function stopBot(socket) {
 function sendMessage(message, socket) {
   if (isBotConnected && botProcess) {
     try {
-      botProcess.send({ type: 'SEND_CHAT', message: message });
+      botProcess.send({ type: MessageTypes.SEND_CHAT, message: message });
       console.log('Sending message to bot:', message);
       socket.emit('message', { type: 'log', content: `Sending message: ${message}` });
     } catch (error) {

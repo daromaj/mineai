@@ -10,11 +10,27 @@ const sendBtn = document.getElementById('sendBtn');
 const logs = document.getElementById('logs');
 const loginLinkContainer = document.getElementById('loginLinkContainer');
 const viewerContainer = document.getElementById('viewerContainer');
+const hostInput = document.getElementById('hostInput');
+const portInput = document.getElementById('portInput');
+
+// Set default values when received from server
+socket.on('defaultConfig', (config) => {
+    hostInput.value = config.host || '';
+    portInput.value = config.port || '';
+});
 
 loginBtn.addEventListener('click', () => {
-    socket.emit('login');
+    const host = hostInput.value.trim() || null;
+    const port = portInput.value.trim() || null;
+    
+    socket.emit('login', { host, port });
     loginBtn.disabled = true;
     addLog('Logging in...');
+    if (host && port) {
+        addLog(`Connecting to ${host}:${port}`);
+    } else {
+        addLog('Using default server configuration');
+    }
     loginTimeout = setTimeout(instantiateViewer, 5000);
 });
 

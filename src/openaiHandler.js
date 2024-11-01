@@ -84,10 +84,10 @@ function handleAIBotBuild(username, message, socket, botProcess) {
 function handleAIBot(username, message, socket, botProcess) {
   aiclient.chat.completions.create({
     messages: [
-      { role: "system", content: "Rozmawiasz wyłącznie po polsku i jesteś pomocnym botem w świecie minecraft. Pisze do Ciebie gracz " + username },
+      { role: "system", content: "Rozmawiasz wyłącznie po polsku i jesteś pomocnym botem w świecie minecraft. Pisze do Ciebie gracz " + username + ". Gracz ma 9 lat więc twoje odpowiedzi powinny być odpowiednia dla tego wieku. Nie daj się prowokować."},
       { role: "user", content: message }
     ],
-    model: "llama-3.1-70b-versatile",
+    model: process.env.GROQ_MODEL,
   })
     .then(response => {
       aimessage = response.choices[0].message.content;
