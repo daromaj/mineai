@@ -13,9 +13,9 @@ if (!fs.existsSync(directory)) {
 
 // Function to save HTML content to a file
 async function savePage(pageNumber) {
-    let url = `https://www.grabcraft.com/minecraft/buildings/pg/${pageNumber}`;
+    let url = `https://ROOT_URL/minecraft/buildings/pg/${pageNumber}`;
     if (pageNumber === 1) {
-        url = 'https://www.grabcraft.com/minecraft/buildings';
+        url = 'https://ROOT_URL/minecraft/buildings';
     }
 
     const filePath = path.join(directory, `page-${pageNumber}.html`);
@@ -76,7 +76,7 @@ async function cleanData(filePath) {
 
     data.forEach((entry) => {
         // Add root URL to href
-        entry.href = `https://www.grabcraft.com${entry.href}`;
+        entry.href = `https://ROOT_URL${entry.href}`;
 
         // Extract block count from string
         const blockCount = entry.blockCount.match(/\d+/g);

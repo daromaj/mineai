@@ -164,4 +164,81 @@ async function translateBuildings() {
     console.log(`Enriched buildings saved to ${outputFilePath}`);
 }
 
-translateBuildings();
+// Modified categories array
+const categories = [
+    { id: 1, name: 'military-buildings', name_pl: 'budynki wojskowe' },
+    { id: 2, name: 'other-193', name_pl: 'inne - 193' },
+    { id: 3, name: 'towers', name_pl: 'wieże' },
+    { id: 4, name: 'miscellaneous-162', name_pl: 'różne - 162' },
+    { id: 5, name: 'medieval-houses', name_pl: 'domki wiejskie' },
+    { id: 6, name: 'farm-buildings', name_pl: 'gospodarstwa rolne' },
+    { id: 7, name: 'wooden-houses', name_pl: 'drewniane domy' },
+    { id: 8, name: 'modern-houses', name_pl: 'nowoczesne domy' },
+    { id: 9, name: 'churches', name_pl: 'kościoły' },
+    { id: 10, name: 'medieval-castles', name_pl: 'średniowieczne zamki' },
+    { id: 11, name: 'stone-houses', name_pl: 'murowane domy' },
+    { id: 12, name: 'tree-houses', name_pl: 'domy na drzewie' },
+    { id: 13, name: 'cartoons', name_pl: 'animacje' },
+    { id: 14, name: 'other-190', name_pl: 'inne - 190' },
+    { id: 15, name: 'ruins', name_pl: 'ruiny' },
+    { id: 16, name: 'brick-houses', name_pl: 'ceglane domy' },
+    { id: 17, name: 'starter-houses', name_pl: 'domy startowe' },
+    { id: 18, name: 'survival-houses', name_pl: 'domy survivalowe' },
+    { id: 19, name: 'cafes', name_pl: 'kawiarnie' },
+    { id: 20, name: 'castles', name_pl: 'zamki' },
+    { id: 21, name: 'stadiums', name_pl: 'stadiony' },
+    { id: 22, name: 'hotels', name_pl: 'hotele' },
+    { id: 23, name: 'restaurants', name_pl: 'restauracje' },
+    { id: 24, name: 'sightseeing-buildings', name_pl: 'budynki turystyczne' },
+    { id: 25, name: 'service-stations', name_pl: 'stacje obsługi' },
+    { id: 26, name: 'buildings', name_pl: 'budynki' },
+    { id: 27, name: 'malls', name_pl: 'centra handlowe' },
+    { id: 28, name: 'skyscrapers', name_pl: 'drapacze chmur' },
+    { id: 29, name: 'quartz-houses', name_pl: 'kwarcowe domy' },
+    { id: 30, name: 'video-games', name_pl: 'gry wideo' },
+    { id: 31, name: 'movies', name_pl: 'filmy' }
+];
+
+// Modified traverseBuildings function
+async function traverseBuildings() {
+    const inputFilePath = './blueprints/pages/data_full_local.json';  // Input file
+    const outputFilePath = './enriched_data.json';  // Output file
+
+    try {
+        const fileContent = fs.readFileSync(inputFilePath, 'utf8');
+        const data = JSON.parse(fileContent);
+
+        const enrichBuildings = async () => {
+            const enrichedBuildings = [];
+            for (const building of data) {
+                const parsedUrl = new URL(building.href);
+                    const pathParts = parsedUrl.pathname.split('/');
+                const lastNamePart = pathParts[pathParts.length - 1];
+                const category = categories.find(c => c.name === lastNamePart);
+
+                if (category) {
+                    building.category_id = category.id;
+                    building.category_name = category.name;
+                    building.category_pl = category.name_pl;
+                } else {
+                    building.category_id = 'Unknown';
+                    building.category_name = 'Unknown';
+                    building.category_pl = 'Nieznany';
+            }
+
+                enrichedBuildings.push(building);
+        }
+
+            return enrichedBuildings;
+        };
+
+        const enrichedData = await enrichBuildings();
+
+        fs.writeFileSync(outputFilePath, JSON.stringify(enrichedData, null, 2));
+        console.log(`Enriched data saved to ${outputFilePath}`);
+    } catch (error) {
+        console.error(`Error reading file:`, error);
+    }
+}
+
+traverseBuildings();

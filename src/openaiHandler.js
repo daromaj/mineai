@@ -1,3 +1,4 @@
+const MessageTypes = require('./messageTypes');
 const { OpenAI } = require('openai');
 
 const aiclient = new OpenAI({
@@ -25,7 +26,7 @@ function handleAIBotBuild(username, message, socket, botProcess) {
 
   if (messageParts[3] === 'test') {
     if (botProcess) {
-      botProcess.send({ type: 'TEST_MATERIALS' });
+      botProcess.send({ type: MessageTypes.TEST_MATERIALS });
     } else {
       socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot test materials.' });
     }
@@ -67,7 +68,7 @@ function handleAIBotBuild(username, message, socket, botProcess) {
         socket.emit('message', { type: 'log', content: 'Structure creation function generated' });
 
         if (botProcess) {
-          botProcess.send({ type: 'CREATE_STRUCTURE', functionBody: functionBody });
+          botProcess.send({ type: MessageTypes.CREATE_STRUCTURE, functionBody: functionBody });
         } else {
           socket.emit('message', { type: 'log', content: 'Bot is not connected. Cannot create structure.' });
         }

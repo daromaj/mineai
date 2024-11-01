@@ -2,8 +2,8 @@ const BUILDING_DIR = '../blueprints/blueprints/';
 const fs = require('fs');
 const path = require('path');
 
-
 const enrichedUniqueMaterials = require('../blueprints/enriched_unique_materials.json');
+const buildings_list = require('../blueprints/buildings.json');
 
 function find_block_by_id(id) {
     return enrichedUniqueMaterials.find((material) => material.mat_id == id).args;
@@ -12,6 +12,16 @@ function find_block_by_id(id) {
 async function sleep(ms) {
     await new Promise(resolve => setTimeout(resolve, ms));
 }
+// Create distinct categories set once when module loads
+const categories = Array.from(
+  new Set(
+    buildings_list.map(building => JSON.stringify({
+    category_id: building.category_id,
+    category_pl: building.category_pl
+    }))
+  )
+).map(category => JSON.parse(category))
+.sort((a, b) => a.category_id - b.category_id);
 
 /**
  * 
@@ -46,7 +56,7 @@ async function createBuilding(bot, building_id) {
                     max_z = z_value;
                 }
                 y_value = Number(y);
-                if (max_y < y_value){
+                if (max_y < y_value) {
                     max_y = y_value;
                 }
             }
@@ -118,7 +128,122 @@ async function materials_test(bot) {
     console.log("Materials test completed");
 }
 
+function list_categories(bot) {
+    bot.chat('Kategorie dostępnych budynków (id i nazwa):');
+    categories.forEach(category => {
+        msg = `${category.category_id} ${category.category_pl}`;
+        console.log(msg);
+        bot.chat(msg);
+    });
+}
+
+/**
+ * Returns a random item from an array.
+ *
+ * @param {array} array - The input array.
+ * @returns {object} A random item from the input array.
+ */
+function getRandomItem(array) {
+    return array[Math.floor(Math.random() * array.length)];
+}
+
+function list_buildings(bot, message) {
+    console.log('List buildings was called with message', message);
+    command = message.split(' ').slice(1).join(' ');
+    // possible messages "aibot baza" - this just returns a hardcoded message
+    if (command === 'aibot baza') {
+        bot.chat(`Cześć! Mam bazę ${buildings_list.length} struktur, które potrafię dla Ciebie zbudować.`);
+        bot.chat('Napisz "aibot baza k" żeby dostać listę kategorii i ich numberu');
+        bot.chat('Napisz "aibot baza l" żeby dostać opis losowego budynku');
+        bot.chat('Napisz "aibot baza k_id l" żeby dostać opis losowego budynku w kategorii gdzie k_id to numer kategorii. Na przykład wpisz "aibot baza 2 l"');
+        bot.chat('Napisz "aibot baza numer" żeby dostać opis budynku o danym numerze');
+        bot.chat('Napisz "aibot baza s fraza" żeby znaleźć strukturę gdzie nazwa albo opis zawiera szukaną frazę');
+        return;
+    }
+    if (command === 'aibot baza k') {
+        list_categories(bot);
+        return;
+    }
+    if (command === 'aibot baza l') {
+        //get random object from buildings_list and return it's description
+        const building = getRandomItem(buildings_list);
+        describeBuilding(bot, building);
+        return;
+    }
+    command_parts = command.split(' ');
+    if (command.includes('aibot baza') && command_parts.length === 4 && command_parts[2] !== '' && !isNaN(command_parts[2])) {
+        const category_id = Number(command_parts[2]);
+        const category = categories.find(category => category.category_id === category_id);
+        if (category === undefined) {
+            bot.chat('Nie ma takiej kategorii!');
+            list_categories(bot);
+        } else {
+            const filteredBuildings = buildings_list.filter(building => building.category_id === category_id);
+            const building = getRandomItem(filteredBuildings);
+            describeBuilding(bot, building);
+        }
+        return;
+    }
+    if (command.startsWith('aibot baza ') && !isNaN(command_parts[2])) {
+        const building = find_building_by_id(command_parts[2]);
+        if (building === undefined) {
+            bot.chat('Nie ma takiego budynku! Podałeś zły numer.');
+        }else{
+            describeBuilding(bot, building);
+        }
+        return;
+    }
+
+    if (command.startsWith('aibot baza s ')) {
+        const search_term = command_parts.slice(3).join(' ').trim();
+        const buildings = find_buildings_by_term(search_term);
+        if (buildings === undefined || buildings.length === 0) {
+            bot.chat('Nie mogę znaleźć takiego budynku. Spróbuj poszukać czegoś innego.');
+        }else{
+            if (buildings.length > 10){
+                bot.chat('Za dużo budynków pasuje do Twojego wyszukiwania. Pokazuje tylko 5 pierwszych wyników');
+            }
+            for (let building of buildings.slice(0, 5)) {
+                describeBuilding(bot, building);
+            }
+            return;
+        }    
+    }
+    bot.chat('Nie rozumiem Twojej wiadomości :(');
+}
+
+function find_buildings_by_term(term) {
+    return buildings_list.filter(building => 
+        building.title_pl.includes(term) || 
+        building.desc_pl.includes(term)
+    );
+}
+
+function find_building_by_id(id) {
+    for (let building of buildings_list) {
+        let building_number = building.blueprint.match(/\d+/)[0];
+        if (building_number === id) {
+            return building;
+        }
+    }
+}
+
+function describeBuilding(bot, building) {
+    bot.chat(`Nazwa: ${building.title_pl}`);
+    bot.chat(`Opis: ${building.desc_pl}`);
+    bot.chat(`Kategoria: ${building.category_id} - ${building.category_pl}`);
+    bot.chat(`Liczba bloków: ${building.blockCount}`);
+    // Extract the building number from the blueprint field
+    // Example building.blueprint value: "myRenderObject_7123.json"
+    building_number = building.blueprint.match(/\d+/)[0];
+    bot.chat(`Number struktury: ${building_number}`);
+    bot.chat(`Żeby ją zbudować wpisz: aibot buduj ${building_number}`);
+}
+
 module.exports = {
     createBuilding,
-    materials_test
+    materials_test,
+    list_buildings
 };
+
+

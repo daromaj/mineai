@@ -90,6 +90,9 @@ function handleChatMessage(username, message, socket) {
   const messageParts = message.toLowerCase().split(' ');
   if (messageParts[1] === "aibot" && messageParts[2] === "buduj") {
     handleAIBotBuild(username, message, socket, botProcess);
+  } if (messageParts[1] === "aibot" && messageParts[2] === "baza") {
+    console.log('Sending message to bot:', message);
+    botProcess.send({ type: MessageTypes.LIST_BUILDINGS, message: message });
   } else if (messageParts[1] === "aibot") {
     handleAIBot(username, message, socket, botProcess);
   } else {

@@ -12,7 +12,8 @@ const MessageTypes = Object.freeze({
     LOG: 'LOG',
     CHAT_MESSAGE: 'CHAT_MESSAGE',
     BOT_SPAWNED: 'BOT_SPAWNED',
-    BOT_DISCONNECTED: 'BOT_DISCONNECTED'
+    BOT_DISCONNECTED: 'BOT_DISCONNECTED',
+    LIST_BUILDINGS: 'LIST_BUILDINGS'
 });
 
 module.exports = MessageTypes;

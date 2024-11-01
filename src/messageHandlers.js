@@ -1,4 +1,4 @@
-const { createBuilding, materials_test } = require('./buildings');
+const { createBuilding, materials_test, list_buildings } = require('./buildings');
 const MessageTypes = require('./messageTypes');
 
 function setupMessageHandlers(bot) {
@@ -34,6 +34,14 @@ function setupMessageHandlers(bot) {
     if (msg.type === MessageTypes.TEST_MATERIALS) {
       materials_test(bot);
     }
+    if (msg.type === MessageTypes.LIST_BUILDINGS) {
+      try {
+        list_buildings(bot, msg.message);
+        process.send({ type: MessageTypes.LOG, data: `Message sent: ${msg.message}` });
+      } catch (err) {
+        process.send({ type: MessageTypes.LOG, data: `Error sending message: ${err.message}` });
+      }
+    }    
   });
 
   process.on('SIGTERM', () => {
