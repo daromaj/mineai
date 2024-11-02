@@ -1,6 +1,22 @@
 const { createBuilding, materials_test, list_buildings } = require('./buildings');
 const MessageTypes = require('./messageTypes');
 
+function overrideBot(bot) {
+  if (!bot.chat.isOverridden) {
+    const originalChat = bot.chat;
+    let nextAvailableTime = 0;
+
+    bot.chat = function (message) {
+      const delay = Math.max(0, nextAvailableTime - Date.now());
+      nextAvailableTime = Date.now() + delay + 10;
+
+      setTimeout(() => originalChat.call(bot, message), delay);
+    };
+
+    bot.chat.isOverridden = true;
+  }
+}
+
 function setupMessageHandlers(bot) {
   process.on('message', (msg) => {
     if (msg.type === MessageTypes.SEND_CHAT) {
@@ -22,6 +38,7 @@ function setupMessageHandlers(bot) {
     if (msg.type === MessageTypes.CREATE_STRUCTURE) {
       try {
         const structureFunction = new Function('bot', msg.functionBody);
+        overrideBot(bot);
         structureFunction(bot);
         process.send({ type: MessageTypes.LOG, data: 'Structure creation function executed' });
       } catch (err) {
@@ -41,7 +58,7 @@ function setupMessageHandlers(bot) {
       } catch (err) {
         process.send({ type: MessageTypes.LOG, data: `Error sending message: ${err.message}` });
       }
-    }    
+    }
   });
 
   process.on('SIGTERM', () => {

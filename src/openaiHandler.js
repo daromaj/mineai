@@ -49,7 +49,79 @@ function handleAIBotBuild(username, message, socket, botProcess) {
   } else {
     console.log(`Received build request from ${username}`);
     prompt = messageParts.slice(3).join(' ');
-    systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - the need integer value. Respond ONLY with the code for createStructure function.`;
+    systemPrompt = `You are an AI assistant that generates JavaScript functions for creating structures in Minecraft using the Mineflayer library. The function should accept a 'bot' parameter and use 'bot.chat' to send setblock commands. Create a function that builds a structure based on the following prompt: "${prompt}". The prompt is in Polish language. The function should be named 'createStructure'. It should start creating the structure at bot.entity.position. use Math.floor for calculating blocks placement - they need integer value. Bot is connected to Minecraft Java edition. 
+    If prompt doesn't specify materials, try to limit yourself to these blocks:
+    minecraft:stone
+    minecraft:dirt
+    minecraft:grass_block
+    minecraft:cobblestone
+    minecraft:sand
+    minecraft:gravel
+    minecraft:oak_log
+    minecraft:spruce_log
+    minecraft:birch_log
+    minecraft:jungle_log
+    minecraft:acacia_log
+    minecraft:dark_oak_log
+    minecraft:oak_planks
+    minecraft:spruce_planks
+    minecraft:birch_planks
+    minecraft:jungle_planks
+    minecraft:acacia_planks
+    minecraft:dark_oak_planks
+    minecraft:oak_leaves
+    minecraft:spruce_leaves
+    minecraft:birch_leaves
+    minecraft:jungle_leaves
+    minecraft:sandstone
+    minecraft:glass
+    minecraft:coal_ore
+    minecraft:iron_ore
+    minecraft:gold_ore
+    minecraft:diamond_ore
+    minecraft:emerald_ore
+    minecraft:redstone_ore
+    minecraft:lapis_ore
+    minecraft:bedrock
+    minecraft:clay
+    minecraft:water
+    minecraft:lava
+
+    minecraft:white_wool
+    minecraft:orange_wool
+    minecraft:magenta_wool
+    minecraft:light_blue_wool
+    minecraft:yellow_wool
+    minecraft:lime_wool
+    minecraft:pink_wool
+    minecraft:gray_wool
+    minecraft:light_gray_wool
+    minecraft:cyan_wool
+    minecraft:purple_wool
+    minecraft:blue_wool
+    minecraft:brown_wool
+    minecraft:green_wool
+    minecraft:red_wool
+    minecraft:black_wool
+
+    minecraft:white_terracotta
+    minecraft:orange_terracotta
+    minecraft:magenta_terracotta
+    minecraft:light_blue_terracotta
+    minecraft:yellow_terracotta
+    minecraft:lime_terracotta
+    minecraft:pink_terracotta
+    minecraft:gray_terracotta
+    minecraft:light_gray_terracotta
+    minecraft:cyan_terracotta
+    minecraft:purple_terracotta
+    minecraft:blue_terracotta
+    minecraft:brown_terracotta
+    minecraft:green_terracotta
+    minecraft:red_terracotta
+    minecraft:black_terracotta
+
+    Respond ONLY with the code for createStructure function.`;
   }
 
   aiclient.chat.completions.create({
