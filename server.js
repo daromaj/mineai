@@ -46,4 +46,10 @@ io.on('connection', (socket) => {
 const PORT = process.env.WEB_PORT || 3000;
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+  if (process.env.HOST && process.env.PORT) {
+    startBot(io, {
+      host: process.env.HOST,
+      port: process.env.PORT
+    });
+  }
 });

@@ -10,6 +10,7 @@ function setupEventHandlers(bot, explore = false) {
       try {
         bot.chat("Cześć, jestem aibot. Powiedz coś do mnie zaczynając od słowa aibot a postaram się odpowiedzieć.");
         bot.chat("jeżeli napiszesz: aibot buduj <opis budowli> - to spróbuję to dla Ciebie zbudować.");
+        bot.chat("jeżeli napiszesz: aibot baza - to będziesz mógł przeglądać bazę struktur, które znam.");
         cleanup(bot);
         process.send({ type: MessageTypes.LOG, data: 'Introduction message sent' });
         mineflayerViewer(bot, { port: 3001, firstPerson: false });
